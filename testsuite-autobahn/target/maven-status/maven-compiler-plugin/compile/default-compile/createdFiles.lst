@@ -1,0 +1,3 @@
+io/netty/testsuite/autobahn/AutobahnServerHandler.class
+io/netty/testsuite/autobahn/AutobahnServerInitializer.class
+io/netty/testsuite/autobahn/AutobahnServer.class

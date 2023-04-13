@@ -1,0 +1,267 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-stomp/target/netty-codec-stomp-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-stomp/4.1.79.Final/netty-codec-stomp-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.DefaultLastStompContentSubframe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.LastStompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.stomp.DefaultStompContentSubframe (<- io.netty.handler.codec.stomp.DefaultStompContentSubframe)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultLastStompContentSubframe(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.LastStompContentSubframe copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.LastStompContentSubframe duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.LastStompContentSubframe replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.DefaultLastStompContentSubframe retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.LastStompContentSubframe retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.LastStompContentSubframe retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.LastStompContentSubframe touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.LastStompContentSubframe touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.DefaultStompContentSubframe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.buffer.DefaultByteBufHolder (<- io.netty.buffer.DefaultByteBufHolder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultStompContentSubframe(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.DecoderResult decoderResult()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC void setDecoderResult(io.netty.handler.codec.DecoderResult)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompContentSubframe touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.DefaultStompFrame  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.LastStompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompHeadersSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompFrame
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.stomp.DefaultStompHeadersSubframe (<- io.netty.handler.codec.stomp.DefaultStompHeadersSubframe)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultStompFrame(io.netty.handler.codec.stomp.StompCommand, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultStompFrame(io.netty.handler.codec.stomp.StompCommand)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf content()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame duplicate()
+	===  UNCHANGED METHOD: PUBLIC int refCnt()
+	===  UNCHANGED METHOD: PUBLIC boolean release()
+	===  UNCHANGED METHOD: PUBLIC boolean release(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompFrame touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.DefaultStompHeaders  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.Headers
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompHeaders
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DefaultHeaders (<- io.netty.handler.codec.DefaultHeaders)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultStompHeaders()
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.CharSequence, java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.CharSequence, java.lang.CharSequence, boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.DefaultStompHeaders copy()
+	===  UNCHANGED METHOD: PUBLIC java.util.List getAllAsString(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String getAsString(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iteratorAsString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.DefaultStompHeadersSubframe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompHeadersSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PROTECTED FINAL io.netty.handler.codec.stomp.DefaultStompHeaders headers
+	===  UNCHANGED FIELD: PROTECTED io.netty.handler.codec.DecoderResult decoderResult
+	===  UNCHANGED FIELD: PROTECTED FINAL io.netty.handler.codec.stomp.StompCommand command
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultStompHeadersSubframe(io.netty.handler.codec.stomp.StompCommand)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompCommand command()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.DecoderResult decoderResult()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.stomp.StompHeaders headers()
+	===  UNCHANGED METHOD: PUBLIC void setDecoderResult(io.netty.handler.codec.DecoderResult)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.LastStompContentSubframe EMPTY_LAST_CONTENT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.LastStompContentSubframe touch(java.lang.Object)
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.stomp.StompCommand  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand ABORT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand COMMIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand UNSUBSCRIBE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand STOMP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand ACK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand CONNECT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand BEGIN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand SUBSCRIBE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand SEND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand MESSAGE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand RECEIPT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand ERROR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand CONNECTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand DISCONNECT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand UNKNOWN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompCommand NACK
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.stomp.StompCommand valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.stomp.StompCommand[] values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompContentSubframe touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.LastStompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompHeadersSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompContentSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompFrame touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompHeaders  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.Headers
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString SUBSCRIPTION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString HOST
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString ACK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString SESSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString TRANSACTION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString MESSAGE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString CONTENT_LENGTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString ACCEPT_VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString RECEIPT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString SERVER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString CONTENT_TYPE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString DESTINATION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString MESSAGE_ID
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString RECEIPT_ID
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString PASSCODE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString LOGIN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString HEART_BEAT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString ID
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean contains(java.lang.CharSequence, java.lang.CharSequence, boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List getAllAsString(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String getAsString(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.Iterator iteratorAsString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompHeadersSubframe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.stomp.StompSubframe
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompCommand command()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompHeaders headers()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.stomp.StompSubframe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.StompSubframeAggregator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageAggregator (<- io.netty.handler.codec.MessageAggregator)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StompSubframeAggregator(int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.stomp.StompFrame beginAggregation(io.netty.handler.codec.stomp.StompHeadersSubframe, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean closeAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean ignoreContentAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isAggregated(io.netty.handler.codec.stomp.StompSubframe)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isContentLengthInvalid(io.netty.handler.codec.stomp.StompHeadersSubframe, int)
+	===  UNCHANGED METHOD: PROTECTED boolean isContentMessage(io.netty.handler.codec.stomp.StompSubframe)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isLastContentMessage(io.netty.handler.codec.stomp.StompContentSubframe)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isStartMessage(io.netty.handler.codec.stomp.StompSubframe)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object newContinueResponse(io.netty.handler.codec.stomp.StompHeadersSubframe, int, io.netty.channel.ChannelPipeline)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.StompSubframeDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StompSubframeDecoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StompSubframeDecoder(int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StompSubframeDecoder(int, int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StompSubframeDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompSubframeDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompSubframeDecoder$State READ_CONTENT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompSubframeDecoder$State FINALIZE_FRAME_READ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompSubframeDecoder$State INVALID_CHUNK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompSubframeDecoder$State BAD_FRAME
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompSubframeDecoder$State READ_HEADERS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.stomp.StompSubframeDecoder$State SKIP_CONTROL_CHARACTERS
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.stomp.StompSubframeDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.stomp.StompSubframeDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.stomp.StompSubframeEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StompSubframeEncoder()
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object convertContentSubFrame(io.netty.handler.codec.stomp.StompContentSubframe, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object convertFullFrame(io.netty.handler.codec.stomp.StompFrame, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object convertHeadersSubFrame(io.netty.handler.codec.stomp.StompHeadersSubframe, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.stomp.StompSubframe, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int headersSubFrameSize(io.netty.handler.codec.stomp.StompHeadersSubframe)

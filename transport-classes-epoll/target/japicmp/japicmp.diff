@@ -1,0 +1,684 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/transport-classes-epoll/target/netty-transport-classes-epoll-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.79.Final/netty-transport-classes-epoll-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PROTECTED ABSTRACT io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel$Unsafe
+	===  UNCHANGED SUPERCLASS: io.netty.channel.AbstractChannel$AbstractUnsafe (<- io.netty.channel.AbstractChannel$AbstractUnsafe)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEpollChannel$AbstractEpollUnsafe(io.netty.channel.epoll.AbstractEpollChannel)
+	===  UNCHANGED METHOD: PROTECTED FINAL void clearEpollIn0()
+	===  UNCHANGED METHOD: PUBLIC void connect(java.net.SocketAddress, java.net.SocketAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PROTECTED FINAL void flush0()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollRecvByteAllocatorHandle recvBufAllocHandle()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.epoll.AbstractEpollServerChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollChannel (<- io.netty.channel.epoll.AbstractEpollChannel)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEpollServerChannel(int)
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doWrite(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isCompatible(io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PROTECTED java.net.InetSocketAddress remoteAddress0()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.epoll.AbstractEpollStreamChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollChannel (<- io.netty.channel.epoll.AbstractEpollChannel)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEpollStreamChannel(io.netty.channel.epoll.LinuxSocket, boolean)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEpollStreamChannel(io.netty.channel.Channel, int)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEpollStreamChannel(int)
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL void doShutdownOutput()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doWrite(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doWriteSingle(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean isInputShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isOutputShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdown()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdown(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownInput()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownInput(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownOutput()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownOutput(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.ChannelFuture spliceTo(io.netty.channel.epoll.AbstractEpollStreamChannel, int)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.ChannelFuture spliceTo(io.netty.channel.epoll.AbstractEpollStreamChannel, int, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.ChannelFuture spliceTo(io.netty.channel.unix.FileDescriptor, int, int)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.ChannelFuture spliceTo(io.netty.channel.unix.FileDescriptor, int, int, io.netty.channel.ChannelPromise)
+===  UNCHANGED CLASS: PROTECTED ABSTRACT io.netty.channel.epoll.AbstractEpollStreamChannel$SpliceInTask  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEpollStreamChannel$SpliceInTask(io.netty.channel.epoll.AbstractEpollStreamChannel, int, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PROTECTED FINAL int spliceIn(io.netty.channel.unix.FileDescriptor, io.netty.channel.RecvByteBufAllocator$Handle)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.Epoll  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void ensureAvailability()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isAvailable()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isTcpFastOpenClientSideAvailable()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isTcpFastOpenServerSideAvailable()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable unavailabilityCause()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.epoll.EpollChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.DefaultChannelConfig (<- io.netty.channel.DefaultChannelConfig)
+	===  UNCHANGED METHOD: PROTECTED FINAL void autoReadCleared()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollMode getEpollMode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setEpollMode(io.netty.channel.epoll.EpollMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.UnixChannelOption (<- io.netty.channel.unix.UnixChannelOption)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_FASTOPEN_CONNECT
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_CORK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption MAX_DATAGRAM_PAYLOAD_SIZE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption IP_RECVORIGDSTADDR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption UDP_GRO
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_QUICKACK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption IP_FREEBIND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_DEFER_ACCEPT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption EPOLL_MODE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_KEEPINTVL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_FASTOPEN
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_USER_TIMEOUT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption IP_TRANSPARENT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption SO_BUSY_POLL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_KEEPIDLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_MD5SIG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_NOTSENT_LOWAT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_KEEPCNT
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollDatagramChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DatagramChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollChannel (<- io.netty.channel.epoll.AbstractEpollChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDatagramChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDatagramChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDatagramChannel(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doWrite(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean isActive()
+	===  UNCHANGED METHOD: PUBLIC boolean isConnected()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isSegmentedDatagramPacketSupported()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetSocketAddress, java.net.NetworkInterface)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetSocketAddress, java.net.NetworkInterface, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetSocketAddress, java.net.NetworkInterface)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetSocketAddress, java.net.NetworkInterface, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollDatagramChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DatagramChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.EpollChannelConfig (<- io.netty.channel.epoll.EpollChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetAddress getInterface()
+	===  UNCHANGED METHOD: PUBLIC int getMaxDatagramPayloadSize()
+	===  UNCHANGED METHOD: PUBLIC java.net.NetworkInterface getNetworkInterface()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getTimeToLive()
+	===  UNCHANGED METHOD: PUBLIC int getTrafficClass()
+	===  UNCHANGED METHOD: PUBLIC boolean isBroadcast()
+	===  UNCHANGED METHOD: PUBLIC boolean isFreeBind()
+	===  UNCHANGED METHOD: PUBLIC boolean isIpRecvOrigDestAddr()
+	===  UNCHANGED METHOD: PUBLIC boolean isIpTransparent()
+	===  UNCHANGED METHOD: PUBLIC boolean isLoopbackModeDisabled()
+	===  UNCHANGED METHOD: PUBLIC boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC boolean isReusePort()
+	===  UNCHANGED METHOD: PUBLIC boolean isUdpGro()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setBroadcast(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setEpollMode(io.netty.channel.epoll.EpollMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setFreeBind(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setInterface(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setIpRecvOrigDestAddr(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setIpTransparent(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.socket.DatagramChannelConfig setLoopbackModeDisabled(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setMaxDatagramPayloadSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setMaxMessagesPerWrite(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setNetworkInterface(java.net.NetworkInterface)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setReusePort(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setTimeToLive(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setTrafficClass(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setUdpGro(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDatagramChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollDomainDatagramChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainDatagramChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollChannel (<- io.netty.channel.epoll.AbstractEpollChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDomainDatagramChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDomainDatagramChannel(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doWrite(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean isActive()
+	===  UNCHANGED METHOD: PUBLIC boolean isConnected()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress localAddress0()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.PeerCredentials peerCredentials()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress remoteAddress0()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollDomainDatagramChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainDatagramChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.EpollChannelConfig (<- io.netty.channel.epoll.EpollChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setEpollMode(io.netty.channel.epoll.EpollMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setMaxMessagesPerWrite(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainDatagramChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollDomainSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainSocketChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollStreamChannel (<- io.netty.channel.epoll.AbstractEpollStreamChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDomainSocketChannel(io.netty.channel.Channel, io.netty.channel.epoll.LinuxSocket)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDomainSocketChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDomainSocketChannel(int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollDomainSocketChannel()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doWriteSingle(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress localAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.PeerCredentials peerCredentials()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress remoteAddress0()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollDomainSocketChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainSocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.EpollChannelConfig (<- io.netty.channel.epoll.EpollChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketReadMode getReadMode()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC boolean isAllowHalfClosure()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setAllowHalfClosure(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setEpollMode(io.netty.channel.epoll.EpollMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setReadMode(io.netty.channel.unix.DomainSocketReadMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollDomainSocketChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollEventArray  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollEventLoopGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.EventLoopGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.MultithreadEventLoopGroup (<- io.netty.channel.MultithreadEventLoopGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.Executor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.ThreadFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.Executor, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.ThreadFactory, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(java.util.concurrent.ThreadFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.ThreadFactory, int, io.netty.channel.SelectStrategyFactory)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.ThreadFactory, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory, io.netty.util.concurrent.RejectedExecutionHandler, io.netty.channel.EventLoopTaskQueueFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory, io.netty.util.concurrent.RejectedExecutionHandler, io.netty.channel.EventLoopTaskQueueFactory, io.netty.channel.EventLoopTaskQueueFactory)
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.EventLoop newChild(java.util.concurrent.Executor, java.lang.Object[])
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void setIoRatio(int)
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.channel.epoll.EpollMode  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.epoll.EpollMode EDGE_TRIGGERED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.epoll.EpollMode LEVEL_TRIGGERED
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.EpollMode valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.EpollMode[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.ServerSocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.EpollChannelConfig (<- io.netty.channel.epoll.EpollChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC int getBacklog()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getTcpFastopen()
+	===  UNCHANGED METHOD: PUBLIC boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setBacklog(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setEpollMode(io.netty.channel.epoll.EpollMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setPerformancePreferences(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setTcpFastopen(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollServerDomainSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.ServerDomainSocketChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollServerChannel (<- io.netty.channel.epoll.AbstractEpollServerChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollServerDomainSocketChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollServerDomainSocketChannel()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress localAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.Channel newChildChannel(int, byte[], int, int)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollServerSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.ServerSocketChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollServerChannel (<- io.netty.channel.epoll.AbstractEpollServerChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollServerSocketChannel(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollServerSocketChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollServerSocketChannel()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isCompatible(io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.Channel newChildChannel(int, byte[], int, int)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollServerSocketChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.ServerSocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.EpollServerChannelConfig (<- io.netty.channel.epoll.EpollServerChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getTcpDeferAccept()
+	===  UNCHANGED METHOD: PUBLIC boolean isFreeBind()
+	===  UNCHANGED METHOD: PUBLIC boolean isIpTransparent()
+	===  UNCHANGED METHOD: PUBLIC boolean isReusePort()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setBacklog(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setFreeBind(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setIpTransparent(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setPerformancePreferences(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setReusePort(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setTcpDeferAccept(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setTcpMd5Sig(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollServerSocketChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.SocketChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.AbstractEpollStreamChannel (<- io.netty.channel.epoll.AbstractEpollStreamChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollSocketChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollSocketChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollSocketChannel(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig config()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.socket.ServerSocketChannel parent()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollTcpInfo tcpInfo()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollTcpInfo tcpInfo(io.netty.channel.epoll.EpollTcpInfo)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollSocketChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.SocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.epoll.EpollChannelConfig (<- io.netty.channel.epoll.EpollChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSoBusyPoll()
+	===  UNCHANGED METHOD: PUBLIC int getSoLinger()
+	===  UNCHANGED METHOD: PUBLIC int getTcpKeepCnt()
+	===  UNCHANGED METHOD: PUBLIC int getTcpKeepIdle()
+	===  UNCHANGED METHOD: PUBLIC int getTcpKeepIntvl()
+	===  UNCHANGED METHOD: PUBLIC long getTcpNotSentLowAt()
+	===  UNCHANGED METHOD: PUBLIC int getTcpUserTimeout()
+	===  UNCHANGED METHOD: PUBLIC int getTrafficClass()
+	===  UNCHANGED METHOD: PUBLIC boolean isAllowHalfClosure()
+	===  UNCHANGED METHOD: PUBLIC boolean isIpTransparent()
+	===  UNCHANGED METHOD: PUBLIC boolean isKeepAlive()
+	===  UNCHANGED METHOD: PUBLIC boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpCork()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpFastOpenConnect()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpNoDelay()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpQuickAck()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setAllowHalfClosure(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setEpollMode(io.netty.channel.epoll.EpollMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setIpTransparent(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setKeepAlive(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setPerformancePreferences(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setSoBusyPoll(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setSoLinger(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpCork(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpFastOpenConnect(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpKeepCnt(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpKeepCntl(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpKeepIdle(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpKeepIntvl(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpMd5Sig(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpNoDelay(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpNotSentLowAt(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpQuickAck(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTcpUserTimeout(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setTrafficClass(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.EpollSocketChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.EpollTcpInfo  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EpollTcpInfo()
+	===  UNCHANGED METHOD: PUBLIC long advmss()
+	===  UNCHANGED METHOD: PUBLIC long ato()
+	===  UNCHANGED METHOD: PUBLIC int backoff()
+	===  UNCHANGED METHOD: PUBLIC int caState()
+	===  UNCHANGED METHOD: PUBLIC long fackets()
+	===  UNCHANGED METHOD: PUBLIC long lastAckRecv()
+	===  UNCHANGED METHOD: PUBLIC long lastAckSent()
+	===  UNCHANGED METHOD: PUBLIC long lastDataRecv()
+	===  UNCHANGED METHOD: PUBLIC long lastDataSent()
+	===  UNCHANGED METHOD: PUBLIC long lost()
+	===  UNCHANGED METHOD: PUBLIC int options()
+	===  UNCHANGED METHOD: PUBLIC long pmtu()
+	===  UNCHANGED METHOD: PUBLIC int probes()
+	===  UNCHANGED METHOD: PUBLIC long rcvMss()
+	===  UNCHANGED METHOD: PUBLIC long rcvRtt()
+	===  UNCHANGED METHOD: PUBLIC long rcvSpace()
+	===  UNCHANGED METHOD: PUBLIC long rcvSsthresh()
+	===  UNCHANGED METHOD: PUBLIC int rcvWscale()
+	===  UNCHANGED METHOD: PUBLIC long reordering()
+	===  UNCHANGED METHOD: PUBLIC long retrans()
+	===  UNCHANGED METHOD: PUBLIC int retransmits()
+	===  UNCHANGED METHOD: PUBLIC long rto()
+	===  UNCHANGED METHOD: PUBLIC long rtt()
+	===  UNCHANGED METHOD: PUBLIC long rttvar()
+	===  UNCHANGED METHOD: PUBLIC long sacked()
+	===  UNCHANGED METHOD: PUBLIC long sndCwnd()
+	===  UNCHANGED METHOD: PUBLIC long sndMss()
+	===  UNCHANGED METHOD: PUBLIC long sndSsthresh()
+	===  UNCHANGED METHOD: PUBLIC int sndWscale()
+	===  UNCHANGED METHOD: PUBLIC int state()
+	===  UNCHANGED METHOD: PUBLIC long totalRetrans()
+	===  UNCHANGED METHOD: PUBLIC long unacked()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.LinuxSocket  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.Socket (<- io.netty.channel.unix.Socket)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketDgram(boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketDgram(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketDgram()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketDomain()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketDomainDgram()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketStream(boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketStream(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.epoll.LinuxSocket newSocketStream()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.Native  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int TCP_MD5SIG_MAXKEYLEN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int EPOLLERR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL boolean IS_SUPPORTING_TCP_FASTOPEN
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int EPOLLIN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int EPOLLOUT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int EPOLLRDHUP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL boolean IS_SUPPORTING_SENDMMSG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.String KERNEL_VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int EPOLLET
+	===  UNCHANGED METHOD: PUBLIC STATIC int epollBusyWait(io.netty.channel.unix.FileDescriptor, io.netty.channel.epoll.EpollEventArray)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void epollCtlAdd(int, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void epollCtlDel(int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void epollCtlMod(int, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC int epollWait(io.netty.channel.unix.FileDescriptor, io.netty.channel.epoll.EpollEventArray, io.netty.channel.unix.FileDescriptor, int, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void eventFdRead(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void eventFdWrite(int, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.FileDescriptor newEpollCreate()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.FileDescriptor newEventFd()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.FileDescriptor newTimerFd()
+	===  UNCHANGED METHOD: PUBLIC STATIC int offsetofEpollData()
+	===  UNCHANGED METHOD: PUBLIC STATIC int sendmmsg(int, io.netty.channel.epoll.NativeDatagramPacketArray$NativeDatagramPacket[], int, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC int sizeofEpollEvent()
+	===  UNCHANGED METHOD: PUBLIC STATIC int splice(int, long, int, long, long)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.NativeDatagramPacketArray$NativeDatagramPacket  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NativeDatagramPacketArray$NativeDatagramPacket(io.netty.channel.epoll.NativeDatagramPacketArray)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.epoll.SegmentedDatagramPacket  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.channel.AddressedEnvelope
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.SegmentedDatagramPacket (<- io.netty.channel.unix.SegmentedDatagramPacket)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SegmentedDatagramPacket(io.netty.buffer.ByteBuf, int, java.net.InetSocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SegmentedDatagramPacket(io.netty.buffer.ByteBuf, int, java.net.InetSocketAddress, java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket duplicate()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isSupported()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.epoll.SegmentedDatagramPacket touch(java.lang.Object)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated

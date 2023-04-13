@@ -1,0 +1,4 @@
+package io.netty.microbench.util.jmh_generated;
+public class RecyclerBenchmark_ProducerConsumerState_jmhType extends RecyclerBenchmark_ProducerConsumerState_jmhType_B3 {
+}
+

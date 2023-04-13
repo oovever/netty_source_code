@@ -1,0 +1,11 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsServerAddressStreamProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MacOSDnsServerAddressStreamProvider()
+	===  UNCHANGED METHOD: PUBLIC STATIC void ensureAvailability()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isAvailable()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsServerAddressStream nameServerAddressStream(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable unavailabilityCause()

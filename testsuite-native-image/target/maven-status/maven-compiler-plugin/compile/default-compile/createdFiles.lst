@@ -1,0 +1,3 @@
+io/netty/testsuite/svm/HttpNativeServer.class
+io/netty/testsuite/svm/HttpNativeServerHandler.class
+io/netty/testsuite/svm/HttpNativeServerInitializer.class

@@ -1,0 +1,174 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-haproxy/target/netty-codec-haproxy-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-haproxy/4.1.79.Final/netty-codec-haproxy-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.haproxy.HAProxyCommand  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyCommand PROXY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyCommand LOCAL
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyCommand valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyCommand valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyCommand[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.haproxy.HAProxyMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.util.AbstractReferenceCounted (<- io.netty.util.AbstractReferenceCounted)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyMessage(io.netty.handler.codec.haproxy.HAProxyProtocolVersion, io.netty.handler.codec.haproxy.HAProxyCommand, io.netty.handler.codec.haproxy.HAProxyProxiedProtocol, java.lang.String, java.lang.String, int, int, java.util.List)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyMessage(io.netty.handler.codec.haproxy.HAProxyProtocolVersion, io.netty.handler.codec.haproxy.HAProxyCommand, io.netty.handler.codec.haproxy.HAProxyProxiedProtocol, java.lang.String, java.lang.String, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyCommand command()
+	===  UNCHANGED METHOD: PROTECTED void deallocate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String destinationAddress()
+	===  UNCHANGED METHOD: PUBLIC int destinationPort()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyProtocolVersion protocolVersion()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol proxiedProtocol()
+	===  UNCHANGED METHOD: PUBLIC boolean release()
+	===  UNCHANGED METHOD: PUBLIC boolean release(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyMessage retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String sourceAddress()
+	===  UNCHANGED METHOD: PUBLIC int sourcePort()
+	===  UNCHANGED METHOD: PUBLIC java.util.List tlvs()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyMessage touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyMessage touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.haproxy.HAProxyMessageDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyMessageDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyMessageDecoder(int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyMessageDecoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyMessageDecoder(int)
+	===  UNCHANGED METHOD: PUBLIC void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.ProtocolDetectionResult detectProtocol(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC boolean isSingleDecode()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.haproxy.HAProxyMessageEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyMessageEncoder INSTANCE
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.haproxy.HAProxyMessage, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.haproxy.HAProxyProtocolException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DecoderException (<- io.netty.handler.codec.DecoderException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyProtocolException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyProtocolException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyProtocolException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyProtocolException(java.lang.String, java.lang.Throwable)
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.haproxy.HAProxyProtocolVersion  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProtocolVersion V1
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProtocolVersion V2
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProtocolVersion valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProtocolVersion valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProtocolVersion[] values()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol TCP6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol UDP6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol TCP4
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol UDP4
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol UNIX_STREAM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol UNIX_DGRAM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol UNKNOWN
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily addressFamily()
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol transportProtocol()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol[] values()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily AF_IPv6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily AF_UNIX
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily AF_IPv4
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily AF_UNSPEC
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$AddressFamily[] values()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol DGRAM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol STREAM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol UNSPEC
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyProxiedProtocol$TransportProtocol[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.haproxy.HAProxySSLTLV  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.haproxy.HAProxyTLV (<- io.netty.handler.codec.haproxy.HAProxyTLV)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxySSLTLV(int, byte, java.util.List)
+	===  UNCHANGED METHOD: PUBLIC byte client()
+	===  UNCHANGED METHOD: PUBLIC java.util.List encapsulatedTLVs()
+	===  UNCHANGED METHOD: PUBLIC boolean isPP2ClientCertConn()
+	===  UNCHANGED METHOD: PUBLIC boolean isPP2ClientCertSess()
+	===  UNCHANGED METHOD: PUBLIC boolean isPP2ClientSSL()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC int verify()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.buffer.DefaultByteBufHolder (<- io.netty.buffer.DefaultByteBufHolder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyTLV(io.netty.handler.codec.haproxy.HAProxyTLV$Type, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HAProxyTLV(byte, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV touch(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.haproxy.HAProxyTLV$Type type()
+	===  UNCHANGED METHOD: PUBLIC byte typeByteValue()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type OTHER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type PP2_TYPE_NETNS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type PP2_TYPE_SSL_CN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type PP2_TYPE_AUTHORITY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type PP2_TYPE_SSL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type PP2_TYPE_ALPN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.haproxy.HAProxyTLV$Type PP2_TYPE_SSL_VERSION
+	===  UNCHANGED METHOD: PUBLIC STATIC byte byteValueForType(io.netty.handler.codec.haproxy.HAProxyTLV$Type)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyTLV$Type typeForByteValue(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyTLV$Type valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.haproxy.HAProxyTLV$Type[] values()

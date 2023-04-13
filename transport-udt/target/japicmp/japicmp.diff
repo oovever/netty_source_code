@@ -1,0 +1,362 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/transport-udt/target/netty-transport-udt-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-transport-udt/4.1.79.Final/netty-transport-udt-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.DefaultUdtChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.DefaultChannelConfig (<- io.netty.channel.DefaultChannelConfig)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultUdtChannelConfig(io.netty.channel.udt.UdtChannel, com.barchart.udt.nio.ChannelUDT, boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PROTECTED void apply(com.barchart.udt.nio.ChannelUDT)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getProtocolReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getProtocolSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSoLinger()
+	===  UNCHANGED METHOD: PUBLIC int getSystemReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSystemSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setProtocolReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setProtocolSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setSoLinger(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setSystemReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setSystemSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setWriteBufferHighWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setWriteBufferLowWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig setWriteSpinCount(int)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.DefaultUdtServerChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtServerChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.udt.DefaultUdtChannelConfig (<- io.netty.channel.udt.DefaultUdtChannelConfig)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultUdtServerChannelConfig(io.netty.channel.udt.UdtChannel, com.barchart.udt.nio.ChannelUDT, boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PROTECTED void apply(com.barchart.udt.nio.ChannelUDT)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC int getBacklog()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setBacklog(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setProtocolReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setProtocolSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setSoLinger(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setSystemReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setSystemSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setWriteBufferHighWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setWriteBufferLowWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig setWriteSpinCount(int)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.udt.nio.NioUdtAcceptorChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.nio.AbstractNioMessageChannel (<- io.netty.channel.nio.AbstractNioMessageChannel)
+	===  UNCHANGED FIELD: PROTECTED STATIC FINAL io.netty.util.internal.logging.InternalLogger logger
+	===  UNCHANGED CONSTRUCTOR: PROTECTED NioUdtAcceptorChannel(com.barchart.udt.TypeUDT)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED NioUdtAcceptorChannel(com.barchart.udt.nio.ServerSocketChannelUDT)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtServerChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doFinishConnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doReadMessages(java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doWriteMessage(java.lang.Object, io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL java.lang.Object filterOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isActive()
+	===  UNCHANGED METHOD: PROTECTED com.barchart.udt.nio.ServerSocketChannelUDT javaChannel()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED java.net.SocketAddress localAddress0()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.channel.udt.UdtChannel newConnectorChannel(com.barchart.udt.nio.SocketChannelUDT)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED java.net.SocketAddress remoteAddress0()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.nio.NioUdtByteAcceptorChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.udt.nio.NioUdtAcceptorChannel (<- io.netty.channel.udt.nio.NioUdtAcceptorChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtByteAcceptorChannel()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.udt.UdtChannel newConnectorChannel(com.barchart.udt.nio.SocketChannelUDT)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.nio.NioUdtByteConnectorChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.nio.AbstractNioByteChannel (<- io.netty.channel.nio.AbstractNioByteChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtByteConnectorChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtByteConnectorChannel(com.barchart.udt.TypeUDT)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtByteConnectorChannel(io.netty.channel.Channel, com.barchart.udt.nio.SocketChannelUDT)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtByteConnectorChannel(com.barchart.udt.nio.SocketChannelUDT)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doFinishConnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doReadBytes(io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doWriteBytes(io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED long doWriteFileRegion(io.netty.channel.FileRegion)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isActive()
+	===  UNCHANGED METHOD: PROTECTED com.barchart.udt.nio.SocketChannelUDT javaChannel()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED java.net.SocketAddress localAddress0()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED java.net.SocketAddress remoteAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.ChannelFuture shutdownInput()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.nio.NioUdtByteRendezvousChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.udt.nio.NioUdtByteConnectorChannel (<- io.netty.channel.udt.nio.NioUdtByteConnectorChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtByteRendezvousChannel()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.nio.NioUdtMessageAcceptorChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.udt.nio.NioUdtAcceptorChannel (<- io.netty.channel.udt.nio.NioUdtAcceptorChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtMessageAcceptorChannel()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.udt.UdtChannel newConnectorChannel(com.barchart.udt.nio.SocketChannelUDT)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.nio.NioUdtMessageConnectorChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.nio.AbstractNioMessageChannel (<- io.netty.channel.nio.AbstractNioMessageChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtMessageConnectorChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtMessageConnectorChannel(com.barchart.udt.TypeUDT)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtMessageConnectorChannel(io.netty.channel.Channel, com.barchart.udt.nio.SocketChannelUDT)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtMessageConnectorChannel(com.barchart.udt.nio.SocketChannelUDT)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doFinishConnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doReadMessages(java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doWriteMessage(java.lang.Object, io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isActive()
+	===  UNCHANGED METHOD: PROTECTED com.barchart.udt.nio.SocketChannelUDT javaChannel()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED java.net.SocketAddress localAddress0()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED java.net.SocketAddress remoteAddress0()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.udt.nio.NioUdtMessageRendezvousChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.udt.nio.NioUdtMessageConnectorChannel (<- io.netty.channel.udt.nio.NioUdtMessageConnectorChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NioUdtMessageRendezvousChannel()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.udt.nio.NioUdtProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelFactory
+	===  UNCHANGED INTERFACE: io.netty.bootstrap.ChannelFactory
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelFactory MESSAGE_CONNECTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.channels.spi.SelectorProvider MESSAGE_PROVIDER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.channels.spi.SelectorProvider BYTE_PROVIDER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelFactory MESSAGE_ACCEPTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelFactory BYTE_ACCEPTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelFactory MESSAGE_RENDEZVOUS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelFactory BYTE_CONNECTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelFactory BYTE_RENDEZVOUS
+	===  UNCHANGED METHOD: PUBLIC STATIC com.barchart.udt.nio.ChannelUDT channelUDT(io.netty.channel.Channel)
+	===  UNCHANGED METHOD: PUBLIC com.barchart.udt.nio.KindUDT kind()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtChannel newChannel()
+	===  UNCHANGED METHOD: PUBLIC STATIC com.barchart.udt.SocketUDT socketUDT(io.netty.channel.Channel)
+	===  UNCHANGED METHOD: PUBLIC com.barchart.udt.TypeUDT type()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig config()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.net.InetSocketAddress remoteAddress()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getProtocolReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getProtocolSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getSoLinger()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getSystemReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getSystemSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setProtocolReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setProtocolSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setSoLinger(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setSystemReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setSystemSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setWriteBufferHighWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setWriteBufferLowWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtChannelConfig setWriteSpinCount(int)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.udt.UdtChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelOption (<- io.netty.channel.ChannelOption)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption PROTOCOL_RECEIVE_BUFFER_SIZE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption SYSTEM_RECEIVE_BUFFER_SIZE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption SYSTEM_SEND_BUFFER_SIZE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption PROTOCOL_SEND_BUFFER_SIZE
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.udt.UdtMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.buffer.DefaultByteBufHolder (<- io.netty.buffer.DefaultByteBufHolder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UdtMessage(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.udt.UdtMessage touch(java.lang.Object)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.udt.UdtChannelConfig
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getBacklog()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setBacklog(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setProtocolReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setProtocolSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setSoLinger(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setSystemReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setSystemSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setWriteBufferHighWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setWriteBufferLowWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.udt.UdtServerChannelConfig setWriteSpinCount(int)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated

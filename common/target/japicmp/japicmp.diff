@@ -1,0 +1,2324 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/common/target/netty-common-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-common/4.1.79.Final/netty-common-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.AbstractConstant  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractConstant(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC FINAL int compareTo(io.netty.util.AbstractConstant)
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL int hashCode()
+	===  UNCHANGED METHOD: PUBLIC FINAL int id()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.AbstractReferenceCounted  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractReferenceCounted()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void deallocate()
+	===  UNCHANGED METHOD: PUBLIC int refCnt()
+	===  UNCHANGED METHOD: PUBLIC boolean release()
+	===  UNCHANGED METHOD: PUBLIC boolean release(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.ReferenceCounted retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.ReferenceCounted retain(int)
+	===  UNCHANGED METHOD: PROTECTED FINAL void setRefCnt(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.ReferenceCounted touch()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.AsciiString  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.CharSequence
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString EMPTY_STRING
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int INDEX_NOT_FOUND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.HashingStrategy CASE_INSENSITIVE_HASHER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.HashingStrategy CASE_SENSITIVE_HASHER
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(java.nio.ByteBuffer)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(char[], int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(java.lang.CharSequence, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(java.lang.CharSequence, java.nio.charset.Charset, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(java.lang.CharSequence)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(java.nio.ByteBuffer, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(char[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(byte[], boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(java.nio.ByteBuffer, int, int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(java.lang.CharSequence, java.nio.charset.Charset)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(char[], java.nio.charset.Charset)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(byte[], int, int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiString(char[], java.nio.charset.Charset, int, int)
+	===  UNCHANGED METHOD: PUBLIC byte[] array()
+	===  UNCHANGED METHOD: PUBLIC void arrayChanged()
+	===  UNCHANGED METHOD: PUBLIC int arrayOffset()
+	===  UNCHANGED METHOD: PUBLIC STATIC char b2c(byte)
+	===  UNCHANGED METHOD: PUBLIC byte byteAt(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte c2b(char)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.AsciiString cached(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC char charAt(int)
+	===  UNCHANGED METHOD: PUBLIC int compareTo(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString concat(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean contains(java.lang.CharSequence, java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean containsAllContentEqualsIgnoreCase(java.util.Collection, java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean containsContentEqualsIgnoreCase(java.util.Collection, java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean containsIgnoreCase(java.lang.CharSequence, java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC boolean contentEquals(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean contentEquals(java.lang.CharSequence, java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC boolean contentEqualsIgnoreCase(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean contentEqualsIgnoreCase(java.lang.CharSequence, java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC void copy(int, byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC void copy(int, char[], int, int)
+	===  UNCHANGED METHOD: PUBLIC boolean endsWith(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int forEachByte(io.netty.util.ByteProcessor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC int forEachByte(int, int, io.netty.util.ByteProcessor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC int forEachByteDesc(io.netty.util.ByteProcessor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC int forEachByteDesc(int, int, io.netty.util.ByteProcessor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC STATIC int hashCode(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC int indexOf(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC int indexOf(java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC int indexOf(char, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int indexOf(java.lang.CharSequence, char, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int indexOfIgnoreCase(java.lang.CharSequence, java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int indexOfIgnoreCaseAscii(java.lang.CharSequence, java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC boolean isEntireArrayUsed()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isUpperCase(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isUpperCase(char)
+	===  UNCHANGED METHOD: PUBLIC int lastIndexOf(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC int lastIndexOf(java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC int length()
+	===  UNCHANGED METHOD: PUBLIC boolean matches(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.AsciiString of(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC boolean parseBoolean()
+	===  UNCHANGED METHOD: PUBLIC char parseChar()
+	===  UNCHANGED METHOD: PUBLIC char parseChar(int)
+	===  UNCHANGED METHOD: PUBLIC double parseDouble()
+	===  UNCHANGED METHOD: PUBLIC double parseDouble(int, int)
+	===  UNCHANGED METHOD: PUBLIC float parseFloat()
+	===  UNCHANGED METHOD: PUBLIC float parseFloat(int, int)
+	===  UNCHANGED METHOD: PUBLIC int parseInt()
+	===  UNCHANGED METHOD: PUBLIC int parseInt(int)
+	===  UNCHANGED METHOD: PUBLIC int parseInt(int, int)
+	===  UNCHANGED METHOD: PUBLIC int parseInt(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC long parseLong()
+	===  UNCHANGED METHOD: PUBLIC long parseLong(int)
+	===  UNCHANGED METHOD: PUBLIC long parseLong(int, int)
+	===  UNCHANGED METHOD: PUBLIC long parseLong(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC short parseShort()
+	===  UNCHANGED METHOD: PUBLIC short parseShort(int)
+	===  UNCHANGED METHOD: PUBLIC short parseShort(int, int)
+	===  UNCHANGED METHOD: PUBLIC short parseShort(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC boolean regionMatches(int, java.lang.CharSequence, int, int)
+	===  UNCHANGED METHOD: PUBLIC boolean regionMatches(boolean, int, java.lang.CharSequence, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean regionMatches(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean regionMatchesAscii(java.lang.CharSequence, boolean, int, java.lang.CharSequence, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString replace(char, char)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString[] split(java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString[] split(char)
+	===  UNCHANGED METHOD: PUBLIC boolean startsWith(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC boolean startsWith(java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString subSequence(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString subSequence(int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString subSequence(int, int, boolean)
+	===  UNCHANGED METHOD: PUBLIC byte[] toByteArray()
+	===  UNCHANGED METHOD: PUBLIC byte[] toByteArray(int, int)
+	===  UNCHANGED METHOD: PUBLIC char[] toCharArray()
+	===  UNCHANGED METHOD: PUBLIC char[] toCharArray(int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString toLowerCase()
+	===  UNCHANGED METHOD: PUBLIC STATIC char toLowerCase(char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString(int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString toUpperCase()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.CharSequence trim(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString trim()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.AsyncMapping  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future map(java.lang.Object, io.netty.util.concurrent.Promise)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.Attribute  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean compareAndSet(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object getAndRemove()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object getAndSet(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.AttributeKey key()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void remove()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void set(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object setIfAbsent(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.AttributeKey  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.util.AbstractConstant (<- io.netty.util.AbstractConstant)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean exists(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.AttributeKey newInstance(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.AttributeKey valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.AttributeKey valueOf(java.lang.Class, java.lang.String)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.AttributeMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.Attribute attr(io.netty.util.AttributeKey)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean hasAttr(io.netty.util.AttributeKey)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.BooleanSupplier  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.BooleanSupplier FALSE_SUPPLIER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.BooleanSupplier TRUE_SUPPLIER
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean get()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.ByteProcessor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_NUL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_COMMA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_CR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_ASCII_SPACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_NON_CR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_NON_CRLF
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_LF
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_LINEAR_WHITESPACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_NON_LINEAR_WHITESPACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_SEMI_COLON
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_NON_NUL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_CRLF
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ByteProcessor FIND_NON_LF
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean process(byte)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC STATIC io.netty.util.ByteProcessor$IndexNotOfProcessor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ByteProcessor
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ByteProcessor$IndexNotOfProcessor(byte)
+	===  UNCHANGED METHOD: PUBLIC boolean process(byte)
+===  UNCHANGED CLASS: PUBLIC STATIC io.netty.util.ByteProcessor$IndexOfProcessor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ByteProcessor
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ByteProcessor$IndexOfProcessor(byte)
+	===  UNCHANGED METHOD: PUBLIC boolean process(byte)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.CharsetUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.charset.Charset US_ASCII
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.charset.Charset UTF_16
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.charset.Charset UTF_16LE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.charset.Charset UTF_16BE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.charset.Charset UTF_8
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.charset.Charset ISO_8859_1
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetDecoder decoder(java.nio.charset.Charset, java.nio.charset.CodingErrorAction, java.nio.charset.CodingErrorAction)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetDecoder decoder(java.nio.charset.Charset, java.nio.charset.CodingErrorAction)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetDecoder decoder(java.nio.charset.Charset)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetEncoder encoder(java.nio.charset.Charset, java.nio.charset.CodingErrorAction, java.nio.charset.CodingErrorAction)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetEncoder encoder(java.nio.charset.Charset, java.nio.charset.CodingErrorAction)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetEncoder encoder(java.nio.charset.Charset)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetDecoder getDecoder(java.nio.charset.Charset)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.CharsetEncoder getEncoder(java.nio.charset.Charset)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.charset.Charset[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.collection.ByteCollections  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.ByteObjectMap emptyMap()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.ByteObjectMap unmodifiableMap(io.netty.util.collection.ByteObjectMap)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.collection.ByteObjectHashMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED INTERFACE: io.netty.util.collection.ByteObjectMap
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL float DEFAULT_LOAD_FACTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_CAPACITY
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ByteObjectHashMap(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ByteObjectHashMap()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ByteObjectHashMap(int, float)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(byte)
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set entrySet()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set keySet()
+	===  UNCHANGED METHOD: PROTECTED java.lang.String keyToString(byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(byte, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(java.lang.Byte, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void putAll(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.util.Collection values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.collection.ByteObjectMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsKey(byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get(byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object put(byte, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object remove(byte)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.collection.ByteObjectMap$PrimitiveEntry  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte key()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void setValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object value()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.collection.CharCollections  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.CharObjectMap emptyMap()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.CharObjectMap unmodifiableMap(io.netty.util.collection.CharObjectMap)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.collection.CharObjectHashMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.collection.CharObjectMap
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL float DEFAULT_LOAD_FACTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_CAPACITY
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CharObjectHashMap(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CharObjectHashMap()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CharObjectHashMap(int, float)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(char)
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set entrySet()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set keySet()
+	===  UNCHANGED METHOD: PROTECTED java.lang.String keyToString(char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(char, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(java.lang.Character, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void putAll(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.util.Collection values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.collection.CharObjectMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsKey(char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get(char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object put(char, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object remove(char)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.collection.CharObjectMap$PrimitiveEntry  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT char key()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void setValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object value()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.collection.IntCollections  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.IntObjectMap emptyMap()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.IntObjectMap unmodifiableMap(io.netty.util.collection.IntObjectMap)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.collection.IntObjectHashMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.collection.IntObjectMap
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL float DEFAULT_LOAD_FACTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_CAPACITY
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IntObjectHashMap(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IntObjectHashMap(int, float)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IntObjectHashMap()
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(int)
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set entrySet()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set keySet()
+	===  UNCHANGED METHOD: PROTECTED java.lang.String keyToString(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(java.lang.Integer, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void putAll(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.util.Collection values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.collection.IntObjectMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsKey(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object put(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object remove(int)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.collection.IntObjectMap$PrimitiveEntry  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int key()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void setValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object value()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.collection.LongCollections  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.LongObjectMap emptyMap()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.LongObjectMap unmodifiableMap(io.netty.util.collection.LongObjectMap)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.collection.LongObjectHashMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.collection.LongObjectMap
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL float DEFAULT_LOAD_FACTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_CAPACITY
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LongObjectHashMap(int, float)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LongObjectHashMap()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LongObjectHashMap(int)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(long)
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set entrySet()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set keySet()
+	===  UNCHANGED METHOD: PROTECTED java.lang.String keyToString(long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(long, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(java.lang.Long, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void putAll(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.util.Collection values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.collection.LongObjectMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsKey(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object put(long, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object remove(long)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.collection.LongObjectMap$PrimitiveEntry  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long key()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void setValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object value()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.collection.ShortCollections  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.ShortObjectMap emptyMap()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.collection.ShortObjectMap unmodifiableMap(io.netty.util.collection.ShortObjectMap)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.collection.ShortObjectHashMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.collection.ShortObjectMap
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL float DEFAULT_LOAD_FACTOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_CAPACITY
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ShortObjectHashMap()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ShortObjectHashMap(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ShortObjectHashMap(int, float)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(short)
+	===  UNCHANGED METHOD: PUBLIC boolean containsKey(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set entrySet()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set keySet()
+	===  UNCHANGED METHOD: PROTECTED java.lang.String keyToString(short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(short, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object put(java.lang.Short, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void putAll(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.util.Collection values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.collection.ShortObjectMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Map
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsKey(short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Iterable entries()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get(short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object put(short, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object remove(short)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.collection.ShortObjectMap$PrimitiveEntry  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT short key()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void setValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object value()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.concurrent.AbstractEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.util.concurrent.AbstractExecutorService (<- java.util.concurrent.AbstractExecutorService)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEventExecutor(io.netty.util.concurrent.EventExecutorGroup)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractEventExecutor()
+	===  UNCHANGED METHOD: PUBLIC boolean inEventLoop()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC void lazyExecute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future newFailedFuture(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise newProgressivePromise()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise newPromise()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future newSucceededFuture(java.lang.Object)
+	===  UNCHANGED METHOD: PROTECTED FINAL java.util.concurrent.RunnableFuture newTaskFor(java.lang.Runnable, java.lang.Object)
+	===  UNCHANGED METHOD: PROTECTED FINAL java.util.concurrent.RunnableFuture newTaskFor(java.util.concurrent.Callable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.EventExecutor next()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.EventExecutorGroup parent()
+	===  UNCHANGED METHOD: PROTECTED STATIC void runTask(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED STATIC void safeExecute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleAtFixedRate(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void shutdown()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully()
+	===  UNCHANGED METHOD: PUBLIC java.util.List shutdownNow()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.util.concurrent.Callable)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.concurrent.AbstractEventExecutor$LazyRunnable  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Runnable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.concurrent.AbstractEventExecutorGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractEventExecutorGroup()
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC java.util.List invokeAll(java.util.Collection)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC java.util.List invokeAll(java.util.Collection, long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object invokeAny(java.util.Collection)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object invokeAny(java.util.Collection, long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.TimeoutException
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleAtFixedRate(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void shutdown()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully()
+	===  UNCHANGED METHOD: PUBLIC java.util.List shutdownNow()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.util.concurrent.Callable)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.concurrent.AbstractFuture  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractFuture()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.TimeoutException
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.concurrent.AbstractScheduledEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.AbstractEventExecutor (<- io.netty.util.concurrent.AbstractEventExecutor)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractScheduledEventExecutor()
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractScheduledEventExecutor(io.netty.util.concurrent.EventExecutorGroup)
+	===  UNCHANGED METHOD: PROTECTED boolean afterScheduledTaskSubmitted(long)
+	===  UNCHANGED METHOD: PROTECTED boolean beforeScheduledTaskSubmitted(long)
+	===  UNCHANGED METHOD: PROTECTED void cancelScheduledTasks()
+	===  UNCHANGED METHOD: PROTECTED STATIC long deadlineToDelayNanos(long)
+	===  UNCHANGED METHOD: PROTECTED long getCurrentTimeNanos()
+	===  UNCHANGED METHOD: PROTECTED FINAL boolean hasScheduledTasks()
+	===  UNCHANGED METHOD: PROTECTED STATIC long initialNanoTime()
+	===  UNCHANGED METHOD: PROTECTED STATIC long nanoTime()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PROTECTED FINAL long nextScheduledTaskDeadlineNanos()
+	===  UNCHANGED METHOD: PROTECTED FINAL long nextScheduledTaskNano()
+	===  UNCHANGED METHOD: PROTECTED FINAL java.lang.Runnable pollScheduledTask()
+	===  UNCHANGED METHOD: PROTECTED FINAL java.lang.Runnable pollScheduledTask(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleAtFixedRate(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PROTECTED void validateScheduled(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.BlockingOperationException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.IllegalStateException (<- java.lang.IllegalStateException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BlockingOperationException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BlockingOperationException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BlockingOperationException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BlockingOperationException()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.concurrent.CompleteFuture  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.AbstractFuture (<- io.netty.util.concurrent.AbstractFuture)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED CompleteFuture(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future addListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future addListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future await()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC boolean await(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC boolean await(long)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future awaitUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC boolean awaitUninterruptibly(long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC boolean awaitUninterruptibly(long)
+	===  UNCHANGED METHOD: PUBLIC boolean cancel(boolean)
+	===  UNCHANGED METHOD: PROTECTED io.netty.util.concurrent.EventExecutor executor()
+	===  UNCHANGED METHOD: PUBLIC boolean isCancellable()
+	===  UNCHANGED METHOD: PUBLIC boolean isCancelled()
+	===  UNCHANGED METHOD: PUBLIC boolean isDone()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future removeListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future removeListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future sync()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future syncUninterruptibly()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.DefaultEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.OrderedEventExecutor
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.SingleThreadEventExecutor (<- io.netty.util.concurrent.SingleThreadEventExecutor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.ThreadFactory, int, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor(io.netty.util.concurrent.EventExecutorGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.Executor, int, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor(java.util.concurrent.Executor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor(java.util.concurrent.ThreadFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.Executor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.ThreadFactory)
+	===  UNCHANGED METHOD: PROTECTED void run()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.DefaultEventExecutorChooserFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorChooserFactory
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.concurrent.DefaultEventExecutorChooserFactory INSTANCE
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.EventExecutorChooserFactory$EventExecutorChooser newChooser(io.netty.util.concurrent.EventExecutor[])
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.DefaultEventExecutorGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.MultithreadEventExecutorGroup (<- io.netty.util.concurrent.MultithreadEventExecutorGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutorGroup(int, java.util.concurrent.ThreadFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutorGroup(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultEventExecutorGroup(int, java.util.concurrent.ThreadFactory, int, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED METHOD: PROTECTED io.netty.util.concurrent.EventExecutor newChild(java.util.concurrent.Executor, java.lang.Object[])
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.DefaultProgressivePromise  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Promise
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.ProgressivePromise
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.ProgressiveFuture
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.DefaultPromise (<- io.netty.util.concurrent.DefaultPromise)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED DefaultProgressivePromise()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultProgressivePromise(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise addListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise addListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise await()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise awaitUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise removeListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise removeListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise setFailure(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise setProgress(long, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise setSuccess(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise sync()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise syncUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC boolean tryProgress(long, long)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.DefaultPromise  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Promise
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.AbstractFuture (<- io.netty.util.concurrent.AbstractFuture)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultPromise(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED DefaultPromise()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise addListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise addListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise await()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC boolean await(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC boolean await(long)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise awaitUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC boolean awaitUninterruptibly(long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC boolean awaitUninterruptibly(long)
+	===  UNCHANGED METHOD: PUBLIC boolean cancel(boolean)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable cause()
+	===  UNCHANGED METHOD: PROTECTED void checkDeadLock()
+	===  UNCHANGED METHOD: PROTECTED io.netty.util.concurrent.EventExecutor executor()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.TimeoutException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getNow()
+	===  UNCHANGED METHOD: PUBLIC boolean isCancellable()
+	===  UNCHANGED METHOD: PUBLIC boolean isCancelled()
+	===  UNCHANGED METHOD: PUBLIC boolean isDone()
+	===  UNCHANGED METHOD: PUBLIC boolean isSuccess()
+	===  UNCHANGED METHOD: PROTECTED STATIC void notifyListener(io.netty.util.concurrent.EventExecutor, io.netty.util.concurrent.Future, io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise removeListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise removeListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise setFailure(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise setSuccess(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean setUncancellable()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise sync()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise syncUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PROTECTED java.lang.StringBuilder toStringBuilder()
+	===  UNCHANGED METHOD: PUBLIC boolean tryFailure(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC boolean trySuccess(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.DefaultThreadFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.ThreadFactory
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PROTECTED FINAL java.lang.ThreadGroup threadGroup
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.String, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.String, boolean, int, java.lang.ThreadGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.Class)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.String, boolean, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.Class, boolean, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.Class, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.Class, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultThreadFactory(java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Thread newThread(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Thread newThread(java.lang.Runnable, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toPoolName(java.lang.Class)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean inEventLoop()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean inEventLoop(java.lang.Thread)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future newFailedFuture(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise newProgressivePromise()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise newPromise()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future newSucceededFuture(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutor next()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutorGroup parent()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutorChooserFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutorChooserFactory$EventExecutorChooser newChooser(io.netty.util.concurrent.EventExecutor[])
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.concurrent.EventExecutorChooserFactory$EventExecutorChooser  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutor next()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutorGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isShuttingDown()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.EventExecutor next()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ScheduledFuture schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ScheduledFuture schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ScheduledFuture scheduleAtFixedRate(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void shutdown()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future shutdownGracefully()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future shutdownGracefully(long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List shutdownNow()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future submit(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future submit(java.lang.Runnable, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future submit(java.util.concurrent.Callable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future terminationFuture()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.FailedFuture  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.CompleteFuture (<- io.netty.util.concurrent.CompleteFuture)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FailedFuture(io.netty.util.concurrent.EventExecutor, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable cause()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getNow()
+	===  UNCHANGED METHOD: PUBLIC boolean isSuccess()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future sync()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future syncUninterruptibly()
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.FastThreadLocal  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocal()
+	===  UNCHANGED METHOD: PUBLIC STATIC void destroy()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.Object get()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.Object get(io.netty.util.internal.InternalThreadLocalMap)
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.Object getIfExists()
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object initialValue()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isSet()
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isSet(io.netty.util.internal.InternalThreadLocalMap)
+	===  UNCHANGED METHOD: PROTECTED void onRemoval(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void remove()
+	===  UNCHANGED METHOD: PUBLIC FINAL void remove(io.netty.util.internal.InternalThreadLocalMap)
+	===  UNCHANGED METHOD: PUBLIC STATIC void removeAll()
+	===  UNCHANGED METHOD: PUBLIC FINAL void set(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL void set(io.netty.util.internal.InternalThreadLocalMap, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int size()
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.FastThreadLocalThread  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Runnable
+	===  UNCHANGED SUPERCLASS: java.lang.Thread (<- java.lang.Thread)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread(java.lang.ThreadGroup, java.lang.Runnable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread(java.lang.ThreadGroup, java.lang.Runnable, java.lang.String, long)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread(java.lang.Runnable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread(java.lang.ThreadGroup, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread(java.lang.Runnable, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastThreadLocalThread()
+	===  UNCHANGED METHOD: PUBLIC FINAL void setThreadLocalMap(io.netty.util.internal.InternalThreadLocalMap)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.internal.InternalThreadLocalMap threadLocalMap()
+	===  UNCHANGED METHOD: PUBLIC boolean willCleanupFastThreadLocals()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean willCleanupFastThreadLocals(java.lang.Thread)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.Future  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future addListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future addListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future await()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean await(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean await(long)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future awaitUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean awaitUninterruptibly(long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean awaitUninterruptibly(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean cancel(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Throwable cause()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object getNow()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isCancellable()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isSuccess()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future removeListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future removeListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future sync()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future syncUninterruptibly()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.FutureListener  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.EventListener
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.GenericFutureListener
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.GenericFutureListener  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.EventListener
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void operationComplete(io.netty.util.concurrent.Future)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.GenericProgressiveFutureListener  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.EventListener
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.GenericFutureListener
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void operationProgressed(io.netty.util.concurrent.ProgressiveFuture, long, long)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.GlobalEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.OrderedEventExecutor
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.AbstractScheduledEventExecutor (<- io.netty.util.concurrent.AbstractScheduledEventExecutor)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.concurrent.GlobalEventExecutor INSTANCE
+	===  UNCHANGED METHOD: PUBLIC boolean awaitInactivity(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC boolean awaitTermination(long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC boolean inEventLoop(java.lang.Thread)
+	===  UNCHANGED METHOD: PUBLIC boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isShuttingDown()
+	===  UNCHANGED METHOD: PUBLIC boolean isTerminated()
+	===  UNCHANGED METHOD: PUBLIC int pendingTasks()
+	===  UNCHANGED METHOD: PUBLIC void shutdown()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully(long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future terminationFuture()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.ImmediateEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.AbstractEventExecutor (<- io.netty.util.concurrent.AbstractEventExecutor)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.concurrent.ImmediateEventExecutor INSTANCE
+	===  UNCHANGED METHOD: PUBLIC boolean awaitTermination(long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC boolean inEventLoop()
+	===  UNCHANGED METHOD: PUBLIC boolean inEventLoop(java.lang.Thread)
+	===  UNCHANGED METHOD: PUBLIC boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isShuttingDown()
+	===  UNCHANGED METHOD: PUBLIC boolean isTerminated()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise newProgressivePromise()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise newPromise()
+	===  UNCHANGED METHOD: PUBLIC void shutdown()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully(long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future terminationFuture()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.ImmediateExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.concurrent.ImmediateExecutor INSTANCE
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.concurrent.MultithreadEventExecutorGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.AbstractEventExecutorGroup (<- io.netty.util.concurrent.AbstractEventExecutorGroup)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MultithreadEventExecutorGroup(int, java.util.concurrent.ThreadFactory, java.lang.Object[])
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MultithreadEventExecutorGroup(int, java.util.concurrent.Executor, java.lang.Object[])
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MultithreadEventExecutorGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC boolean awaitTermination(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC FINAL int executorCount()
+	===  UNCHANGED METHOD: PUBLIC boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isShuttingDown()
+	===  UNCHANGED METHOD: PUBLIC boolean isTerminated()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.util.concurrent.EventExecutor newChild(java.util.concurrent.Executor, java.lang.Object[])
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.util.concurrent.ThreadFactory newDefaultThreadFactory()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.EventExecutor next()
+	===  UNCHANGED METHOD: PUBLIC void shutdown()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully(long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future terminationFuture()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.NonStickyEventExecutorGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NonStickyEventExecutorGroup(io.netty.util.concurrent.EventExecutorGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NonStickyEventExecutorGroup(io.netty.util.concurrent.EventExecutorGroup, int)
+	===  UNCHANGED METHOD: PUBLIC boolean awaitTermination(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC java.util.List invokeAll(java.util.Collection)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC java.util.List invokeAll(java.util.Collection, long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object invokeAny(java.util.Collection)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object invokeAny(java.util.Collection, long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.TimeoutException
+	===  UNCHANGED METHOD: PUBLIC boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isShuttingDown()
+	===  UNCHANGED METHOD: PUBLIC boolean isTerminated()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.EventExecutor next()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleAtFixedRate(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC void shutdown()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully(long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC java.util.List shutdownNow()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.util.concurrent.Callable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future terminationFuture()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.OrderedEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture addListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture addListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture await()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture awaitUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture removeListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture removeListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture sync()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressiveFuture syncUninterruptibly()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Promise
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.ProgressiveFuture
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise addListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise addListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise await()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise awaitUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise removeListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise removeListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise setFailure(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise setProgress(long, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise setSuccess(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise sync()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.ProgressivePromise syncUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean tryProgress(long, long)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.Promise  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise addListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise addListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise await()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise awaitUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise removeListener(io.netty.util.concurrent.GenericFutureListener)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise removeListeners(io.netty.util.concurrent.GenericFutureListener[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise setFailure(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise setSuccess(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean setUncancellable()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise sync()
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Promise syncUninterruptibly()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean tryFailure(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean trySuccess(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.PromiseAggregator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.EventListener
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.GenericFutureListener
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PromiseAggregator(io.netty.util.concurrent.Promise, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PromiseAggregator(io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.PromiseAggregator add(io.netty.util.concurrent.Promise[])
+		===  UNCHANGED ANNOTATION: java.lang.SafeVarargs
+	===  UNCHANGED METHOD: PUBLIC void operationComplete(io.netty.util.concurrent.Future)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.PromiseCombiner  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PromiseCombiner(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PromiseCombiner()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC void add(io.netty.util.concurrent.Promise)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC void add(io.netty.util.concurrent.Future)
+	===  UNCHANGED METHOD: PUBLIC void addAll(io.netty.util.concurrent.Promise[])
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC void addAll(io.netty.util.concurrent.Future[])
+	===  UNCHANGED METHOD: PUBLIC void finish(io.netty.util.concurrent.Promise)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.concurrent.PromiseNotifier  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.EventListener
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.GenericFutureListener
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PromiseNotifier(boolean, io.netty.util.concurrent.Promise[])
+		===  UNCHANGED ANNOTATION: java.lang.SafeVarargs
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PromiseNotifier(io.netty.util.concurrent.Promise[])
+		===  UNCHANGED ANNOTATION: java.lang.SafeVarargs
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.concurrent.Future cascade(io.netty.util.concurrent.Future, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.concurrent.Future cascade(boolean, io.netty.util.concurrent.Future, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC void operationComplete(io.netty.util.concurrent.Future)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.RejectedExecutionHandler  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void rejected(java.lang.Runnable, io.netty.util.concurrent.SingleThreadEventExecutor)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.RejectedExecutionHandlers  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.concurrent.RejectedExecutionHandler backoff(int, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.concurrent.RejectedExecutionHandler reject()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.ScheduledFuture  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledFuture
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED INTERFACE: java.util.concurrent.Delayed
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.concurrent.SingleThreadEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.OrderedEventExecutor
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.AbstractScheduledEventExecutor (<- io.netty.util.concurrent.AbstractScheduledEventExecutor)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SingleThreadEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.ThreadFactory, boolean, int, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SingleThreadEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.Executor, boolean, int, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SingleThreadEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.ThreadFactory, boolean)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SingleThreadEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.Executor, boolean, java.util.Queue, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SingleThreadEventExecutor(io.netty.util.concurrent.EventExecutorGroup, java.util.concurrent.Executor, boolean)
+	===  UNCHANGED METHOD: PUBLIC void addShutdownHook(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED void addTask(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED void afterRunningAllTasks()
+	===  UNCHANGED METHOD: PUBLIC boolean awaitTermination(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PROTECTED void cleanup()
+	===  UNCHANGED METHOD: PROTECTED boolean confirmShutdown()
+	===  UNCHANGED METHOD: PROTECTED long deadlineNanos()
+	===  UNCHANGED METHOD: PROTECTED long delayNanos(long)
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED boolean hasTasks()
+	===  UNCHANGED METHOD: PUBLIC boolean inEventLoop(java.lang.Thread)
+	===  UNCHANGED METHOD: PROTECTED void interruptThread()
+	===  UNCHANGED METHOD: PUBLIC java.util.List invokeAll(java.util.Collection)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC java.util.List invokeAll(java.util.Collection, long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object invokeAny(java.util.Collection)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object invokeAny(java.util.Collection, long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.ExecutionException
+		===  UNCHANGED EXCEPTION: java.util.concurrent.TimeoutException
+	===  UNCHANGED METHOD: PUBLIC boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isShuttingDown()
+	===  UNCHANGED METHOD: PUBLIC boolean isTerminated()
+	===  UNCHANGED METHOD: PUBLIC void lazyExecute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED java.util.Queue newTaskQueue()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PROTECTED java.util.Queue newTaskQueue(int)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Runnable peekTask()
+	===  UNCHANGED METHOD: PUBLIC int pendingTasks()
+	===  UNCHANGED METHOD: PROTECTED java.lang.Runnable pollTask()
+	===  UNCHANGED METHOD: PROTECTED STATIC java.lang.Runnable pollTaskFrom(java.util.Queue)
+	===  UNCHANGED METHOD: PROTECTED STATIC void reject()
+	===  UNCHANGED METHOD: PROTECTED FINAL void reject(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC void removeShutdownHook(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED boolean removeTask(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void run()
+	===  UNCHANGED METHOD: PROTECTED boolean runAllTasks()
+	===  UNCHANGED METHOD: PROTECTED boolean runAllTasks(long)
+	===  UNCHANGED METHOD: PROTECTED FINAL boolean runAllTasksFrom(java.util.Queue)
+	===  UNCHANGED METHOD: PROTECTED FINAL boolean runScheduledAndExecutorTasks(int)
+	===  UNCHANGED METHOD: PUBLIC void shutdown()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully(long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Runnable takeTask()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future terminationFuture()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.ThreadProperties threadProperties()
+	===  UNCHANGED METHOD: PROTECTED void updateLastExecutionTime()
+	===  UNCHANGED METHOD: PROTECTED boolean wakesUpForTask(java.lang.Runnable)
+	===  UNCHANGED METHOD: PROTECTED void wakeup(boolean)
+===  UNCHANGED INTERFACE: PROTECTED ABSTRACT STATIC io.netty.util.concurrent.SingleThreadEventExecutor$NonWakeupRunnable  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.AbstractEventExecutor$LazyRunnable
+	===  UNCHANGED INTERFACE: java.lang.Runnable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.SucceededFuture  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Future
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.Future
+	===  UNCHANGED SUPERCLASS: io.netty.util.concurrent.CompleteFuture (<- io.netty.util.concurrent.CompleteFuture)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SucceededFuture(io.netty.util.concurrent.EventExecutor, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable cause()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getNow()
+	===  UNCHANGED METHOD: PUBLIC boolean isSuccess()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.ThreadPerTaskExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ThreadPerTaskExecutor(java.util.concurrent.ThreadFactory)
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.concurrent.ThreadProperties  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long id()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isAlive()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isDaemon()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isInterrupted()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int priority()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.StackTraceElement[] stackTrace()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Thread$State state()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.UnaryPromiseNotifier  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.EventListener
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.FutureListener
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.GenericFutureListener
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnaryPromiseNotifier(io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC STATIC void cascadeTo(io.netty.util.concurrent.Future, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC void operationComplete(io.netty.util.concurrent.Future)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.concurrent.UnorderedThreadPoolEventExecutor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutor
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.util.concurrent.ScheduledThreadPoolExecutor (<- java.util.concurrent.ScheduledThreadPoolExecutor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnorderedThreadPoolEventExecutor(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnorderedThreadPoolEventExecutor(int, java.util.concurrent.ThreadFactory, java.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnorderedThreadPoolEventExecutor(int, java.util.concurrent.ThreadFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnorderedThreadPoolEventExecutor(int, java.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED METHOD: PROTECTED java.util.concurrent.RunnableScheduledFuture decorateTask(java.lang.Runnable, java.util.concurrent.RunnableScheduledFuture)
+	===  UNCHANGED METHOD: PROTECTED java.util.concurrent.RunnableScheduledFuture decorateTask(java.util.concurrent.Callable, java.util.concurrent.RunnableScheduledFuture)
+	===  UNCHANGED METHOD: PUBLIC void execute(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC boolean inEventLoop()
+	===  UNCHANGED METHOD: PUBLIC boolean inEventLoop(java.lang.Thread)
+	===  UNCHANGED METHOD: PUBLIC boolean isShuttingDown()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future newFailedFuture(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ProgressivePromise newProgressivePromise()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise newPromise()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future newSucceededFuture(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.EventExecutor next()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.EventExecutorGroup parent()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.lang.Runnable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture schedule(java.util.concurrent.Callable, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleAtFixedRate(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable, long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC void shutdown()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future shutdownGracefully(long, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC java.util.List shutdownNow()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.lang.Runnable, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future submit(java.util.concurrent.Callable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future terminationFuture()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.Constant  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int id()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String name()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.ConstantPool  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ConstantPool()
+	===  UNCHANGED METHOD: PUBLIC boolean exists(java.lang.String)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.util.Constant newConstant(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.Constant newInstance(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC FINAL int nextId()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.Constant valueOf(java.lang.Class, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.Constant valueOf(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.DefaultAttributeMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultAttributeMap()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.Attribute attr(io.netty.util.AttributeKey)
+	===  UNCHANGED METHOD: PUBLIC boolean hasAttr(io.netty.util.AttributeKey)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.DomainMappingBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainMappingBuilder(java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainMappingBuilder(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.DomainMappingBuilder add(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.DomainNameMapping build()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.util.DomainNameMapping  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Mapping
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainNameMapping(java.lang.Object)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainNameMapping(int, java.lang.Object)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.DomainNameMapping add(java.lang.String, java.lang.Object)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC java.util.Map asMap()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object map(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.DomainNameMappingBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainNameMappingBuilder(java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainNameMappingBuilder(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.DomainNameMappingBuilder add(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.DomainNameMapping build()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.util.DomainWildcardMappingBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainWildcardMappingBuilder(int, java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainWildcardMappingBuilder(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.DomainWildcardMappingBuilder add(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.Mapping build()
+===  UNCHANGED CLASS: PUBLIC io.netty.util.HashedWheelTimer  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Timer
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int WORKER_STATE_INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int WORKER_STATE_STARTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int WORKER_STATE_SHUTDOWN
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(java.util.concurrent.ThreadFactory, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(java.util.concurrent.ThreadFactory, long, java.util.concurrent.TimeUnit, int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(long, java.util.concurrent.TimeUnit, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(java.util.concurrent.ThreadFactory, long, java.util.concurrent.TimeUnit, int, boolean, long)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(java.util.concurrent.ThreadFactory, long, java.util.concurrent.TimeUnit, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(java.util.concurrent.ThreadFactory, long, java.util.concurrent.TimeUnit, int, boolean, long, java.util.concurrent.Executor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HashedWheelTimer(java.util.concurrent.ThreadFactory)
+	===  UNCHANGED METHOD: PROTECTED void finalize()
+		===  UNCHANGED EXCEPTION: java.lang.Throwable
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.Timeout newTimeout(io.netty.util.TimerTask, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC long pendingTimeouts()
+	===  UNCHANGED METHOD: PUBLIC void start()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set stop()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.HashingStrategy  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.HashingStrategy JAVA_HASHER
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean equals(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int hashCode(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.IllegalReferenceCountException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.IllegalStateException (<- java.lang.IllegalStateException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IllegalReferenceCountException(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IllegalReferenceCountException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IllegalReferenceCountException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IllegalReferenceCountException(int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IllegalReferenceCountException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IllegalReferenceCountException(java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.AppendableCharSequence  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.CharSequence
+	===  UNCHANGED INTERFACE: java.lang.Appendable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AppendableCharSequence(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.AppendableCharSequence append(char)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.AppendableCharSequence append(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.AppendableCharSequence append(java.lang.CharSequence, int, int)
+	===  UNCHANGED METHOD: PUBLIC char charAt(int)
+	===  UNCHANGED METHOD: PUBLIC char charAtUnsafe(int)
+	===  UNCHANGED METHOD: PUBLIC int length()
+	===  UNCHANGED METHOD: PUBLIC void reset()
+	===  UNCHANGED METHOD: PUBLIC void setLength(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.AppendableCharSequence subSequence(int, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String substring(int, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String subStringUnsafe(int, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ClassInitializerUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void tryLoadClasses(java.lang.Class, java.lang.Class[])
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ConcurrentSet  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Collection
+	===  UNCHANGED INTERFACE: java.util.Set
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.util.AbstractSet (<- java.util.AbstractSet)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ConcurrentSet()
+	===  UNCHANGED METHOD: PUBLIC boolean add(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC boolean remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ConstantTimeUtils  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int equalsConstantTime(int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int equalsConstantTime(long, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC int equalsConstantTime(byte[], int, byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int equalsConstantTime(java.lang.CharSequence, java.lang.CharSequence)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.DefaultPriorityQueue  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.internal.PriorityQueue
+	===  UNCHANGED INTERFACE: java.util.Collection
+	===  UNCHANGED INTERFACE: java.util.Queue
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.util.AbstractQueue (<- java.util.AbstractQueue)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultPriorityQueue(java.util.Comparator, int)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC void clearIgnoringIndexes()
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsTyped(io.netty.util.internal.PriorityQueueNode)
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC boolean offer(io.netty.util.internal.PriorityQueueNode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.PriorityQueueNode peek()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.PriorityQueueNode poll()
+	===  UNCHANGED METHOD: PUBLIC void priorityChanged(io.netty.util.internal.PriorityQueueNode)
+	===  UNCHANGED METHOD: PUBLIC boolean remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean removeTyped(io.netty.util.internal.PriorityQueueNode)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object[] toArray()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object[] toArray(java.lang.Object[])
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.EmptyArrays  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int[] EMPTY_INTS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.StackTraceElement[] EMPTY_STACK_TRACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL char[] EMPTY_CHARS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.security.cert.X509Certificate[] EMPTY_X509_CERTIFICATES
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL javax.security.cert.X509Certificate[] EMPTY_JAVAX_X509_CERTIFICATES
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.Class[] EMPTY_CLASSES
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.AsciiString[] EMPTY_ASCII_STRINGS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.Object[] EMPTY_OBJECTS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte[] EMPTY_BYTES
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.nio.ByteBuffer[] EMPTY_BYTE_BUFFERS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.String[] EMPTY_STRINGS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.security.cert.Certificate[] EMPTY_CERTIFICATES
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.EmptyPriorityQueue  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.internal.PriorityQueue
+	===  UNCHANGED INTERFACE: java.util.Collection
+	===  UNCHANGED INTERFACE: java.util.Queue
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean add(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean addAll(java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC void clearIgnoringIndexes()
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsAll(java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC boolean containsTyped(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object element()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.EmptyPriorityQueue instance()
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC boolean offer(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object peek()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object poll()
+	===  UNCHANGED METHOD: PUBLIC void priorityChanged(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object remove()
+	===  UNCHANGED METHOD: PUBLIC boolean removeAll(java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC boolean removeTyped(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean retainAll(java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object[] toArray()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object[] toArray(java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.util.internal.Hidden$NettyBlockHoundIntegration  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: reactor.blockhound.integration.BlockHoundIntegration
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Hidden$NettyBlockHoundIntegration()
+	===  UNCHANGED METHOD: PUBLIC void applyTo(reactor.blockhound.BlockHound$Builder)
+	===  UNCHANGED METHOD: PUBLIC int compareTo(reactor.blockhound.integration.BlockHoundIntegration)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.IntegerHolder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC int value
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IntegerHolder()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.InternalThreadLocalMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.util.internal.UnpaddedInternalThreadLocalMap (<- io.netty.util.internal.UnpaddedInternalThreadLocalMap)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.Object UNSET
+	===  UNCHANGED FIELD: PUBLIC long rp1
+	===  UNCHANGED FIELD: PUBLIC long rp3
+	===  UNCHANGED FIELD: PUBLIC long rp2
+	===  UNCHANGED FIELD: PUBLIC long rp5
+	===  UNCHANGED FIELD: PUBLIC long rp4
+	===  UNCHANGED FIELD: PUBLIC long rp7
+	===  UNCHANGED FIELD: PUBLIC long rp6
+	===  UNCHANGED FIELD: PUBLIC long rp8
+	===  UNCHANGED METHOD: PUBLIC java.util.ArrayList arrayList()
+	===  UNCHANGED METHOD: PUBLIC java.util.ArrayList arrayList(int)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map charsetDecoderCache()
+	===  UNCHANGED METHOD: PUBLIC java.util.Map charsetEncoderCache()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.IntegerHolder counterHashCode()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC void destroy()
+	===  UNCHANGED METHOD: PUBLIC int futureListenerStackDepth()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.InternalThreadLocalMap get()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.InternalThreadLocalMap getIfSet()
+	===  UNCHANGED METHOD: PUBLIC java.util.Map handlerSharableCache()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object indexedVariable(int)
+	===  UNCHANGED METHOD: PUBLIC boolean isCleanerFlagSet(int)
+	===  UNCHANGED METHOD: PUBLIC boolean isIndexedVariableSet(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int lastVariableIndex()
+	===  UNCHANGED METHOD: PUBLIC int localChannelReaderStackDepth()
+	===  UNCHANGED METHOD: PUBLIC STATIC int nextVariableIndex()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.ThreadLocalRandom random()
+	===  UNCHANGED METHOD: PUBLIC STATIC void remove()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object removeIndexedVariable(int)
+	===  UNCHANGED METHOD: PUBLIC void setCleanerFlag(int)
+	===  UNCHANGED METHOD: PUBLIC void setCounterHashCode(io.netty.util.internal.IntegerHolder)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC void setFutureListenerStackDepth(int)
+	===  UNCHANGED METHOD: PUBLIC boolean setIndexedVariable(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void setLocalChannelReaderStackDepth(int)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.StringBuilder stringBuilder()
+	===  UNCHANGED METHOD: PUBLIC java.util.Map typeParameterMatcherFindCache()
+	===  UNCHANGED METHOD: PUBLIC java.util.Map typeParameterMatcherGetCache()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.internal.logging.AbstractInternalLogger  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.internal.logging.InternalLogger
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractInternalLogger(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC void debug(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC void error(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC void info(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC boolean isEnabled(io.netty.util.internal.logging.InternalLogLevel)
+	===  UNCHANGED METHOD: PUBLIC void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC java.lang.String name()
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object readResolve()
+		===  UNCHANGED EXCEPTION: java.io.ObjectStreamException
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC void trace(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC void warn(java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.internal.logging.CommonsLoggerFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.util.internal.logging.InternalLoggerFactory (<- io.netty.util.internal.logging.InternalLoggerFactory)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLoggerFactory INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CommonsLoggerFactory()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.logging.InternalLogger newInstance(java.lang.String)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.logging.FormattingTuple  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String getMessage()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable getThrowable()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.internal.logging.InternalLogger  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void debug(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void debug(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void debug(java.lang.String, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void debug(java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void debug(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void debug(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void error(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void error(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void error(java.lang.String, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void error(java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void error(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void error(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void info(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void info(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void info(java.lang.String, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void info(java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void info(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void info(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isDebugEnabled()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isEnabled(io.netty.util.internal.logging.InternalLogLevel)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isErrorEnabled()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isInfoEnabled()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isTraceEnabled()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isWarnEnabled()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void log(io.netty.util.internal.logging.InternalLogLevel, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void trace(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void trace(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void trace(java.lang.String, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void trace(java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void trace(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void trace(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void warn(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void warn(java.lang.String, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void warn(java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void warn(java.lang.String, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void warn(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void warn(java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.internal.logging.InternalLoggerFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC InternalLoggerFactory()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.logging.InternalLoggerFactory getDefaultFactory()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.logging.InternalLogger getInstance(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.logging.InternalLogger getInstance(java.lang.String)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.util.internal.logging.InternalLogger newInstance(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC void setDefaultFactory(io.netty.util.internal.logging.InternalLoggerFactory)
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.util.internal.logging.InternalLogLevel  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLogLevel TRACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLogLevel ERROR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLogLevel INFO
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLogLevel DEBUG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLogLevel WARN
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.logging.InternalLogLevel valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.logging.InternalLogLevel[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.util.internal.logging.JdkLoggerFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.util.internal.logging.InternalLoggerFactory (<- io.netty.util.internal.logging.InternalLoggerFactory)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLoggerFactory INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkLoggerFactory()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.logging.InternalLogger newInstance(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.logging.Log4J2LoggerFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.util.internal.logging.InternalLoggerFactory (<- io.netty.util.internal.logging.InternalLoggerFactory)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLoggerFactory INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Log4J2LoggerFactory()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.logging.InternalLogger newInstance(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.internal.logging.Log4JLoggerFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.util.internal.logging.InternalLoggerFactory (<- io.netty.util.internal.logging.InternalLoggerFactory)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLoggerFactory INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Log4JLoggerFactory()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.logging.InternalLogger newInstance(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.logging.MessageFormatter  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.internal.logging.Slf4JLoggerFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.util.internal.logging.InternalLoggerFactory (<- io.netty.util.internal.logging.InternalLoggerFactory)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.internal.logging.InternalLoggerFactory INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Slf4JLoggerFactory()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.internal.logging.InternalLogger newInstance(java.lang.String)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.internal.LongCounter  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void add(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void decrement()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void increment()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long value()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.MacAddressUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] bestAvailableMac()
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] defaultMachineId()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String formatAddress(byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] parseMAC(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.MathUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int compare(int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int compare(long, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC int findNextPositivePowerOfTwo(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isOutOfBounds(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int safeFindNextPositivePowerOfTwo(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.NativeLibraryLoader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void load(java.lang.String, java.lang.ClassLoader)
+	===  UNCHANGED METHOD: PUBLIC STATIC void loadFirstAvailable(java.lang.ClassLoader, java.lang.String[])
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.NoOpTypeParameterMatcher  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.util.internal.TypeParameterMatcher (<- io.netty.util.internal.TypeParameterMatcher)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NoOpTypeParameterMatcher()
+	===  UNCHANGED METHOD: PUBLIC boolean match(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ObjectCleaner  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int getLiveSetCount()
+	===  UNCHANGED METHOD: PUBLIC STATIC void register(java.lang.Object, java.lang.Runnable)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.internal.ObjectPool  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.ObjectPool newPool(io.netty.util.internal.ObjectPool$ObjectCreator)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.internal.ObjectPool$Handle  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void recycle(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.internal.ObjectPool$ObjectCreator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object newObject(io.netty.util.internal.ObjectPool$Handle)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ObjectUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int checkInRange(int, int, int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC long checkInRange(long, long, long, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object[] checkNonEmpty(java.lang.Object[], java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] checkNonEmpty(byte[], java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC char[] checkNonEmpty(char[], java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Collection checkNonEmpty(java.util.Collection, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String checkNonEmpty(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Map checkNonEmpty(java.util.Map, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.CharSequence checkNonEmpty(java.lang.CharSequence, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String checkNonEmptyAfterTrim(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object checkNotNull(java.lang.Object, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object checkNotNullArrayParam(java.lang.Object, int, java.lang.String)
+		===  UNCHANGED EXCEPTION: java.lang.IllegalArgumentException
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object checkNotNullWithIAE(java.lang.Object, java.lang.String)
+		===  UNCHANGED EXCEPTION: java.lang.IllegalArgumentException
+	===  UNCHANGED METHOD: PUBLIC STATIC int checkPositive(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC long checkPositive(long, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC double checkPositive(double, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC float checkPositive(float, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC int checkPositiveOrZero(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC long checkPositiveOrZero(long, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC double checkPositiveOrZero(double, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC float checkPositiveOrZero(float, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object[] deepCheckNotNull(java.lang.String, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC STATIC int intValue(java.lang.Integer, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC long longValue(java.lang.Long, long)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.OutOfDirectMemoryError  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.OutOfMemoryError (<- java.lang.OutOfMemoryError)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.PendingWrite  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean failAndRecycle(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object msg()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.PendingWrite newInstance(java.lang.Object, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise promise()
+	===  UNCHANGED METHOD: PUBLIC boolean recycle()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Promise recycleAndGet()
+	===  UNCHANGED METHOD: PUBLIC boolean successAndRecycle()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.PlatformDependent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL boolean BIG_ENDIAN_NATIVE_ORDER
+	===  UNCHANGED METHOD: PUBLIC STATIC int addressSize()
+	===  UNCHANGED METHOD: PUBLIC STATIC long align(long, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.ByteBuffer alignDirectBuffer(java.nio.ByteBuffer, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.ByteBuffer allocateDirectNoCleaner(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC long allocateMemory(long)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] allocateUninitializedArray(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int bitMode()
+	===  UNCHANGED METHOD: PUBLIC STATIC long byteArrayBaseOffset()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean canEnableTcpNoDelayByDefault()
+	===  UNCHANGED METHOD: PUBLIC STATIC void copyMemory(long, long, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC void copyMemory(byte[], int, long, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC void copyMemory(byte[], int, byte[], int, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC void copyMemory(long, byte[], int, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.io.File createTempFile(java.lang.String, java.lang.String, java.io.File)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.ByteBuffer directBuffer(long, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC long directBufferAddress(java.nio.ByteBuffer)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean directBufferPreferred()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean equals(byte[], int, byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int equalsConstantTime(byte[], int, byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC long estimateMaxDirectMemory()
+	===  UNCHANGED METHOD: PUBLIC STATIC void freeDirectBuffer(java.nio.ByteBuffer)
+	===  UNCHANGED METHOD: PUBLIC STATIC void freeDirectNoCleaner(java.nio.ByteBuffer)
+	===  UNCHANGED METHOD: PUBLIC STATIC void freeMemory(long)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte getByte(long)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte getByte(byte[], int)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte getByte(byte[], long)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.ClassLoader getClassLoader(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.ClassLoader getContextClassLoader()
+	===  UNCHANGED METHOD: PUBLIC STATIC int getInt(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC int getInt(long)
+	===  UNCHANGED METHOD: PUBLIC STATIC int getInt(byte[], int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int getInt(int[], long)
+	===  UNCHANGED METHOD: PUBLIC STATIC int getIntVolatile(long)
+	===  UNCHANGED METHOD: PUBLIC STATIC long getLong(long)
+	===  UNCHANGED METHOD: PUBLIC STATIC long getLong(byte[], int)
+	===  UNCHANGED METHOD: PUBLIC STATIC long getLong(long[], long)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object getObject(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC short getShort(long)
+	===  UNCHANGED METHOD: PUBLIC STATIC short getShort(byte[], int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.ClassLoader getSystemClassLoader()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable getUnsafeUnavailabilityCause()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean hasAlignDirectByteBuffer()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean hasDirectBufferNoCleanerConstructor()
+	===  UNCHANGED METHOD: PUBLIC STATIC int hashCodeAscii(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int hashCodeAscii(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean hasUnsafe()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isAndroid()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isIkvmDotNet()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isJ9Jvm()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isOsx()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isUnaligned()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isWindows()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isZero(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int javaVersion()
+	===  UNCHANGED METHOD: PUBLIC STATIC long maxDirectMemory()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean maybeSuperUser()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Deque newConcurrentDeque()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.concurrent.ConcurrentMap newConcurrentHashMap()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.concurrent.ConcurrentMap newConcurrentHashMap(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.concurrent.ConcurrentMap newConcurrentHashMap(int, float)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.concurrent.ConcurrentMap newConcurrentHashMap(int, float, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.concurrent.ConcurrentMap newConcurrentHashMap(java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Queue newFixedMpscQueue(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.LongCounter newLongCounter()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Queue newMpscQueue()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Queue newMpscQueue(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Queue newMpscQueue(int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Queue newSpscQueue()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String normalizedArch()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Set normalizedLinuxClassifiers()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String normalizedOs()
+	===  UNCHANGED METHOD: PUBLIC STATIC long objectFieldOffset(java.lang.reflect.Field)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putByte(long, byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putByte(byte[], int, byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putByte(java.lang.Object, long, byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putInt(long, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putInt(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putIntOrdered(long, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putLong(long, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putLong(byte[], int, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putObject(java.lang.Object, long, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putShort(long, short)
+	===  UNCHANGED METHOD: PUBLIC STATIC void putShort(byte[], int, short)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.ByteBuffer reallocateDirectNoCleaner(java.nio.ByteBuffer, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC long reallocateMemory(long, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC void setMemory(byte[], int, long, byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC void setMemory(long, long, byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Random threadLocalRandom()
+	===  UNCHANGED METHOD: PUBLIC STATIC void throwException(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.io.File tmpdir()
+	===  UNCHANGED METHOD: PUBLIC STATIC long usedDirectMemory()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean useDirectBufferNoCleaner()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.internal.PriorityQueue  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Collection
+	===  UNCHANGED INTERFACE: java.util.Queue
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void clearIgnoringIndexes()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsTyped(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void priorityChanged(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean removeTyped(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.internal.PriorityQueueNode  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int INDEX_NOT_IN_QUEUE
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int priorityQueueIndex(io.netty.util.internal.DefaultPriorityQueue)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void priorityQueueIndex(io.netty.util.internal.DefaultPriorityQueue, int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.PromiseNotificationUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void tryCancel(io.netty.util.concurrent.Promise, io.netty.util.internal.logging.InternalLogger)
+	===  UNCHANGED METHOD: PUBLIC STATIC void tryFailure(io.netty.util.concurrent.Promise, java.lang.Throwable, io.netty.util.internal.logging.InternalLogger)
+	===  UNCHANGED METHOD: PUBLIC STATIC void trySuccess(io.netty.util.concurrent.Promise, java.lang.Object, io.netty.util.internal.logging.InternalLogger)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ReadOnlyIterator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Iterator
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ReadOnlyIterator(java.util.Iterator)
+	===  UNCHANGED METHOD: PUBLIC boolean hasNext()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object next()
+	===  UNCHANGED METHOD: PUBLIC void remove()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.RecyclableArrayList  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.RandomAccess
+	===  UNCHANGED INTERFACE: java.util.List
+	===  UNCHANGED INTERFACE: java.lang.Cloneable
+	===  UNCHANGED INTERFACE: java.util.Collection
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.util.ArrayList (<- java.util.ArrayList)
+	===  UNCHANGED METHOD: PUBLIC boolean add(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void add(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean addAll(java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC boolean addAll(int, java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC boolean insertSinceRecycled()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.RecyclableArrayList newInstance()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.RecyclableArrayList newInstance(int)
+	===  UNCHANGED METHOD: PUBLIC boolean recycle()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object set(int, java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.internal.ReferenceCountUpdater  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ReferenceCountUpdater()
+	===  UNCHANGED METHOD: PUBLIC STATIC long getUnsafeOffset(java.lang.Class, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC FINAL int initialValue()
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isLiveNonVolatile(io.netty.util.ReferenceCounted)
+	===  UNCHANGED METHOD: PUBLIC FINAL int refCnt(io.netty.util.ReferenceCounted)
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean release(io.netty.util.ReferenceCounted)
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean release(io.netty.util.ReferenceCounted, int)
+	===  UNCHANGED METHOD: PUBLIC FINAL void resetRefCnt(io.netty.util.ReferenceCounted)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.ReferenceCounted retain(io.netty.util.ReferenceCounted)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.ReferenceCounted retain(io.netty.util.ReferenceCounted, int)
+	===  UNCHANGED METHOD: PUBLIC void setInitialValue(io.netty.util.ReferenceCounted)
+	===  UNCHANGED METHOD: PUBLIC FINAL void setRefCnt(io.netty.util.ReferenceCounted, int)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT long unsafeOffset()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT java.util.concurrent.atomic.AtomicIntegerFieldUpdater updater()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ReflectionUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable trySetAccessible(java.lang.reflect.AccessibleObject, boolean)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ResourcesUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.io.File getFile(java.lang.Class, java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.SocketUtils  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.channels.SocketChannel accept(java.nio.channels.ServerSocketChannel)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.InetAddress addressByName(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.net.UnknownHostException
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Enumeration addressesFromNetworkInterface(java.net.NetworkInterface)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.InetAddress[] allAddressesByName(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.net.UnknownHostException
+	===  UNCHANGED METHOD: PUBLIC STATIC void bind(java.net.Socket, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void bind(java.nio.channels.SocketChannel, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void bind(java.nio.channels.DatagramChannel, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void connect(java.net.Socket, java.net.SocketAddress, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean connect(java.nio.channels.SocketChannel, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] hardwareAddressFromNetworkInterface(java.net.NetworkInterface)
+		===  UNCHANGED EXCEPTION: java.net.SocketException
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.SocketAddress localSocketAddress(java.net.ServerSocket)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.InetAddress loopbackAddress()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.InetSocketAddress socketAddress(java.lang.String, int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.StringUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL char COMMA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL char DOUBLE_QUOTE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.String NEWLINE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL char CARRIAGE_RETURN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL char LINE_FEED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL char SPACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL char TAB
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.lang.String EMPTY_STRING
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String byteToHexString(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Appendable byteToHexString(java.lang.Appendable, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String byteToHexStringPadded(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Appendable byteToHexStringPadded(java.lang.Appendable, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean commonSuffixOfLength(java.lang.String, java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte decodeHexByte(java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] decodeHexDump(java.lang.CharSequence, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] decodeHexDump(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC int decodeHexNibble(char)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean endsWith(java.lang.CharSequence, char)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.CharSequence escapeCsv(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.CharSequence escapeCsv(java.lang.CharSequence, boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC int indexOfNonWhiteSpace(java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int indexOfWhiteSpace(java.lang.CharSequence, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isNullOrEmpty(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isSurrogate(char)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.CharSequence join(java.lang.CharSequence, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC STATIC int length(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String simpleClassName(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String simpleClassName(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String substringAfter(java.lang.String, char)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toHexString(byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toHexString(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Appendable toHexString(java.lang.Appendable, byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Appendable toHexString(java.lang.Appendable, byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toHexStringPadded(byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toHexStringPadded(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Appendable toHexStringPadded(java.lang.Appendable, byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Appendable toHexStringPadded(java.lang.Appendable, byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.CharSequence trimOws(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.CharSequence unescapeCsv(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.List unescapeCsvFields(java.lang.CharSequence)
+===  UNCHANGED ANNOTATION: PUBLIC ABSTRACT io.netty.util.internal.SuppressJava6Requirement  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.annotation.Annotation
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String reason()
+	===  UNCHANGED ANNOTATION: java.lang.annotation.Target
+		===  UNCHANGED ELEMENT: value=java.lang.annotation.ElementType.METHOD,java.lang.annotation.ElementType.CONSTRUCTOR,java.lang.annotation.ElementType.TYPE
+	===  UNCHANGED ANNOTATION: java.lang.annotation.Retention
+		===  UNCHANGED ELEMENT: value=java.lang.annotation.RetentionPolicy.CLASS
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.SystemPropertyUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean contains(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String get(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String get(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean getBoolean(java.lang.String, boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC int getInt(java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC long getLong(java.lang.String, long)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ThreadExecutorMap  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.concurrent.Executor apply(java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Runnable apply(java.lang.Runnable, io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.concurrent.ThreadFactory apply(java.util.concurrent.ThreadFactory, io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.concurrent.EventExecutor currentExecutor()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ThreadLocalRandom  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.util.Random (<- java.util.Random)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.ThreadLocalRandom current()
+	===  UNCHANGED METHOD: PUBLIC STATIC long getInitialSeedUniquifier()
+	===  UNCHANGED METHOD: PROTECTED int next(int)
+	===  UNCHANGED METHOD: PUBLIC double nextDouble(double)
+	===  UNCHANGED METHOD: PUBLIC double nextDouble(double, double)
+	===  UNCHANGED METHOD: PUBLIC int nextInt(int, int)
+	===  UNCHANGED METHOD: PUBLIC long nextLong(long)
+	===  UNCHANGED METHOD: PUBLIC long nextLong(long, long)
+	===  UNCHANGED METHOD: PUBLIC STATIC void setInitialSeedUniquifier(long)
+	===  UNCHANGED METHOD: PUBLIC void setSeed(long)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.internal.ThrowableUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void addSuppressed(java.lang.Throwable, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC STATIC void addSuppressed(java.lang.Throwable, java.util.List)
+	===  UNCHANGED METHOD: PUBLIC STATIC void addSuppressedAndClear(java.lang.Throwable, java.util.List)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean haveSuppressed()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String stackTraceToString(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable unknownStackTrace(java.lang.Throwable, java.lang.Class, java.lang.String)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.internal.TypeParameterMatcher  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.TypeParameterMatcher find(java.lang.Object, java.lang.Class, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.internal.TypeParameterMatcher get(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean match(java.lang.Object)
+===  UNCHANGED ANNOTATION: PUBLIC ABSTRACT io.netty.util.internal.UnstableApi  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.annotation.Annotation
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED ANNOTATION: java.lang.annotation.Target
+		===  UNCHANGED ELEMENT: value=java.lang.annotation.ElementType.ANNOTATION_TYPE,java.lang.annotation.ElementType.CONSTRUCTOR,java.lang.annotation.ElementType.FIELD,java.lang.annotation.ElementType.METHOD,java.lang.annotation.ElementType.PACKAGE,java.lang.annotation.ElementType.TYPE
+	===  UNCHANGED ANNOTATION: java.lang.annotation.Documented
+	===  UNCHANGED ANNOTATION: java.lang.annotation.Retention
+		===  UNCHANGED ELEMENT: value=java.lang.annotation.RetentionPolicy.SOURCE
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.IntSupplier  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int get()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.Mapping  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object map(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.NettyRuntime  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int availableProcessors()
+	===  UNCHANGED METHOD: PUBLIC STATIC void setAvailableProcessors(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.NetUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.net.NetworkInterface LOOPBACK_IF
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.net.Inet6Address LOCALHOST6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.net.InetAddress LOCALHOST
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL java.net.Inet4Address LOCALHOST4
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int SOMAXCONN
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String bytesToIpAddress(byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String bytesToIpAddress(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] createByteArrayFromIpAddressString(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.InetAddress createInetAddressFromIpAddressString(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.Inet6Address getByName(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.Inet6Address getByName(java.lang.CharSequence, boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String getHostname(java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String intToIpAddress(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC int ipv4AddressToInt(java.net.Inet4Address)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isIpV4StackPreferred()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isIpV6AddressesPreferred()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isValidIpV4Address(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isValidIpV4Address(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isValidIpV6Address(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isValidIpV6Address(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toAddressString(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toAddressString(java.net.InetAddress, boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toSocketAddressString(java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toSocketAddressString(java.lang.String, int)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.Recycler  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Recycler(int)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Recycler()
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Recycler(int, int, int, int, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Recycler(int, int, int, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Recycler(int, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Recycler(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.Object get()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT java.lang.Object newObject(io.netty.util.Recycler$Handle)
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean recycle(java.lang.Object, io.netty.util.Recycler$Handle)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.util.Recycler$Handle  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.internal.ObjectPool$Handle
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.ReferenceCounted  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int refCnt()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean release()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean release(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.ReferenceCounted retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.ReferenceCounted retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.ReferenceCounted touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.ReferenceCounted touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.ReferenceCountUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int refCnt(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean release(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean release(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object releaseLater(java.lang.Object)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object releaseLater(java.lang.Object, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object retain(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object retain(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void safeRelease(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void safeRelease(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object touch(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Object touch(java.lang.Object, java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.ResourceLeak  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean close()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void record()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void record(java.lang.Object)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.util.ResourceLeakDetector  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakDetector(java.lang.Class)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakDetector(java.lang.Class, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakDetector(java.lang.String)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakDetector(java.lang.String, int, long)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakDetector(java.lang.Class, int, long)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC void addExclusions(java.lang.Class, java.lang.String[])
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object getInitialHint(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.ResourceLeakDetector$Level getLevel()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isEnabled()
+	===  UNCHANGED METHOD: PROTECTED boolean needReport()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.ResourceLeak open(java.lang.Object)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PROTECTED void reportInstancesLeak(java.lang.String)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PROTECTED void reportTracedLeak(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PROTECTED void reportUntracedLeak(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC void setEnabled(boolean)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC void setLevel(io.netty.util.ResourceLeakDetector$Level)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.ResourceLeakTracker track(java.lang.Object)
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.util.ResourceLeakDetector$Level  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ResourceLeakDetector$Level DISABLED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ResourceLeakDetector$Level PARANOID
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ResourceLeakDetector$Level SIMPLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.ResourceLeakDetector$Level ADVANCED
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.ResourceLeakDetector$Level valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.ResourceLeakDetector$Level[] values()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.util.ResourceLeakDetectorFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakDetectorFactory()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.ResourceLeakDetectorFactory instance()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.ResourceLeakDetector newResourceLeakDetector(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.ResourceLeakDetector newResourceLeakDetector(java.lang.Class, int, long)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.ResourceLeakDetector newResourceLeakDetector(java.lang.Class, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void setResourceLeakDetectorFactory(io.netty.util.ResourceLeakDetectorFactory)
+===  UNCHANGED CLASS: PUBLIC io.netty.util.ResourceLeakException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.RuntimeException (<- java.lang.RuntimeException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ResourceLeakException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.ResourceLeakHint  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String toHintString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.ResourceLeakTracker  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean close(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void record()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void record(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.Signal  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Error (<- java.lang.Error)
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.util.Signal)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC void expect(io.netty.util.Signal)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable fillInStackTrace()
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC int id()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable initCause(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.Signal valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.util.Signal valueOf(java.lang.Class, java.lang.String)
+===  UNCHANGED ANNOTATION: PUBLIC ABSTRACT io.netty.util.SuppressForbidden  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.annotation.Annotation
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String reason()
+	===  UNCHANGED ANNOTATION: java.lang.annotation.Target
+		===  UNCHANGED ELEMENT: value=java.lang.annotation.ElementType.CONSTRUCTOR,java.lang.annotation.ElementType.FIELD,java.lang.annotation.ElementType.METHOD,java.lang.annotation.ElementType.TYPE
+	===  UNCHANGED ANNOTATION: java.lang.annotation.Retention
+		===  UNCHANGED ELEMENT: value=java.lang.annotation.RetentionPolicy.CLASS
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.ThreadDeathWatcher  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean awaitInactivity(long, java.util.concurrent.TimeUnit)
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC STATIC void unwatch(java.lang.Thread, java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC STATIC void watch(java.lang.Thread, java.lang.Runnable)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.Timeout  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean cancel()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isCancelled()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isExpired()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.TimerTask task()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.Timer timer()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.Timer  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.Timeout newTimeout(io.netty.util.TimerTask, long, java.util.concurrent.TimeUnit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.Set stop()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.TimerTask  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void run(io.netty.util.Timeout)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.util.UncheckedBooleanSupplier  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.BooleanSupplier
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.UncheckedBooleanSupplier FALSE_SUPPLIER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.util.UncheckedBooleanSupplier TRUE_SUPPLIER
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean get()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.util.Version  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String artifactId()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String artifactVersion()
+	===  UNCHANGED METHOD: PUBLIC long buildTimeMillis()
+	===  UNCHANGED METHOD: PUBLIC long commitTimeMillis()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Map identify()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Map identify(java.lang.ClassLoader)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String longCommitHash()
+	===  UNCHANGED METHOD: PUBLIC STATIC void main(java.lang.String[])
+	===  UNCHANGED METHOD: PUBLIC java.lang.String repositoryStatus()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String shortCommitHash()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()

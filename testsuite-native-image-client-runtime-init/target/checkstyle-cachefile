@@ -1,0 +1,5 @@
+#Sun Jul 31 20:42:53 CST 2022
+configuration*?=CB874EABEBD2896555C763D0DDD38DBB0169D314
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/testsuite-native-image-client-runtime-init/src/main/java/io/netty/testsuite/svm/client/NativeClientWithNettyInitAtRuntime.java=1659268555814
+/Users/oovever/Documents/projcet/Github/netty/testsuite-native-image-client-runtime-init/src/main/java/io/netty/testsuite/svm/client/package-info.java=1659268555814

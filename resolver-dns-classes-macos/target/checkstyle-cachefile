@@ -1,0 +1,6 @@
+#Sun Jul 31 20:41:50 CST 2022
+configuration*?=E49E5530D7B0AA0DFDEA50ECAACAD966DF05D036
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/resolver-dns-classes-macos/src/main/java/io/netty/resolver/dns/macos/DnsResolver.java=1659268555797
+/Users/oovever/Documents/projcet/Github/netty/resolver-dns-classes-macos/src/main/java/io/netty/resolver/dns/macos/MacOSDnsServerAddressStreamProvider.java=1659268555797
+/Users/oovever/Documents/projcet/Github/netty/resolver-dns-classes-macos/src/main/java/io/netty/resolver/dns/macos/package-info.java=1659268555797

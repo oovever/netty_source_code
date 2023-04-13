@@ -1,0 +1,607 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-mqtt/target/netty-codec-mqtt-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-mqtt/4.1.79.Final/netty-codec-mqtt-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttConnAckMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnAckMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttConnAckVariableHeader)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttConnAckVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttConnAckVariableHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnAckVariableHeader(io.netty.handler.codec.mqtt.MqttConnectReturnCode, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnAckVariableHeader(io.netty.handler.codec.mqtt.MqttConnectReturnCode, boolean, io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttConnectReturnCode connectReturnCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isSessionPresent()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties properties()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttConnectMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnectMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttConnectVariableHeader, io.netty.handler.codec.mqtt.MqttConnectPayload)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttConnectPayload payload()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttConnectVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttConnectPayload  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnectPayload(java.lang.String, java.lang.String, byte[], java.lang.String, byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnectPayload(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnectPayload(java.lang.String, io.netty.handler.codec.mqtt.MqttProperties, java.lang.String, byte[], java.lang.String, byte[])
+	===  UNCHANGED METHOD: PUBLIC java.lang.String clientIdentifier()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String password()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC byte[] passwordInBytes()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String userName()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String willMessage()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC byte[] willMessageInBytes()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties willProperties()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String willTopic()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_SERVER_UNAVAILABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_SERVER_MOVED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_UNSUPPORTED_PROTOCOL_VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_USE_ANOTHER_SERVER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_BAD_USERNAME_OR_PASSWORD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_QUOTA_EXCEEDED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_MALFORMED_PACKET
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_UNSPECIFIED_ERROR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_UNACCEPTABLE_PROTOCOL_VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_PROTOCOL_ERROR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_SERVER_BUSY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_TOPIC_NAME_INVALID
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_BAD_USER_NAME_OR_PASSWORD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_NOT_AUTHORIZED_5
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_NOT_AUTHORIZED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_IDENTIFIER_REJECTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_ACCEPTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_CLIENT_IDENTIFIER_NOT_VALID
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_SERVER_UNAVAILABLE_5
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_PACKET_TOO_LARGE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_CONNECTION_RATE_EXCEEDED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_IMPLEMENTATION_SPECIFIC
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_BANNED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_RETAIN_NOT_SUPPORTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_BAD_AUTHENTICATION_METHOD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_QOS_NOT_SUPPORTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttConnectReturnCode CONNECTION_REFUSED_PAYLOAD_FORMAT_INVALID
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttConnectReturnCode valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttConnectReturnCode valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttConnectReturnCode[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttConnectVariableHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnectVariableHeader(java.lang.String, int, boolean, boolean, boolean, int, boolean, boolean, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttConnectVariableHeader(java.lang.String, int, boolean, boolean, boolean, int, boolean, boolean, int, io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC boolean hasPassword()
+	===  UNCHANGED METHOD: PUBLIC boolean hasUserName()
+	===  UNCHANGED METHOD: PUBLIC boolean isCleanSession()
+	===  UNCHANGED METHOD: PUBLIC boolean isWillFlag()
+	===  UNCHANGED METHOD: PUBLIC boolean isWillRetain()
+	===  UNCHANGED METHOD: PUBLIC int keepAliveTimeSeconds()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties properties()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC int version()
+	===  UNCHANGED METHOD: PUBLIC int willQos()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttConstant  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int MIN_CLIENT_ID_LENGTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_MAX_BYTES_IN_MESSAGE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_MAX_CLIENT_ID_LENGTH
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttDecoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttDecoder(int, int)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttEncoder INSTANCE
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.mqtt.MqttMessage, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttFixedHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttFixedHeader(io.netty.handler.codec.mqtt.MqttMessageType, boolean, io.netty.handler.codec.mqtt.MqttQoS, boolean, int)
+	===  UNCHANGED METHOD: PUBLIC boolean isDup()
+	===  UNCHANGED METHOD: PUBLIC boolean isRetain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageType messageType()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttQoS qosLevel()
+	===  UNCHANGED METHOD: PUBLIC int remainingLength()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttIdentifierRejectedException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DecoderException (<- io.netty.handler.codec.DecoderException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttIdentifierRejectedException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttIdentifierRejectedException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttIdentifierRejectedException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttIdentifierRejectedException(java.lang.String, java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.mqtt.MqttMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessage DISCONNECT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessage PINGREQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessage PINGRESP
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, java.lang.Object, java.lang.Object, io.netty.handler.codec.DecoderResult)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttMessage(io.netty.handler.codec.mqtt.MqttFixedHeader)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.DecoderResult decoderResult()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttFixedHeader fixedHeader()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object payload()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object variableHeader()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$AuthBuilder auth()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckBuilder connAck()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder connect()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$DisconnectBuilder disconnect()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PubAckBuilder pubAck()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder publish()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubAckBuilder subAck()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubscribeBuilder subscribe()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubAckBuilder unsubAck()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubscribeBuilder unsubscribe()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$AuthBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$AuthBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$AuthBuilder reasonCode(byte)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttConnAckMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckBuilder properties(io.netty.handler.codec.mqtt.MqttMessageBuilders$PropertiesInitializer)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckBuilder returnCode(io.netty.handler.codec.mqtt.MqttConnectReturnCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckBuilder sessionPresent(boolean)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttMessageBuilders$ConnAckPropertiesBuilder()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder assignedClientId(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder authenticationData(byte[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder authenticationMethod(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder maximumPacketSize(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder maximumQos(byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder reasonString(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder receiveMaximum(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder responseInformation(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder retainAvailable(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder serverKeepAlive(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder serverReference(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder sessionExpiryInterval(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder sharedSubscriptionAvailable(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder subscriptionIdentifiersAvailable(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder topicAliasMaximum(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder userProperty(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnAckPropertiesBuilder wildcardSubscriptionAvailable(boolean)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttConnectMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder cleanSession(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder clientId(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder hasPassword(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder hasUser(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder keepAlive(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder password(java.lang.String)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder password(byte[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder protocolVersion(io.netty.handler.codec.mqtt.MqttVersion)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder username(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder willFlag(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder willMessage(java.lang.String)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder willMessage(byte[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder willProperties(io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder willQoS(io.netty.handler.codec.mqtt.MqttQoS)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder willRetain(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$ConnectBuilder willTopic(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$DisconnectBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$DisconnectBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$DisconnectBuilder reasonCode(byte)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PropertiesInitializer  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void apply(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$PubAckBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PubAckBuilder packetId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PubAckBuilder packetId(short)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PubAckBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PubAckBuilder reasonCode(byte)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder messageId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder payload(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder qos(io.netty.handler.codec.mqtt.MqttQoS)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder retained(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$PublishBuilder topicName(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$SubAckBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubAckBuilder addGrantedQos(io.netty.handler.codec.mqtt.MqttQoS)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubAckBuilder addGrantedQoses(io.netty.handler.codec.mqtt.MqttQoS[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttSubAckMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubAckBuilder packetId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubAckBuilder packetId(short)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubAckBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$SubscribeBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubscribeBuilder addSubscription(io.netty.handler.codec.mqtt.MqttQoS, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubscribeBuilder addSubscription(java.lang.String, io.netty.handler.codec.mqtt.MqttSubscriptionOption)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttSubscribeMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubscribeBuilder messageId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$SubscribeBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubAckBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubAckBuilder addReasonCode(short)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubAckBuilder addReasonCodes(java.lang.Short[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttUnsubAckMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubAckBuilder packetId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubAckBuilder packetId(short)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubAckBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubscribeBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubscribeBuilder addTopicFilter(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttUnsubscribeMessage build()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubscribeBuilder messageId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageBuilders$UnsubscribeBuilder properties(io.netty.handler.codec.mqtt.MqttProperties)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttMessageFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessage newInvalidMessage(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessage newInvalidMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, java.lang.Object, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessage newMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, java.lang.Object, java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader (<- io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttMessageIdAndPropertiesVariableHeader(int, io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties properties()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MqttMessageIdVariableHeader(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader from(int)
+	===  UNCHANGED METHOD: PUBLIC int messageId()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader withEmptyProperties()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttMessageType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType CONNACK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType PUBREC
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType SUBACK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType UNSUBSCRIBE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType CONNECT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType PUBLISH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType PUBREL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType PUBCOMP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType SUBSCRIBE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType PINGRESP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType AUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType UNSUBACK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType DISCONNECT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType PUBACK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttMessageType PINGREQ
+	===  UNCHANGED METHOD: PUBLIC int value()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageType valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttMessageType[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttProperties  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties NO_PROPERTIES
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties()
+	===  UNCHANGED METHOD: PUBLIC void add(io.netty.handler.codec.mqtt.MqttProperties$MqttProperty)
+	===  UNCHANGED METHOD: PUBLIC java.util.List getProperties(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties$MqttProperty getProperty(int)
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Collection listAll()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$BinaryProperty  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttProperties$MqttProperty (<- io.netty.handler.codec.mqtt.MqttProperties$MqttProperty)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties$BinaryProperty(int, byte[])
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$IntegerProperty  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttProperties$MqttProperty (<- io.netty.handler.codec.mqtt.MqttProperties$MqttProperty)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties$IntegerProperty(int, java.lang.Integer)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT STATIC io.netty.handler.codec.mqtt.MqttProperties$MqttProperty  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MqttProperties$MqttProperty(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC int propertyId()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object value()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType RECEIVE_MAXIMUM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType REQUEST_PROBLEM_INFORMATION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType PAYLOAD_FORMAT_INDICATOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType REQUEST_RESPONSE_INFORMATION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType SUBSCRIPTION_IDENTIFIER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType PUBLICATION_EXPIRY_INTERVAL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType USER_PROPERTY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType MAXIMUM_QOS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType CONTENT_TYPE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType AUTHENTICATION_METHOD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType TOPIC_ALIAS_MAXIMUM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType CORRELATION_DATA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType RESPONSE_INFORMATION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType MAXIMUM_PACKET_SIZE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType SERVER_KEEP_ALIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType REASON_STRING
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType TOPIC_ALIAS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType SUBSCRIPTION_IDENTIFIER_AVAILABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType WILL_DELAY_INTERVAL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType WILDCARD_SUBSCRIPTION_AVAILABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType AUTHENTICATION_DATA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType RESPONSE_TOPIC
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType SHARED_SUBSCRIPTION_AVAILABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType SESSION_EXPIRY_INTERVAL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType RETAIN_AVAILABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType ASSIGNED_CLIENT_IDENTIFIER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType SERVER_REFERENCE
+	===  UNCHANGED METHOD: PUBLIC int value()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttProperties$MqttPropertyType[] values()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$StringPair  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC FINAL java.lang.String value
+	===  UNCHANGED FIELD: PUBLIC FINAL java.lang.String key
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties$StringPair(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$StringProperty  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttProperties$MqttProperty (<- io.netty.handler.codec.mqtt.MqttProperties$MqttProperty)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties$StringProperty(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$UserProperties  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttProperties$MqttProperty (<- io.netty.handler.codec.mqtt.MqttProperties$MqttProperty)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties$UserProperties()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties$UserProperties(java.util.Collection)
+	===  UNCHANGED METHOD: PUBLIC void add(io.netty.handler.codec.mqtt.MqttProperties$StringPair)
+	===  UNCHANGED METHOD: PUBLIC void add(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttProperties$UserProperty  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttProperties$MqttProperty (<- io.netty.handler.codec.mqtt.MqttProperties$MqttProperty)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttProperties$UserProperty(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttPubAckMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttPubAckMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttPublishMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttPublishVariableHeader, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf content()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf payload()
+	===  UNCHANGED METHOD: PUBLIC int refCnt()
+	===  UNCHANGED METHOD: PUBLIC boolean release()
+	===  UNCHANGED METHOD: PUBLIC boolean release(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishMessage touch(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttPublishVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttPublishVariableHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttPublishVariableHeader(java.lang.String, int, io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttPublishVariableHeader(java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC int messageId()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC int packetId()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties properties()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String topicName()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttPubReplyMessageVariableHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader (<- io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte REASON_CODE_OK
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttPubReplyMessageVariableHeader(int, byte, io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties properties()
+	===  UNCHANGED METHOD: PUBLIC byte reasonCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttQoS  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttQoS AT_MOST_ONCE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttQoS AT_LEAST_ONCE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttQoS EXACTLY_ONCE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttQoS FAILURE
+	===  UNCHANGED METHOD: PUBLIC int value()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttQoS valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttQoS valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttQoS[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttReasonCodeAndPropertiesVariableHeader  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte REASON_CODE_OK
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttReasonCodeAndPropertiesVariableHeader(byte, io.netty.handler.codec.mqtt.MqttProperties)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttProperties properties()
+	===  UNCHANGED METHOD: PUBLIC byte reasonCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttSubAckMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubAckMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader, io.netty.handler.codec.mqtt.MqttSubAckPayload)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubAckMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader, io.netty.handler.codec.mqtt.MqttSubAckPayload)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader idAndPropertiesVariableHeader()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttSubAckPayload payload()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.mqtt.MqttSubAckPayload  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubAckPayload(int[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubAckPayload(java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC java.util.List grantedQoSLevels()
+	===  UNCHANGED METHOD: PUBLIC java.util.List reasonCodes()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttSubscribeMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubscribeMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader, io.netty.handler.codec.mqtt.MqttSubscribePayload)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubscribeMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader, io.netty.handler.codec.mqtt.MqttSubscribePayload)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader idAndPropertiesVariableHeader()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttSubscribePayload payload()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttSubscribePayload  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubscribePayload(java.util.List)
+	===  UNCHANGED METHOD: PUBLIC java.util.List topicSubscriptions()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttSubscriptionOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttSubscriptionOption(io.netty.handler.codec.mqtt.MqttQoS, boolean, boolean, io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isNoLocal()
+	===  UNCHANGED METHOD: PUBLIC boolean isRetainAsPublished()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttSubscriptionOption onlyFromQos(io.netty.handler.codec.mqtt.MqttQoS)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttQoS qos()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy retainHandling()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy SEND_AT_SUBSCRIBE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy SEND_AT_SUBSCRIBE_IF_NOT_YET_EXISTS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy DONT_SEND_AT_SUBSCRIBE
+	===  UNCHANGED METHOD: PUBLIC int value()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttSubscriptionOption$RetainedHandlingPolicy[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttTopicSubscription  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttTopicSubscription(java.lang.String, io.netty.handler.codec.mqtt.MqttQoS)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttTopicSubscription(java.lang.String, io.netty.handler.codec.mqtt.MqttSubscriptionOption)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttSubscriptionOption option()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttQoS qualityOfService()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String topicName()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttUnacceptableProtocolVersionException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DecoderException (<- io.netty.handler.codec.DecoderException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnacceptableProtocolVersionException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnacceptableProtocolVersionException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnacceptableProtocolVersionException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnacceptableProtocolVersionException(java.lang.String, java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttUnsubAckMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubAckMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader, io.netty.handler.codec.mqtt.MqttUnsubAckPayload)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubAckMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubAckMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader, io.netty.handler.codec.mqtt.MqttUnsubAckPayload)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader idAndPropertiesVariableHeader()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttUnsubAckPayload payload()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttUnsubAckPayload  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubAckPayload(java.lang.Iterable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubAckPayload(short[])
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.util.List unsubscribeReasonCodes()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttUnsubAckPayload withEmptyDefaults(io.netty.handler.codec.mqtt.MqttUnsubAckPayload)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttUnsubscribeMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.mqtt.MqttMessage (<- io.netty.handler.codec.mqtt.MqttMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubscribeMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader, io.netty.handler.codec.mqtt.MqttUnsubscribePayload)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubscribeMessage(io.netty.handler.codec.mqtt.MqttFixedHeader, io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader, io.netty.handler.codec.mqtt.MqttUnsubscribePayload)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdAndPropertiesVariableHeader idAndPropertiesVariableHeader()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttUnsubscribePayload payload()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader variableHeader()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttUnsubscribePayload  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MqttUnsubscribePayload(java.util.List)
+	===  UNCHANGED METHOD: PUBLIC java.util.List topics()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.mqtt.MqttVersion  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttVersion MQTT_5
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttVersion MQTT_3_1
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.mqtt.MqttVersion MQTT_3_1_1
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttVersion fromProtocolNameAndLevel(java.lang.String, byte)
+	===  UNCHANGED METHOD: PUBLIC byte protocolLevel()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String protocolName()
+	===  UNCHANGED METHOD: PUBLIC byte[] protocolNameBytes()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttVersion valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.mqtt.MqttVersion[] values()

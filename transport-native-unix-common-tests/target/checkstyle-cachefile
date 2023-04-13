@@ -1,0 +1,8 @@
+#Sun Jul 31 20:42:03 CST 2022
+configuration*?=B452BB3BC951312266ABB98192DAC23BC2776F26
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/package-info.java=1659268555854
+/Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest.java=1659268555850
+/Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/SocketTest.java=1659268555853
+/Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/IovArrayTest.java=1659268555852
+/Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/UnixTestUtils.java=1659268555854

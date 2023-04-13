@@ -1,0 +1,11 @@
+io/netty/handler/codec/mqtt/MqttMessageBuildersTest$1.class
+io/netty/handler/codec/mqtt/MqttMessageBuildersPacketIdTest.class
+io/netty/handler/codec/mqtt/MqttCodecTest$1.class
+io/netty/handler/codec/mqtt/MqttCodecTest.class
+io/netty/handler/codec/mqtt/MqttTestUtils$1.class
+io/netty/handler/codec/mqtt/MqttCodecTest$2.class
+io/netty/handler/codec/mqtt/MqttConnectPayloadTest.class
+io/netty/handler/codec/mqtt/MqttMessageFactoryTest.class
+io/netty/handler/codec/mqtt/MqttPropertiesTest.class
+io/netty/handler/codec/mqtt/MqttMessageBuildersTest.class
+io/netty/handler/codec/mqtt/MqttTestUtils.class

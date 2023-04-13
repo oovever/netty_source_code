@@ -1,0 +1,4 @@
+package io.netty.buffer.jmh_generated;
+public class AbstractReferenceCountedByteBufBenchmark_jmhType extends AbstractReferenceCountedByteBufBenchmark_jmhType_B3 {
+}
+

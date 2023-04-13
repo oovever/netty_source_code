@@ -1,0 +1,139 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/handler-proxy/target/netty-handler-proxy-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.proxy.HttpProxyHandler  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.proxy.ProxyHandler (<- io.netty.handler.proxy.ProxyHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HttpProxyHandler(java.net.SocketAddress, io.netty.handler.codec.http.HttpHeaders)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HttpProxyHandler(java.net.SocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HttpProxyHandler(java.net.SocketAddress, io.netty.handler.codec.http.HttpHeaders, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HttpProxyHandler(java.net.SocketAddress, java.lang.String, java.lang.String, io.netty.handler.codec.http.HttpHeaders)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HttpProxyHandler(java.net.SocketAddress, java.lang.String, java.lang.String, io.netty.handler.codec.http.HttpHeaders, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HttpProxyHandler(java.net.SocketAddress, java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PROTECTED void addCodec(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String authScheme()
+	===  UNCHANGED METHOD: PROTECTED boolean handleResponse(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object newInitialMessage(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String password()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String protocol()
+	===  UNCHANGED METHOD: PROTECTED void removeDecoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void removeEncoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String username()
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.handler.proxy.HttpProxyHandler$HttpProxyConnectException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.proxy.ProxyConnectException (<- io.netty.handler.proxy.ProxyConnectException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HttpProxyHandler$HttpProxyConnectException(java.lang.String, io.netty.handler.codec.http.HttpHeaders)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.http.HttpHeaders headers()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.proxy.ProxyConnectException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.net.ConnectException (<- java.net.ConnectException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProxyConnectException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProxyConnectException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProxyConnectException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProxyConnectException(java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.proxy.ProxyConnectionEvent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProxyConnectionEvent(java.lang.String, java.lang.String, java.net.SocketAddress, java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String authScheme()
+	===  UNCHANGED METHOD: PUBLIC java.net.SocketAddress destinationAddress()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String protocol()
+	===  UNCHANGED METHOD: PUBLIC java.net.SocketAddress proxyAddress()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.proxy.ProxyHandler  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelDuplexHandler (<- io.netty.channel.ChannelDuplexHandler)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ProxyHandler(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void addCodec(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String authScheme()
+	===  UNCHANGED METHOD: PUBLIC FINAL void channelActive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void channelInactive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void channelReadComplete(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void connect(io.netty.channel.ChannelHandlerContext, java.net.SocketAddress, java.net.SocketAddress, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future connectFuture()
+	===  UNCHANGED METHOD: PUBLIC FINAL long connectTimeoutMillis()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.net.SocketAddress destinationAddress()
+	===  UNCHANGED METHOD: PUBLIC FINAL void exceptionCaught(io.netty.channel.ChannelHandlerContext, java.lang.Throwable)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL java.lang.String exceptionMessage(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC FINAL void flush(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean handleResponse(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isConnected()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT java.lang.Object newInitialMessage(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String protocol()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.net.SocketAddress proxyAddress()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void removeDecoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void removeEncoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL void sendToProxyServer(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL void setConnectTimeoutMillis(long)
+	===  UNCHANGED METHOD: PUBLIC FINAL void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.proxy.Socks4ProxyHandler  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.proxy.ProxyHandler (<- io.netty.handler.proxy.ProxyHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4ProxyHandler(java.net.SocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4ProxyHandler(java.net.SocketAddress, java.lang.String)
+	===  UNCHANGED METHOD: PROTECTED void addCodec(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String authScheme()
+	===  UNCHANGED METHOD: PROTECTED boolean handleResponse(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object newInitialMessage(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String protocol()
+	===  UNCHANGED METHOD: PROTECTED void removeDecoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void removeEncoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String username()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.proxy.Socks5ProxyHandler  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.proxy.ProxyHandler (<- io.netty.handler.proxy.ProxyHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5ProxyHandler(java.net.SocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5ProxyHandler(java.net.SocketAddress, java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PROTECTED void addCodec(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String authScheme()
+	===  UNCHANGED METHOD: PROTECTED boolean handleResponse(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object newInitialMessage(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String password()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String protocol()
+	===  UNCHANGED METHOD: PROTECTED void removeDecoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void removeEncoder(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.lang.String username()

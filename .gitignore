@@ -1,0 +1,14 @@
+/tmp
+.idea/
+build/
+/.svn
+/.gradle
+out/
+node_modules/
+log/
+logs/
+dist/
+*.dist.js
+*.DS_Store
+.project
+.classpath

@@ -1,0 +1,6 @@
+io/netty/handler/codec/sctp/SctpMessageCompletionHandlerTest.class
+io/netty/channel/sctp/nio/NioSctpLimitStreamsTest.class
+io/netty/channel/sctp/SctpLimitStreamsTest.class
+io/netty/channel/sctp/SctpTestUtil.class
+io/netty/handler/codec/sctp/SctpMessageCompletionHandlerTest$TestMessageInfo.class
+io/netty/channel/sctp/oio/OioSctpLimitStreamsTest.class

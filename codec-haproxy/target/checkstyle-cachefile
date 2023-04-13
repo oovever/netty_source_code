@@ -1,0 +1,18 @@
+#Sun Jul 31 20:40:34 CST 2022
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+configuration*?=166E169BF906EA2C078B7D5677A37594D1657EE3
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyCommand.java=1659268555531
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyMessageDecoder.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyTLV.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyMessageEncoder.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyMessage.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HaProxyMessageEncoderTest.java=1659268555534
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/package-info.java=1659268555533
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyProtocolException.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HAProxyIntegrationTest.java=1659268555533
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyProtocolVersion.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyProxiedProtocol.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxyConstants.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/main/java/io/netty/handler/codec/haproxy/HAProxySSLTLV.java=1659268555532
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HAProxySSLTLVTest.java=1659268555534
+/Users/oovever/Documents/projcet/Github/netty/codec-haproxy/src/test/java/io/netty/handler/codec/haproxy/HAProxyMessageDecoderTest.java=1659268555533

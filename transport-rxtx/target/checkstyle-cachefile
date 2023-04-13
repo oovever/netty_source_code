@@ -1,0 +1,9 @@
+#Sun Jul 31 20:41:36 CST 2022
+configuration*?=E108FE2692BFE5F631BFBBCF6FC7593A40937887
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/DefaultRxtxChannelConfig.java=1659268555864
+/Users/oovever/Documents/projcet/Github/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelOption.java=1659268555864
+/Users/oovever/Documents/projcet/Github/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannelConfig.java=1659268555864
+/Users/oovever/Documents/projcet/Github/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxDeviceAddress.java=1659268555864
+/Users/oovever/Documents/projcet/Github/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/package-info.java=1659268555864
+/Users/oovever/Documents/projcet/Github/netty/transport-rxtx/src/main/java/io/netty/channel/rxtx/RxtxChannel.java=1659268555864

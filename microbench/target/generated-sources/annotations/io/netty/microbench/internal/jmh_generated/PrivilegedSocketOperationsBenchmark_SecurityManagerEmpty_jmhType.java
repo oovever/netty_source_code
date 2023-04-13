@@ -1,0 +1,4 @@
+package io.netty.microbench.internal.jmh_generated;
+public class PrivilegedSocketOperationsBenchmark_SecurityManagerEmpty_jmhType extends PrivilegedSocketOperationsBenchmark_SecurityManagerEmpty_jmhType_B3 {
+}
+

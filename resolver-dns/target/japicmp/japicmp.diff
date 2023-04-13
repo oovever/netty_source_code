@@ -1,0 +1,340 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/resolver-dns/target/netty-resolver-dns-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-resolver-dns/4.1.79.Final/netty-resolver-dns-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.AuthoritativeDnsServerCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void cache(java.lang.String, java.net.InetSocketAddress, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void clear()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsServerAddressStream get(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.BiDnsQueryLifecycleObserver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsQueryLifecycleObserver
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BiDnsQueryLifecycleObserver(io.netty.resolver.dns.DnsQueryLifecycleObserver, io.netty.resolver.dns.DnsQueryLifecycleObserver)
+	===  UNCHANGED METHOD: PUBLIC void queryCancelled(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsQueryLifecycleObserver queryCNAMEd(io.netty.handler.codec.dns.DnsQuestion)
+	===  UNCHANGED METHOD: PUBLIC void queryFailed(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsQueryLifecycleObserver queryNoAnswer(io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsQueryLifecycleObserver queryRedirected(java.util.List)
+	===  UNCHANGED METHOD: PUBLIC void querySucceed()
+	===  UNCHANGED METHOD: PUBLIC void queryWritten(java.net.InetSocketAddress, io.netty.channel.ChannelFuture)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.BiDnsQueryLifecycleObserverFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsQueryLifecycleObserverFactory
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BiDnsQueryLifecycleObserverFactory(io.netty.resolver.dns.DnsQueryLifecycleObserverFactory, io.netty.resolver.dns.DnsQueryLifecycleObserverFactory)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsQueryLifecycleObserver newDnsQueryLifecycleObserver(io.netty.handler.codec.dns.DnsQuestion)
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.dns.DefaultAuthoritativeDnsServerCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.AuthoritativeDnsServerCache
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultAuthoritativeDnsServerCache()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultAuthoritativeDnsServerCache(int, int, java.util.Comparator)
+	===  UNCHANGED METHOD: PUBLIC void cache(java.lang.String, java.net.InetSocketAddress, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsServerAddressStream get(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.dns.DefaultDnsCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsCache
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsCache()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsCache(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsCacheEntry cache(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], java.net.InetAddress, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsCacheEntry cache(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], java.lang.Throwable, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.util.List get(java.lang.String, io.netty.handler.codec.dns.DnsRecord[])
+	===  UNCHANGED METHOD: PUBLIC int maxTtl()
+	===  UNCHANGED METHOD: PUBLIC int minTtl()
+	===  UNCHANGED METHOD: PUBLIC int negativeTtl()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.DefaultDnsCnameCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsCnameCache
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsCnameCache()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsCnameCache(int, int)
+	===  UNCHANGED METHOD: PUBLIC void cache(java.lang.String, java.lang.String, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String get(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsServerAddressStreamProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider INSTANCE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses defaultAddresses()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.List defaultAddressList()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsServerAddressStream nameServerAddressStream(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.dns.DnsAddressResolverGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.AddressResolverGroup (<- io.netty.resolver.AddressResolverGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsAddressResolverGroup(io.netty.resolver.dns.DnsNameResolverBuilder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsAddressResolverGroup(io.netty.channel.ChannelFactory, io.netty.resolver.dns.DnsServerAddressStreamProvider)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsAddressResolverGroup(java.lang.Class, io.netty.resolver.dns.DnsServerAddressStreamProvider)
+	===  UNCHANGED METHOD: PROTECTED io.netty.resolver.AddressResolver newAddressResolver(io.netty.channel.EventLoop, io.netty.resolver.NameResolver)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.resolver.NameResolver newNameResolver(io.netty.channel.EventLoop, io.netty.channel.ChannelFactory, io.netty.resolver.dns.DnsServerAddressStreamProvider)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL io.netty.resolver.AddressResolver newResolver(io.netty.util.concurrent.EventExecutor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.resolver.AddressResolver newResolver(io.netty.channel.EventLoop, io.netty.channel.ChannelFactory, io.netty.resolver.dns.DnsServerAddressStreamProvider)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.DnsCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsCacheEntry cache(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], java.net.InetAddress, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsCacheEntry cache(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], java.lang.Throwable, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void clear()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List get(java.lang.String, io.netty.handler.codec.dns.DnsRecord[])
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.DnsCacheEntry  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.net.InetAddress address()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Throwable cause()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.DnsCnameCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void cache(java.lang.String, java.lang.String, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void clear()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String get(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.dns.DnsNameResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.NameResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.InetNameResolver (<- io.netty.resolver.InetNameResolver)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsNameResolver(io.netty.channel.EventLoop, io.netty.channel.ChannelFactory, io.netty.resolver.dns.DnsCache, io.netty.resolver.dns.AuthoritativeDnsServerCache, io.netty.resolver.dns.DnsQueryLifecycleObserverFactory, long, io.netty.resolver.ResolvedAddressTypes, boolean, int, boolean, int, boolean, io.netty.resolver.HostsFileEntriesResolver, io.netty.resolver.dns.DnsServerAddressStreamProvider, java.lang.String[], int, boolean)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsNameResolver(io.netty.channel.EventLoop, io.netty.channel.ChannelFactory, io.netty.resolver.dns.DnsCache, io.netty.resolver.dns.DnsCache, io.netty.resolver.dns.DnsQueryLifecycleObserverFactory, long, io.netty.resolver.ResolvedAddressTypes, boolean, int, boolean, int, boolean, io.netty.resolver.HostsFileEntriesResolver, io.netty.resolver.dns.DnsServerAddressStreamProvider, java.lang.String[], int, boolean)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.AuthoritativeDnsServerCache authoritativeDnsServerCache()
+	===  UNCHANGED METHOD: PUBLIC void close()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsCnameCache cnameCache()
+	===  UNCHANGED METHOD: PROTECTED void doResolve(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolve(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], io.netty.util.concurrent.Promise, io.netty.resolver.dns.DnsCache)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolveAll(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolveAll(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], io.netty.util.concurrent.Promise, io.netty.resolver.dns.DnsCache)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.EventLoop executor()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.HostsFileEntriesResolver hostsFileEntriesResolver()
+	===  UNCHANGED METHOD: PUBLIC boolean isOptResourceEnabled()
+	===  UNCHANGED METHOD: PUBLIC boolean isRecursionDesired()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isTimeoutError(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isTransportOrTimeoutError(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC int maxPayloadSize()
+	===  UNCHANGED METHOD: PUBLIC int maxQueriesPerResolve()
+	===  UNCHANGED METHOD: PROTECTED io.netty.resolver.dns.DnsServerAddressStream newRedirectDnsServerStream(java.lang.String, java.util.List)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future query(io.netty.handler.codec.dns.DnsQuestion)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future query(io.netty.handler.codec.dns.DnsQuestion, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future query(io.netty.handler.codec.dns.DnsQuestion, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future query(java.net.InetSocketAddress, io.netty.handler.codec.dns.DnsQuestion)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future query(java.net.InetSocketAddress, io.netty.handler.codec.dns.DnsQuestion, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future query(java.net.InetSocketAddress, io.netty.handler.codec.dns.DnsQuestion, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future query(java.net.InetSocketAddress, io.netty.handler.codec.dns.DnsQuestion, java.lang.Iterable, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC long queryTimeoutMillis()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolve(java.lang.String, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolve(java.lang.String, java.lang.Iterable, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(java.lang.String, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(java.lang.String, java.lang.Iterable, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(io.netty.handler.codec.dns.DnsQuestion)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(io.netty.handler.codec.dns.DnsQuestion, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(io.netty.handler.codec.dns.DnsQuestion, java.lang.Iterable, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsCache resolveCache()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.ResolvedAddressTypes resolvedAddressTypes()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.DnsNameResolverBuilder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsNameResolverBuilder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsNameResolverBuilder(io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder authoritativeDnsServerCache(io.netty.resolver.dns.DnsCache)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder authoritativeDnsServerCache(io.netty.resolver.dns.AuthoritativeDnsServerCache)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolver build()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.ChannelFactory channelFactory()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder channelFactory(io.netty.channel.ChannelFactory)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder channelType(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder cnameCache(io.netty.resolver.dns.DnsCnameCache)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder completeOncePreferredResolved(boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.ResolvedAddressTypes computeResolvedAddressTypes(io.netty.channel.socket.InternetProtocolFamily[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder decodeIdn(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder dnsQueryLifecycleObserverFactory(io.netty.resolver.dns.DnsQueryLifecycleObserverFactory)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder eventLoop(io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder hostsFileEntriesResolver(io.netty.resolver.HostsFileEntriesResolver)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder localAddress(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder maxPayloadSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder maxQueriesPerResolve(int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.resolver.dns.DnsServerAddressStreamProvider nameServerProvider()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder nameServerProvider(io.netty.resolver.dns.DnsServerAddressStreamProvider)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder ndots(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder negativeTtl(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder optResourceEnabled(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder queryTimeoutMillis(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder recursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder resolveCache(io.netty.resolver.dns.DnsCache)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder resolvedAddressTypes(io.netty.resolver.ResolvedAddressTypes)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder searchDomains(java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder socketChannelFactory(io.netty.channel.ChannelFactory)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder socketChannelType(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder traceEnabled(boolean)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsNameResolverBuilder ttl(int, int)
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.dns.DnsNameResolverException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.RuntimeException (<- java.lang.RuntimeException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsNameResolverException(java.net.InetSocketAddress, io.netty.handler.codec.dns.DnsQuestion, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsNameResolverException(java.net.InetSocketAddress, io.netty.handler.codec.dns.DnsQuestion, java.lang.String, java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable fillInStackTrace()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuestion question()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.DnsNameResolverTimeoutException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.dns.DnsNameResolverException (<- io.netty.resolver.dns.DnsNameResolverException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsNameResolverTimeoutException(java.net.InetSocketAddress, io.netty.handler.codec.dns.DnsQuestion, java.lang.String)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.DnsQueryLifecycleObserver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void queryCancelled(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsQueryLifecycleObserver queryCNAMEd(io.netty.handler.codec.dns.DnsQuestion)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void queryFailed(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsQueryLifecycleObserver queryNoAnswer(io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsQueryLifecycleObserver queryRedirected(java.util.List)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void querySucceed()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void queryWritten(java.net.InetSocketAddress, io.netty.channel.ChannelFuture)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.DnsQueryLifecycleObserverFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsQueryLifecycleObserver newDnsQueryLifecycleObserver(io.netty.handler.codec.dns.DnsQuestion)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.resolver.dns.DnsServerAddresses  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsServerAddresses()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses defaultAddresses()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.List defaultAddressList()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses rotational(java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses rotational(java.net.InetSocketAddress[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses sequential(java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses sequential(java.net.InetSocketAddress[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses shuffled(java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses shuffled(java.net.InetSocketAddress[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddresses singleton(java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsServerAddressStream stream()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.DnsServerAddressStream  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsServerAddressStream duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.net.InetSocketAddress next()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int size()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.dns.DnsServerAddressStreamProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.dns.DnsServerAddressStream nameServerAddressStream(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.DnsServerAddressStreamProviders  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddressStreamProvider platformDefault()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.dns.DnsServerAddressStreamProvider unixDefault()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.LoggingDnsQueryLifeCycleObserverFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsQueryLifecycleObserverFactory
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LoggingDnsQueryLifeCycleObserverFactory()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LoggingDnsQueryLifeCycleObserverFactory(java.lang.Class, io.netty.handler.logging.LogLevel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LoggingDnsQueryLifeCycleObserverFactory(io.netty.handler.logging.LogLevel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LoggingDnsQueryLifeCycleObserverFactory(java.lang.String, io.netty.handler.logging.LogLevel)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsQueryLifecycleObserver newDnsQueryLifecycleObserver(io.netty.handler.codec.dns.DnsQuestion)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.MultiDnsServerAddressStreamProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsServerAddressStreamProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MultiDnsServerAddressStreamProvider(io.netty.resolver.dns.DnsServerAddressStreamProvider[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MultiDnsServerAddressStreamProvider(java.util.List)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsServerAddressStream nameServerAddressStream(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.NameServerComparator  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Comparator
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NameServerComparator(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC int compare(java.net.InetSocketAddress, java.net.InetSocketAddress)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.NoopAuthoritativeDnsServerCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.AuthoritativeDnsServerCache
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.dns.NoopAuthoritativeDnsServerCache INSTANCE
+	===  UNCHANGED METHOD: PUBLIC void cache(java.lang.String, java.net.InetSocketAddress, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsServerAddressStream get(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.NoopDnsCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsCache
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.dns.NoopDnsCache INSTANCE
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsCacheEntry cache(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], java.net.InetAddress, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsCacheEntry cache(java.lang.String, io.netty.handler.codec.dns.DnsRecord[], java.lang.Throwable, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.util.List get(java.lang.String, io.netty.handler.codec.dns.DnsRecord[])
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.NoopDnsCnameCache  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsCnameCache
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.dns.NoopDnsCnameCache INSTANCE
+	===  UNCHANGED METHOD: PUBLIC void cache(java.lang.String, java.lang.String, long, io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC boolean clear(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String get(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.NoopDnsQueryLifecycleObserverFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsQueryLifecycleObserverFactory
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.dns.NoopDnsQueryLifecycleObserverFactory INSTANCE
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsQueryLifecycleObserver newDnsQueryLifecycleObserver(io.netty.handler.codec.dns.DnsQuestion)
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.dns.RoundRobinDnsAddressResolverGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.dns.DnsAddressResolverGroup (<- io.netty.resolver.dns.DnsAddressResolverGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RoundRobinDnsAddressResolverGroup(io.netty.resolver.dns.DnsNameResolverBuilder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RoundRobinDnsAddressResolverGroup(io.netty.channel.ChannelFactory, io.netty.resolver.dns.DnsServerAddressStreamProvider)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RoundRobinDnsAddressResolverGroup(java.lang.Class, io.netty.resolver.dns.DnsServerAddressStreamProvider)
+	===  UNCHANGED METHOD: PROTECTED FINAL io.netty.resolver.AddressResolver newAddressResolver(io.netty.channel.EventLoop, io.netty.resolver.NameResolver)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.SequentialDnsServerAddressStreamProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsServerAddressStreamProvider
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.dns.UniSequentialDnsServerAddressStreamProvider (<- io.netty.resolver.dns.UniSequentialDnsServerAddressStreamProvider)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SequentialDnsServerAddressStreamProvider(java.lang.Iterable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SequentialDnsServerAddressStreamProvider(java.net.InetSocketAddress[])
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.SingletonDnsServerAddressStreamProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsServerAddressStreamProvider
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.dns.UniSequentialDnsServerAddressStreamProvider (<- io.netty.resolver.dns.UniSequentialDnsServerAddressStreamProvider)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SingletonDnsServerAddressStreamProvider(java.net.InetSocketAddress)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.dns.UnixResolverDnsServerAddressStreamProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.dns.DnsServerAddressStreamProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnixResolverDnsServerAddressStreamProvider(java.lang.String, java.lang.String)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnixResolverDnsServerAddressStreamProvider(java.io.File, java.io.File[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.dns.DnsServerAddressStream nameServerAddressStream(java.lang.String)

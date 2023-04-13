@@ -1,0 +1,126 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/transport-rxtx/target/netty-transport-rxtx-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-transport-rxtx/4.1.79.Final/netty-transport-rxtx-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.rxtx.RxtxChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.oio.OioByteStreamChannel (<- io.netty.channel.oio.OioByteStreamChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RxtxChannel()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.rxtx.RxtxChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doInit()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isInputShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isOpen()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.rxtx.RxtxDeviceAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.rxtx.RxtxDeviceAddress localAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.AbstractChannel$AbstractUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.rxtx.RxtxDeviceAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.rxtx.RxtxDeviceAddress remoteAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.ChannelFuture shutdownInput()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getBaudrate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig$Databits getDatabits()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig$Paritybit getParitybit()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getReadTimeout()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig$Stopbits getStopbits()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getWaitTimeMillis()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isDtr()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isRts()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setBaudrate(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setDatabits(io.netty.channel.rxtx.RxtxChannelConfig$Databits)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setDtr(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setParitybit(io.netty.channel.rxtx.RxtxChannelConfig$Paritybit)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setReadTimeout(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setRts(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setStopbits(io.netty.channel.rxtx.RxtxChannelConfig$Stopbits)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setWaitTimeMillis(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setWriteBufferHighWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setWriteBufferLowWaterMark(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.rxtx.RxtxChannelConfig setWriteSpinCount(int)
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Databits  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Databits DATABITS_6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Databits DATABITS_5
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Databits DATABITS_8
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Databits DATABITS_7
+	===  UNCHANGED METHOD: PUBLIC int value()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Databits valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Databits valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Databits[] values()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Paritybit  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Paritybit SPACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Paritybit EVEN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Paritybit NONE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Paritybit ODD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Paritybit MARK
+	===  UNCHANGED METHOD: PUBLIC int value()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Paritybit valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Paritybit valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Paritybit[] values()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Stopbits  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Stopbits STOPBITS_2
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Stopbits STOPBITS_1
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.rxtx.RxtxChannelConfig$Stopbits STOPBITS_1_5
+	===  UNCHANGED METHOD: PUBLIC int value()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Stopbits valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Stopbits valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.rxtx.RxtxChannelConfig$Stopbits[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.rxtx.RxtxChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelOption (<- io.netty.channel.ChannelOption)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption RTS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption READ_TIMEOUT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption DATA_BITS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption DTR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption WAIT_TIME
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption BAUD_RATE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption STOP_BITS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption PARITY_BIT
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.rxtx.RxtxDeviceAddress  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.net.SocketAddress (<- java.net.SocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RxtxDeviceAddress(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String value()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated

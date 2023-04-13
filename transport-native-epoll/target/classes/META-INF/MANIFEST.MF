@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1659271331250
+Build-Jdk: 13.0.12
+Built-By: oovever
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: https://netty.io/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Transport/Native/Epoll
+Bundle-SymbolicName: io.netty.transport-native-epoll
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.80.Final-SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: sun.nio.ch;resolution:=optional,org.eclipse.jetty.npn;ve
+ rsion="[1,2)";resolution:=optional,org.eclipse.jetty.alpn;version="[1,2
+ )";resolution:=optional
+Tool: Bnd-2.4.1.201501161923

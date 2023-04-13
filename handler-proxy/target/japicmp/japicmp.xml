@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<japicmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" accessModifier="PROTECTED" creationTimestamp="2022-07-31T20:41:31.066+0800" ignoreMissingClasses="false" ignoreMissingClassesByRegularExpressions="^(?!io\.netty\.).*;^io\.netty\.internal\.tcnative\..*" newJar="/Users/oovever/Documents/projcet/Github/netty/handler-proxy/target/netty-handler-proxy-4.1.80.Final-SNAPSHOT.jar" newVersion="4.1.80-SNAPSHOT" oldJar="/Users/oovever/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar" oldVersion="4.1.79" onlyBinaryIncompatibleModifications="false" onlyModifications="false" packagesExclude="@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;io.netty.util.internal.shaded;io.netty.util.internal.shaded" packagesInclude="all" semanticVersioning="0.0.1" title="Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/handler-proxy/target/netty-handler-proxy-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-handler-proxy/4.1.79.Final/netty-handler-proxy-4.1.79.Final.jar" xsi:noNamespaceSchemaLocation="japicmp.xsd">
+    <classes>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.handler.proxy.HttpProxyHandler" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="HttpProxyHandler" newLineNumber="70" oldLineNumber="70" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="io.netty.handler.codec.http.HttpHeaders"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="HttpProxyHandler" newLineNumber="66" oldLineNumber="66" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="HttpProxyHandler" newLineNumber="76" oldLineNumber="76" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="io.netty.handler.codec.http.HttpHeaders"/>
+                        <parameter type="boolean"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="HttpProxyHandler" newLineNumber="90" oldLineNumber="90" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="io.netty.handler.codec.http.HttpHeaders"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="HttpProxyHandler" newLineNumber="98" oldLineNumber="98" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="io.netty.handler.codec.http.HttpHeaders"/>
+                        <parameter type="boolean"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="HttpProxyHandler" newLineNumber="85" oldLineNumber="85" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelOutboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelInboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="addCodec" newLineNumber="139" oldLineNumber="139" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="authScheme" newLineNumber="126" oldLineNumber="126" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="handleResponse" newLineNumber="185" oldLineNumber="185" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.lang.Object"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="newInitialMessage" newLineNumber="156" oldLineNumber="156" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.Object" oldValue="java.lang.Object"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="password" newLineNumber="134" oldLineNumber="134" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="protocol" newLineNumber="121" oldLineNumber="121" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeDecoder" newLineNumber="151" oldLineNumber="151" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeEncoder" newLineNumber="146" oldLineNumber="146" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="username" newLineNumber="130" oldLineNumber="130" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="io.netty.handler.proxy.ProxyHandler" superclassOld="io.netty.handler.proxy.ProxyHandler">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.handler.proxy.HttpProxyHandler$HttpProxyConnectException" javaObjectSerializationCompatible="SERIALIZABLE_COMPATIBLE" javaObjectSerializationCompatibleAsString="compatible" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="HttpProxyHandler$HttpProxyConnectException" newLineNumber="220" oldLineNumber="220" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="io.netty.handler.codec.http.HttpHeaders"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="java.io.Serializable" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="headers" newLineNumber="228" oldLineNumber="228" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="io.netty.handler.codec.http.HttpHeaders" oldValue="io.netty.handler.codec.http.HttpHeaders"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="8804895084776991975" serialVersionUidDefaultOld="8804895084776991975" serialVersionUidInClassNew="-8824334609292146066" serialVersionUidInClassOld="-8824334609292146066" serializableNew="true" serializableOld="true"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="io.netty.handler.proxy.ProxyConnectException" superclassOld="io.netty.handler.proxy.ProxyConnectException">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.handler.proxy.ProxyConnectException" javaObjectSerializationCompatible="SERIALIZABLE_COMPATIBLE" javaObjectSerializationCompatibleAsString="compatible" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="ProxyConnectException" newLineNumber="27" oldLineNumber="27" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="ProxyConnectException" newLineNumber="35" oldLineNumber="35" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="java.lang.Throwable"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="ProxyConnectException" newLineNumber="24" oldLineNumber="24" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="ProxyConnectException" newLineNumber="30" oldLineNumber="30" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.Throwable"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="java.io.Serializable" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods/>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="-5916319144444301692" serialVersionUidDefaultOld="-5916319144444301692" serialVersionUidInClassNew="5211364632246265538" serialVersionUidInClassOld="5211364632246265538" serializableNew="true" serializableOld="true"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.net.ConnectException" superclassOld="java.net.ConnectException">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.handler.proxy.ProxyConnectionEvent" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="ProxyConnectionEvent" newLineNumber="36" oldLineNumber="36" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="java.net.SocketAddress"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces/>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="authScheme" newLineNumber="54" oldLineNumber="54" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="destinationAddress" newLineNumber="70" oldLineNumber="70" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.net.SocketAddress" oldValue="java.net.SocketAddress"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="protocol" newLineNumber="47" oldLineNumber="47" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="proxyAddress" newLineNumber="62" oldLineNumber="62" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.net.SocketAddress" oldValue="java.net.SocketAddress"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="toString" newLineNumber="75" oldLineNumber="75" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.handler.proxy.ProxyHandler" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="ProxyHandler" newLineNumber="72" oldLineNumber="72" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelOutboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelInboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="addCodec" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="authScheme" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="channelActive" newLineNumber="183" oldLineNumber="183" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="channelInactive" newLineNumber="229" oldLineNumber="229" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="channelRead" newLineNumber="249" oldLineNumber="249" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.lang.Object"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="channelReadComplete" newLineNumber="390" oldLineNumber="390" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="connect" newLineNumber="172" oldLineNumber="172" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="io.netty.channel.ChannelPromise"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="connectFuture" newLineNumber="114" oldLineNumber="114" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="io.netty.util.concurrent.Future" oldValue="io.netty.util.concurrent.Future"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="connectTimeoutMillis" newLineNumber="122" oldLineNumber="122" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="long" oldValue="long"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="destinationAddress" newLineNumber="99" oldLineNumber="99" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.net.SocketAddress" oldValue="java.net.SocketAddress"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="exceptionCaught" newLineNumber="239" oldLineNumber="239" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.lang.Throwable"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="exceptionMessage" newLineNumber="369" oldLineNumber="369" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="flush" newLineNumber="411" oldLineNumber="411" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="handlerAdded" newLineNumber="139" oldLineNumber="139" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="handleResponse" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.lang.Object"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="isConnected" newLineNumber="106" oldLineNumber="106" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="newInitialMessage" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.Object" oldValue="java.lang.Object"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="protocol" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="proxyAddress" newLineNumber="91" oldLineNumber="91" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.net.SocketAddress" oldValue="java.net.SocketAddress"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeDecoder" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeEncoder" newLineNumber="n.a." oldLineNumber="n.a." sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="sendToProxyServer" newLineNumber="224" oldLineNumber="224" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.Object"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="setConnectTimeoutMillis" newLineNumber="130" oldLineNumber="130" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="long"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="write" newLineNumber="401" oldLineNumber="401" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.lang.Object"/>
+                        <parameter type="io.netty.channel.ChannelPromise"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="ABSTRACT" oldValue="ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="io.netty.channel.ChannelDuplexHandler" superclassOld="io.netty.channel.ChannelDuplexHandler">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.handler.proxy.Socks4ProxyHandler" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="Socks4ProxyHandler" newLineNumber="42" oldLineNumber="42" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="Socks4ProxyHandler" newLineNumber="46" oldLineNumber="46" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelOutboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelInboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="addCodec" newLineNumber="69" oldLineNumber="69" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="authScheme" newLineNumber="60" oldLineNumber="60" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="handleResponse" newLineNumber="108" oldLineNumber="108" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.lang.Object"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="newInitialMessage" newLineNumber="95" oldLineNumber="95" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.Object" oldValue="java.lang.Object"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="protocol" newLineNumber="55" oldLineNumber="55" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeDecoder" newLineNumber="89" oldLineNumber="89" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeEncoder" newLineNumber="83" oldLineNumber="83" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="username" newLineNumber="64" oldLineNumber="64" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="io.netty.handler.proxy.ProxyHandler" superclassOld="io.netty.handler.proxy.ProxyHandler">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.handler.proxy.Socks5ProxyHandler" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="Socks5ProxyHandler" newLineNumber="63" oldLineNumber="63" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                    </parameters>
+                </constructor>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="Socks5ProxyHandler" newLineNumber="67" oldLineNumber="67" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.net.SocketAddress"/>
+                        <parameter type="java.lang.String"/>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelOutboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelInboundHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.channel.ChannelHandler" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="addCodec" newLineNumber="98" oldLineNumber="98" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="authScheme" newLineNumber="85" oldLineNumber="85" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="handleResponse" newLineNumber="130" oldLineNumber="130" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                        <parameter type="java.lang.Object"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="newInitialMessage" newLineNumber="125" oldLineNumber="125" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.Object" oldValue="java.lang.Object"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="password" newLineNumber="93" oldLineNumber="93" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="protocol" newLineNumber="80" oldLineNumber="80" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeDecoder" newLineNumber="117" oldLineNumber="117" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="removeEncoder" newLineNumber="112" oldLineNumber="112" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions>
+                        <exception changeStatus="UNCHANGED" name="java.lang.Exception"/>
+                    </exceptions>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PROTECTED" oldValue="PROTECTED"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="io.netty.channel.ChannelHandlerContext"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="username" newLineNumber="89" oldLineNumber="89" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.String" oldValue="java.lang.String"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="io.netty.handler.proxy.ProxyHandler" superclassOld="io.netty.handler.proxy.ProxyHandler">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+    </classes>
+</japicmp>

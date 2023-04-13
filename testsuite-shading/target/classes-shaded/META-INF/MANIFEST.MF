@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin
+Built-By: oovever
+Build-Jdk: 13.0.12
+Implementation-Title: Netty/Testsuite/Shading
+Implementation-Version: 4.1.80.Final-SNAPSHOT
+Implementation-Vendor-Id: io.netty
+Implementation-Vendor: The Netty Project
+Implementation-URL: https://netty.io/netty-testsuite-shading/
+Automatic-Module-Name: io.netty.testsuite_shading
+Bnd-LastModified: 1659271360915
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: https://netty.io/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Testsuite/Shading
+Bundle-SymbolicName: io.netty.testsuite-shading
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.80.Final-SNAPSHOT
+Import-Package: sun.nio.ch;resolution:=optional,org.eclipse.jetty.npn;ve
+ rsion="[1,2)";resolution:=optional,org.eclipse.jetty.alpn;version="[1,2
+ )";resolution:=optional
+Tool: Bnd-2.4.1.201501161923
+

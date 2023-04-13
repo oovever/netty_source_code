@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<duplicate-finder-result version="1">
+    <project artifactId="netty-all" groupId="io.netty" version="4.1.80.Final-SNAPSHOT" type="jar"/>
+    <configuration skip="false" quiet="false" checkCompileClasspath="true" checkRuntimeClasspath="true" checkTestClasspath="false" failBuildInCaseOfDifferentContentConflict="true" failBuildInCaseOfEqualContentConflict="true" failBuildInCaseOfConflict="true" printEqualFiles="false" preferLocal="true" includeBootClasspath="false" bootClasspathProperty="sun.boot.class.path" includePomProjects="false" useDefaultResourceIgnoreList="true" useDefaultClassIgnoreList="true" useResultFile="true" resultFileMinClasspathCount="2" resultFile="/Users/oovever/Documents/projcet/Github/netty/all/target/duplicate-finder-result.xml">
+        <ignoredResourcePatterns/>
+        <ignoredClassPatterns/>
+        <conflictingDependencies/>
+        <ignoredDependencies/>
+    </configuration>
+    <results>
+        <result name="compile" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+                <ignoredClassPattern>module-info</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="runtime" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+                <ignoredClassPattern>module-info</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+    </results>
+</duplicate-finder-result>

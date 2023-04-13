@@ -1,0 +1,27 @@
+#Sun Jul 31 20:40:13 CST 2022
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/SimpleNameResolver.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/RoundRobinInetAddressResolver.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/DefaultNameResolver.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/DefaultAddressResolverGroup.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/HostsFileEntriesProvider.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/test/java/io/netty/resolver/HostsFileEntriesProviderTest.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/NoopAddressResolverGroup.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/AddressResolver.java=1659268555808
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/InetNameResolver.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/InetSocketAddressResolver.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/HostsFileEntriesResolver.java=1659268555809
+configuration*?=2F69F37694C3A6F8DF2AB72AA5F817AFC4F8BAF3
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/HostsFileEntries.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/DefaultHostsFileEntriesResolver.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/ResolvedAddressTypes.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/AddressResolverGroup.java=1659268555808
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/CompositeNameResolver.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/test/java/io/netty/resolver/DefaultHostsFileEntriesResolverTest.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/package-info.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/HostsFileParser.java=1659268555809
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/NoopAddressResolver.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/test/java/io/netty/resolver/HostsFileParserTest.java=1659268555810
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/test/java/io/netty/resolver/InetSocketAddressResolverTest.java=1659268555811
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/AbstractAddressResolver.java=1659268555808
+/Users/oovever/Documents/projcet/Github/netty/resolver/src/main/java/io/netty/resolver/NameResolver.java=1659268555809

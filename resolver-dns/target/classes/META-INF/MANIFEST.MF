@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1659271293183
+Build-Jdk: 13.0.12
+Built-By: oovever
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: https://netty.io/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Resolver/DNS
+Bundle-SymbolicName: io.netty.resolver-dns
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.80.Final-SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: io.netty.resolver.dns;uses:="io.netty.channel,io.netty.c
+ hannel.socket,io.netty.handler.codec.dns,io.netty.handler.logging,io.ne
+ tty.resolver,io.netty.util.concurrent";version="4.1.80"
+Import-Package: io.netty.bootstrap;version="[4.1,5)",io.netty.buffer;ver
+ sion="[4.1,5)",io.netty.channel;version="[4.1,5)",io.netty.channel.sock
+ et;version="[4.1,5)",io.netty.handler.codec;version="[4.1,5)",io.netty.
+ handler.codec.dns;version="[4.1,5)",io.netty.handler.logging;version="[
+ 4.1,5)",io.netty.resolver,io.netty.util;version="[4.1,5)",io.netty.util
+ .collection;version="[4.1,5)",io.netty.util.concurrent;version="[4.1,5)
+ ",io.netty.util.internal;version="[4.1,5)",io.netty.util.internal.loggi
+ ng;version="[4.1,5)",javax.naming,javax.naming.directory,sun.nio.ch;res
+ olution:=optional,org.eclipse.jetty.npn;version="[1,2)";resolution:=opt
+ ional,org.eclipse.jetty.alpn;version="[1,2)";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.4.1.201501161923

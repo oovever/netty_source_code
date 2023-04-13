@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<japicmp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" accessModifier="PROTECTED" creationTimestamp="2022-07-31T20:41:51.289+0800" ignoreMissingClasses="false" ignoreMissingClassesByRegularExpressions="^(?!io\.netty\.).*;^io\.netty\.internal\.tcnative\..*" newJar="/Users/oovever/Documents/projcet/Github/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.1.80.Final-SNAPSHOT.jar" newVersion="4.1.80-SNAPSHOT" oldJar="/Users/oovever/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar" oldVersion="4.1.79" onlyBinaryIncompatibleModifications="false" onlyModifications="false" packagesExclude="@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;@io.netty.util.internal.UnstableApi;io.netty.util.internal.shaded;io.netty.util.internal.shaded" packagesInclude="all" semanticVersioning="0.0.1" title="Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/resolver-dns-classes-macos/target/netty-resolver-dns-classes-macos-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.79.Final/netty-resolver-dns-classes-macos-4.1.79.Final.jar" xsi:noNamespaceSchemaLocation="japicmp.xsd">
+    <classes>
+        <class binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider" javaObjectSerializationCompatible="NOT_SERIALIZABLE" javaObjectSerializationCompatibleAsString="not serializable" sourceCompatible="true">
+            <annotations/>
+            <attributes>
+                <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </attributes>
+            <classFileFormatVersion changeStatus="MODIFIED" majorVersionNew="51" majorVersionOld="50" minorVersionNew="0" minorVersionOld="0"/>
+            <classType changeStatus="UNCHANGED" newType="CLASS" oldType="CLASS"/>
+            <compatibilityChanges/>
+            <constructors>
+                <constructor binaryCompatible="true" changeStatus="UNCHANGED" name="MacOSDnsServerAddressStreamProvider" newLineNumber="119" oldLineNumber="119" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                </constructor>
+            </constructors>
+            <fields/>
+            <interfaces>
+                <interface binaryCompatible="true" changeStatus="UNCHANGED" fullyQualifiedName="io.netty.resolver.dns.DnsServerAddressStreamProvider" sourceCompatible="true">
+                    <compatibilityChanges/>
+                </interface>
+            </interfaces>
+            <methods>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="ensureAvailability" newLineNumber="109" oldLineNumber="109" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="void" oldValue="void"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="isAvailable" newLineNumber="105" oldLineNumber="105" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="boolean" oldValue="boolean"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="nameServerAddressStream" newLineNumber="170" oldLineNumber="170" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters>
+                        <parameter type="java.lang.String"/>
+                    </parameters>
+                    <returnType changeStatus="UNCHANGED" newValue="io.netty.resolver.dns.DnsServerAddressStream" oldValue="io.netty.resolver.dns.DnsServerAddressStream"/>
+                </method>
+                <method binaryCompatible="true" changeStatus="UNCHANGED" name="unavailabilityCause" newLineNumber="116" oldLineNumber="116" sourceCompatible="true">
+                    <annotations/>
+                    <attributes>
+                        <attribute changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </attributes>
+                    <compatibilityChanges/>
+                    <exceptions/>
+                    <modifiers>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_FINAL" oldValue="NON_FINAL"/>
+                        <modifier changeStatus="UNCHANGED" newValue="STATIC" oldValue="STATIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_BRIDGE" oldValue="NON_BRIDGE"/>
+                        <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+                    </modifiers>
+                    <parameters/>
+                    <returnType changeStatus="UNCHANGED" newValue="java.lang.Throwable" oldValue="java.lang.Throwable"/>
+                </method>
+            </methods>
+            <modifiers>
+                <modifier changeStatus="UNCHANGED" newValue="FINAL" oldValue="FINAL"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_STATIC" oldValue="NON_STATIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="PUBLIC" oldValue="PUBLIC"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_ABSTRACT" oldValue="NON_ABSTRACT"/>
+                <modifier changeStatus="UNCHANGED" newValue="NON_SYNTHETIC" oldValue="NON_SYNTHETIC"/>
+            </modifiers>
+            <serialVersionUid serialVersionUidDefaultNew="n.a." serialVersionUidDefaultOld="n.a." serialVersionUidInClassNew="n.a." serialVersionUidInClassOld="n.a." serializableNew="false" serializableOld="false"/>
+            <superclass binaryCompatible="true" changeStatus="UNCHANGED" sourceCompatible="true" superclassNew="java.lang.Object" superclassOld="java.lang.Object">
+                <compatibilityChanges/>
+            </superclass>
+        </class>
+    </classes>
+</japicmp>

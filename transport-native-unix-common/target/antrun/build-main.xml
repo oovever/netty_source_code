@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec resolveexecutable="true" failonerror="true" executable="make">
+    <env value="clang" key="CC"/>
+    <env value="ar" key="AR"/>
+    <env value="/Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common/target/native-lib-only" key="LIB_DIR"/>
+    <env value="/Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common/target/native-objs-only" key="OBJ_DIR"/>
+    <env value="darwin" key="JNI_PLATFORM"/>
+    <env value="-O3 -Werror -Wno-attributes -fPIC -fno-omit-frame-pointer -Wunused-variable -fvisibility=hidden" key="CFLAGS"/>
+    <env value="-Wl,--no-as-needed -lrt -Wl,-platform_version,macos,10.2,10.2" key="LDFLAGS"/>
+    <env value="libnetty-unix-common" key="LIB_NAME"/>
+    <env value="10.2" key="MACOSX_DEPLOYMENT_TARGET"/>
+  </exec>
+</target>
+</project>

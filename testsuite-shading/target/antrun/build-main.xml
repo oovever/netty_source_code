@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <unzip dest="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/">
+    <fileset dir="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/">
+      <include name="shaded1.jar"/>
+      <include name="shaded2.jar"/>
+    </fileset>
+  </unzip>
+  <copy file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libnetty_transport_native_kqueue_${os.detected.arch}.jnilib" tofile="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libshaded_netty_transport_native_kqueue_${os.detected.arch}.jnilib"/>
+  <copy file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libnetty_transport_native_kqueue_${os.detected.arch}.jnilib" tofile="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libshaded_12_netty_transport_native_kqueue_${os.detected.arch}.jnilib"/>
+  <delete file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libnetty_transport_native_kqueue_${os.detected.arch}.jnilib"/>
+  <copy file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libnetty_tcnative_osx_${os.detected.arch}.jnilib" tofile="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libshaded_netty_tcnative_osx_${os.detected.arch}.jnilib"/>
+  <copy file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libnetty_tcnative_osx_${os.detected.arch}.jnilib" tofile="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libshaded_12_netty_tcnative_osx_${os.detected.arch}.jnilib"/>
+  <delete file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/classes-shaded/META-INF/native/libnetty_tcnative_osx_${os.detected.arch}.jnilib"/>
+  <delete file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/shaded1.jar"/>
+  <delete file="/Users/oovever/Documents/projcet/Github/netty/testsuite-shading/target/shaded2.jar"/>
+</target>
+</project>

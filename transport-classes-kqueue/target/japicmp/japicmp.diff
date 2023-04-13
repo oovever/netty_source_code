@@ -1,0 +1,507 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/transport-classes-kqueue/target/netty-transport-classes-kqueue-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.79.Final/netty-transport-classes-kqueue-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel$Unsafe
+	===  UNCHANGED SUPERCLASS: io.netty.channel.AbstractChannel$AbstractUnsafe (<- io.netty.channel.AbstractChannel$AbstractUnsafe)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractKQueueChannel$AbstractKQueueUnsafe(io.netty.channel.kqueue.AbstractKQueueChannel)
+	===  UNCHANGED METHOD: PROTECTED FINAL void clearReadFilter0()
+	===  UNCHANGED METHOD: PUBLIC void connect(java.net.SocketAddress, java.net.SocketAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PROTECTED FINAL void flush0()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueRecvByteAllocatorHandle recvBufAllocHandle()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.kqueue.AbstractKQueueServerChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueChannel (<- io.netty.channel.kqueue.AbstractKQueueChannel)
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doWrite(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isCompatible(io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PROTECTED java.net.InetSocketAddress remoteAddress0()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.kqueue.AbstractKQueueStreamChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueChannel (<- io.netty.channel.kqueue.AbstractKQueueChannel)
+	===  UNCHANGED METHOD: PROTECTED FINAL void doShutdownOutput()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doWrite(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doWriteSingle(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean isInputShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isOutputShutdown()
+	===  UNCHANGED METHOD: PUBLIC boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelMetadata metadata()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdown()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdown(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownInput()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownInput(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownOutput()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture shutdownOutput(io.netty.channel.ChannelPromise)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.AcceptFilter  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AcceptFilter(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String filterArgs()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String filterName()
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueue  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void ensureAvailability()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isAvailable()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isTcpFastOpenClientSideAvailable()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isTcpFastOpenServerSideAvailable()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable unavailabilityCause()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.DefaultChannelConfig (<- io.netty.channel.DefaultChannelConfig)
+	===  UNCHANGED METHOD: PROTECTED FINAL void autoReadCleared()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC boolean getRcvAllocTransportProvidesGuess()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setRcvAllocTransportProvidesGuess(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.UnixChannelOption (<- io.netty.channel.unix.UnixChannelOption)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption TCP_NOPUSH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption RCV_ALLOC_TRANSPORT_PROVIDES_GUESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption SO_ACCEPTFILTER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption SO_SNDLOWAT
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueDatagramChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DatagramChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueDatagramChannel (<- io.netty.channel.kqueue.AbstractKQueueDatagramChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueDatagramChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueDatagramChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueDatagramChannel(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture block(java.net.InetAddress, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doWriteMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean isActive()
+	===  UNCHANGED METHOD: PUBLIC boolean isConnected()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetSocketAddress, java.net.NetworkInterface)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetSocketAddress, java.net.NetworkInterface, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture joinGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetSocketAddress, java.net.NetworkInterface)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetSocketAddress, java.net.NetworkInterface, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture leaveGroup(java.net.InetAddress, java.net.NetworkInterface, java.net.InetAddress, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueDatagramChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DatagramChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.KQueueChannelConfig (<- io.netty.channel.kqueue.KQueueChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetAddress getInterface()
+	===  UNCHANGED METHOD: PUBLIC java.net.NetworkInterface getNetworkInterface()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getTimeToLive()
+	===  UNCHANGED METHOD: PUBLIC int getTrafficClass()
+	===  UNCHANGED METHOD: PUBLIC boolean isBroadcast()
+	===  UNCHANGED METHOD: PUBLIC boolean isLoopbackModeDisabled()
+	===  UNCHANGED METHOD: PUBLIC boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC boolean isReusePort()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setBroadcast(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setInterface(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.socket.DatagramChannelConfig setLoopbackModeDisabled(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setMaxMessagesPerWrite(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setNetworkInterface(java.net.NetworkInterface)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setRcvAllocTransportProvidesGuess(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setReusePort(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setTimeToLive(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setTrafficClass(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDatagramChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueDomainDatagramChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainDatagramChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueDatagramChannel (<- io.netty.channel.kqueue.AbstractKQueueDatagramChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueDomainDatagramChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueDomainDatagramChannel()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doDisconnect()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doWriteMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean isActive()
+	===  UNCHANGED METHOD: PUBLIC boolean isConnected()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress localAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.PeerCredentials peerCredentials()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress remoteAddress0()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainDatagramChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.KQueueChannelConfig (<- io.netty.channel.kqueue.KQueueChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setMaxMessagesPerWrite(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setRcvAllocTransportProvidesGuess(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainDatagramChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueDomainSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainSocketChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueStreamChannel (<- io.netty.channel.kqueue.AbstractKQueueStreamChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueDomainSocketChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueDomainSocketChannel(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED int doWriteSingle(io.netty.channel.ChannelOutboundBuffer)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object filterOutboundMessage(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress localAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.PeerCredentials peerCredentials()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress remoteAddress0()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueDomainSocketChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.DomainSocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.KQueueChannelConfig (<- io.netty.channel.kqueue.KQueueChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketReadMode getReadMode()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC boolean isAllowHalfClosure()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setAllowHalfClosure(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setRcvAllocTransportProvidesGuess(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setReadMode(io.netty.channel.unix.DomainSocketReadMode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueDomainSocketChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueEventLoopGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.EventLoopGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.Executor
+	===  UNCHANGED INTERFACE: java.util.concurrent.ScheduledExecutorService
+	===  UNCHANGED INTERFACE: io.netty.util.concurrent.EventExecutorGroup
+	===  UNCHANGED INTERFACE: java.util.concurrent.ExecutorService
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.MultithreadEventLoopGroup (<- io.netty.channel.MultithreadEventLoopGroup)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory, io.netty.util.concurrent.RejectedExecutionHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.ThreadFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.ThreadFactory, int, io.netty.channel.SelectStrategyFactory)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.Executor, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory, io.netty.util.concurrent.RejectedExecutionHandler, io.netty.channel.EventLoopTaskQueueFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.ThreadFactory, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory, io.netty.util.concurrent.RejectedExecutionHandler, io.netty.channel.EventLoopTaskQueueFactory, io.netty.channel.EventLoopTaskQueueFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.Executor, io.netty.util.concurrent.EventExecutorChooserFactory, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(java.util.concurrent.ThreadFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.Executor)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, io.netty.channel.SelectStrategyFactory)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueEventLoopGroup(int, java.util.concurrent.ThreadFactory, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.EventLoop newChild(java.util.concurrent.Executor, java.lang.Object[])
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void setIoRatio(int)
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.ServerSocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.KQueueChannelConfig (<- io.netty.channel.kqueue.KQueueChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC int getBacklog()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpFastOpen()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setBacklog(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setPerformancePreferences(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setRcvAllocTransportProvidesGuess(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setTcpFastOpen(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueServerDomainSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.ServerDomainSocketChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueServerChannel (<- io.netty.channel.kqueue.AbstractKQueueServerChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueServerDomainSocketChannel()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueServerDomainSocketChannel(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doClose()
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.unix.DomainSocketAddress localAddress0()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.Channel newChildChannel(int, byte[], int, int)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueServerSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.ServerSocketChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueServerChannel (<- io.netty.channel.kqueue.AbstractKQueueServerChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueServerSocketChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueServerSocketChannel()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED void doBind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isCompatible(io.netty.channel.EventLoop)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.Channel newChildChannel(int, byte[], int, int)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.ServerSocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.KQueueServerChannelConfig (<- io.netty.channel.kqueue.KQueueServerChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.AcceptFilter getAcceptFilter()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC boolean isReusePort()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setAcceptFilter(io.netty.channel.kqueue.AcceptFilter)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setBacklog(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setPerformancePreferences(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setRcvAllocTransportProvidesGuess(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setReusePort(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setTcpFastOpen(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueServerSocketChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.SocketChannel
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.AbstractKQueueStreamChannel (<- io.netty.channel.kqueue.AbstractKQueueStreamChannel)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueSocketChannel(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueSocketChannel(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC KQueueSocketChannel()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig config()
+	===  UNCHANGED METHOD: PROTECTED boolean doConnect0(java.net.SocketAddress, java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PROTECTED io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe newUnsafe()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.socket.ServerSocketChannel parent()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.kqueue.KQueueSocketChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.SocketChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannelConfig
+	===  UNCHANGED SUPERCLASS: io.netty.channel.kqueue.KQueueChannelConfig (<- io.netty.channel.kqueue.KQueueChannelConfig)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getOption(io.netty.channel.ChannelOption)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map getOptions()
+	===  UNCHANGED METHOD: PUBLIC int getReceiveBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC int getSndLowAt()
+	===  UNCHANGED METHOD: PUBLIC int getSoLinger()
+	===  UNCHANGED METHOD: PUBLIC int getTrafficClass()
+	===  UNCHANGED METHOD: PUBLIC boolean isAllowHalfClosure()
+	===  UNCHANGED METHOD: PUBLIC boolean isKeepAlive()
+	===  UNCHANGED METHOD: PUBLIC boolean isReuseAddress()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpFastOpenConnect()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpNoDelay()
+	===  UNCHANGED METHOD: PUBLIC boolean isTcpNoPush()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setAllowHalfClosure(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setKeepAlive(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC boolean setOption(io.netty.channel.ChannelOption, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setPerformancePreferences(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setRcvAllocTransportProvidesGuess(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setReceiveBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setReuseAddress(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC void setSndLowAt(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setSoLinger(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setTcpFastOpenConnect(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setTcpNoDelay(boolean)
+	===  UNCHANGED METHOD: PUBLIC void setTcpNoPush(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setTrafficClass(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.kqueue.KQueueSocketChannelConfig setWriteSpinCount(int)

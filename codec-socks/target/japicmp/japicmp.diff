@@ -1,0 +1,891 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-socks/target/netty-codec-socks-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-socks/4.1.79.Final/netty-codec-socks-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksAddressType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAddressType DOMAIN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAddressType IPv6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAddressType IPv4
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAddressType UNKNOWN
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAddressType fromByte(byte)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAddressType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAddressType valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAddressType[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.SocksAuthRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksRequest (<- io.netty.handler.codec.socks.SocksRequest)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksAuthRequest(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String password()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String username()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socks.SocksAuthRequestDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksAuthRequestDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthRequestDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthRequestDecoder$State READ_PASSWORD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthRequestDecoder$State CHECK_PROTOCOL_VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthRequestDecoder$State READ_USERNAME
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthRequestDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthRequestDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.SocksAuthResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksResponse (<- io.netty.handler.codec.socks.SocksResponse)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksAuthResponse(io.netty.handler.codec.socks.SocksAuthStatus)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksAuthStatus authStatus()
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socks.SocksAuthResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksAuthResponseDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthResponseDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthResponseDecoder$State READ_AUTH_RESPONSE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthResponseDecoder$State CHECK_PROTOCOL_VERSION
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthResponseDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthResponseDecoder$State[] values()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksAuthScheme  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthScheme AUTH_PASSWORD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthScheme AUTH_GSSAPI
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthScheme NO_AUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthScheme UNKNOWN
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthScheme fromByte(byte)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthScheme valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthScheme valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthScheme[] values()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksAuthStatus  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthStatus SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksAuthStatus FAILURE
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthStatus fromByte(byte)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthStatus valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthStatus valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksAuthStatus[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.SocksCmdRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksRequest (<- io.netty.handler.codec.socks.SocksRequest)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksCmdRequest(io.netty.handler.codec.socks.SocksCmdType, io.netty.handler.codec.socks.SocksAddressType, java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksAddressType addressType()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksCmdType cmdType()
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String host()
+	===  UNCHANGED METHOD: PUBLIC int port()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socks.SocksCmdRequestDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksCmdRequestDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdRequestDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdRequestDecoder$State READ_CMD_HEADER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdRequestDecoder$State CHECK_PROTOCOL_VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdRequestDecoder$State READ_CMD_ADDRESS
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdRequestDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdRequestDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.SocksCmdResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksResponse (<- io.netty.handler.codec.socks.SocksResponse)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksCmdResponse(io.netty.handler.codec.socks.SocksCmdStatus, io.netty.handler.codec.socks.SocksAddressType)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksCmdResponse(io.netty.handler.codec.socks.SocksCmdStatus, io.netty.handler.codec.socks.SocksAddressType, java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksAddressType addressType()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksCmdStatus cmdStatus()
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String host()
+	===  UNCHANGED METHOD: PUBLIC int port()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socks.SocksCmdResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksCmdResponseDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdResponseDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdResponseDecoder$State READ_CMD_HEADER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdResponseDecoder$State CHECK_PROTOCOL_VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdResponseDecoder$State READ_CMD_ADDRESS
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdResponseDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdResponseDecoder$State[] values()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksCmdStatus  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus UNASSIGNED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus TTL_EXPIRED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus NETWORK_UNREACHABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus HOST_UNREACHABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus COMMAND_NOT_SUPPORTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus FAILURE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus FORBIDDEN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus REFUSED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdStatus ADDRESS_NOT_SUPPORTED
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdStatus fromByte(byte)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdStatus valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdStatus valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdStatus[] values()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksCmdType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdType UDP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdType BIND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdType CONNECT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksCmdType UNKNOWN
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdType fromByte(byte)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdType valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksCmdType[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.SocksInitRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksRequest (<- io.netty.handler.codec.socks.SocksRequest)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksInitRequest(java.util.List)
+	===  UNCHANGED METHOD: PUBLIC java.util.List authSchemes()
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socks.SocksInitRequestDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksInitRequestDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksInitRequestDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksInitRequestDecoder$State READ_AUTH_SCHEMES
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksInitRequestDecoder$State CHECK_PROTOCOL_VERSION
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksInitRequestDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksInitRequestDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.SocksInitResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksResponse (<- io.netty.handler.codec.socks.SocksResponse)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksInitResponse(io.netty.handler.codec.socks.SocksAuthScheme)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksAuthScheme authScheme()
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socks.SocksInitResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksInitResponseDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksInitResponseDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksInitResponseDecoder$State READ_PREFERRED_AUTH_TYPE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksInitResponseDecoder$State CHECK_PROTOCOL_VERSION
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksInitResponseDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksInitResponseDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.socks.SocksMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SocksMessage(io.netty.handler.codec.socks.SocksMessageType)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksProtocolVersion protocolVersion()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksMessageType type()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socks.SocksMessageEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksMessageEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.socks.SocksMessage, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksMessageType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksMessageType REQUEST
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksMessageType UNKNOWN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksMessageType RESPONSE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksMessageType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksMessageType[] values()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksProtocolVersion  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksProtocolVersion SOCKS4a
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksProtocolVersion UNKNOWN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksProtocolVersion SOCKS5
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksProtocolVersion fromByte(byte)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksProtocolVersion valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksProtocolVersion valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksProtocolVersion[] values()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.socks.SocksRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksMessage (<- io.netty.handler.codec.socks.SocksMessage)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SocksRequest(io.netty.handler.codec.socks.SocksRequestType)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksRequestType requestType()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksRequestType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksRequestType INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksRequestType AUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksRequestType CMD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksRequestType UNKNOWN
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksRequestType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksRequestType[] values()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.socks.SocksResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksMessage (<- io.netty.handler.codec.socks.SocksMessage)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SocksResponse(io.netty.handler.codec.socks.SocksResponseType)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socks.SocksResponseType responseType()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksResponseType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksResponseType INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksResponseType AUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksResponseType CMD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksResponseType UNKNOWN
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksResponseType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksResponseType[] values()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socks.SocksSubnegotiationVersion  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksSubnegotiationVersion AUTH_PASSWORD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socks.SocksSubnegotiationVersion UNKNOWN
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksSubnegotiationVersion fromByte(byte)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksSubnegotiationVersion valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksSubnegotiationVersion valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socks.SocksSubnegotiationVersion[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.UnknownSocksRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksRequest (<- io.netty.handler.codec.socks.SocksRequest)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnknownSocksRequest()
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socks.UnknownSocksResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socks.SocksResponse (<- io.netty.handler.codec.socks.SocksResponse)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnknownSocksResponse()
+	===  UNCHANGED METHOD: PUBLIC void encodeAsByteBuf(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.socksx.AbstractSocksMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractSocksMessage()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.DecoderResult decoderResult()
+	===  UNCHANGED METHOD: PUBLIC void setDecoderResult(io.netty.handler.codec.DecoderResult)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.SocksMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.SocksVersion version()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.SocksPortUnificationServerHandler  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksPortUnificationServerHandler()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocksPortUnificationServerHandler(io.netty.handler.codec.socksx.v5.Socks5ServerEncoder)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.socksx.SocksVersion  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.SocksVersion SOCKS4a
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.SocksVersion UNKNOWN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.SocksVersion SOCKS5
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.SocksVersion valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.SocksVersion valueOf(byte)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.SocksVersion[] values()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v4.AbstractSocks4Message  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v4.Socks4Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.AbstractSocksMessage (<- io.netty.handler.codec.socksx.AbstractSocksMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractSocks4Message()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.handler.codec.socksx.SocksVersion version()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v4.DefaultSocks4CommandRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v4.Socks4Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v4.Socks4CommandRequest
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v4.AbstractSocks4Message (<- io.netty.handler.codec.socksx.v4.AbstractSocks4Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks4CommandRequest(io.netty.handler.codec.socksx.v4.Socks4CommandType, java.lang.String, int, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks4CommandRequest(io.netty.handler.codec.socksx.v4.Socks4CommandType, java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String dstAddr()
+	===  UNCHANGED METHOD: PUBLIC int dstPort()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v4.Socks4CommandType type()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String userId()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v4.DefaultSocks4CommandResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v4.Socks4Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v4.Socks4CommandResponse
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v4.AbstractSocks4Message (<- io.netty.handler.codec.socksx.v4.AbstractSocks4Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks4CommandResponse(io.netty.handler.codec.socksx.v4.Socks4CommandStatus, java.lang.String, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks4CommandResponse(io.netty.handler.codec.socksx.v4.Socks4CommandStatus)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String dstAddr()
+	===  UNCHANGED METHOD: PUBLIC int dstPort()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v4.Socks4CommandStatus status()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v4.Socks4ClientDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4ClientDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ClientDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ClientDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ClientDecoder$State START
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ClientDecoder$State FAILURE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v4.Socks4ClientDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v4.Socks4ClientDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socksx.v4.Socks4ClientEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ClientEncoder INSTANCE
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.socksx.v4.Socks4CommandRequest, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v4.Socks4CommandRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v4.Socks4Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String dstAddr()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int dstPort()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v4.Socks4CommandType type()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String userId()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v4.Socks4CommandResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v4.Socks4Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String dstAddr()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int dstPort()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v4.Socks4CommandStatus status()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v4.Socks4CommandStatus  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4CommandStatus SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4CommandStatus IDENTD_UNREACHABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4CommandStatus IDENTD_AUTH_FAILURE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4CommandStatus REJECTED_OR_FAILED
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4CommandStatus(int, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4CommandStatus(int)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.socksx.v4.Socks4CommandStatus)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isSuccess()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v4.Socks4CommandStatus valueOf(byte)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v4.Socks4CommandType  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4CommandType BIND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4CommandType CONNECT
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4CommandType(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4CommandType(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.socksx.v4.Socks4CommandType)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v4.Socks4CommandType valueOf(byte)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v4.Socks4Message  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v4.Socks4ServerDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks4ServerDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State READ_USERID
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State START
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State FAILURE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State READ_DOMAIN
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v4.Socks4ServerDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v4.Socks4ServerEncoder INSTANCE
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.socksx.v4.Socks4CommandResponse, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.AbstractSocks5Message  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.AbstractSocksMessage (<- io.netty.handler.codec.socksx.AbstractSocksMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractSocks5Message()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.handler.codec.socksx.SocksVersion version()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socksx.v5.DefaultSocks5CommandRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5CommandRequest
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v5.AbstractSocks5Message (<- io.netty.handler.codec.socksx.v5.AbstractSocks5Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5CommandRequest(io.netty.handler.codec.socksx.v5.Socks5CommandType, io.netty.handler.codec.socksx.v5.Socks5AddressType, java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String dstAddr()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v5.Socks5AddressType dstAddrType()
+	===  UNCHANGED METHOD: PUBLIC int dstPort()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v5.Socks5CommandType type()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.socksx.v5.DefaultSocks5CommandResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5CommandResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v5.AbstractSocks5Message (<- io.netty.handler.codec.socksx.v5.AbstractSocks5Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5CommandResponse(io.netty.handler.codec.socksx.v5.Socks5CommandStatus, io.netty.handler.codec.socksx.v5.Socks5AddressType, java.lang.String, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5CommandResponse(io.netty.handler.codec.socksx.v5.Socks5CommandStatus, io.netty.handler.codec.socksx.v5.Socks5AddressType)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String bndAddr()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v5.Socks5AddressType bndAddrType()
+	===  UNCHANGED METHOD: PUBLIC int bndPort()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v5.Socks5CommandStatus status()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.DefaultSocks5InitialRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5InitialRequest
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v5.AbstractSocks5Message (<- io.netty.handler.codec.socksx.v5.AbstractSocks5Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5InitialRequest(java.lang.Iterable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5InitialRequest(io.netty.handler.codec.socksx.v5.Socks5AuthMethod[])
+	===  UNCHANGED METHOD: PUBLIC java.util.List authMethods()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.DefaultSocks5InitialResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5InitialResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v5.AbstractSocks5Message (<- io.netty.handler.codec.socksx.v5.AbstractSocks5Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5InitialResponse(io.netty.handler.codec.socksx.v5.Socks5AuthMethod)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v5.Socks5AuthMethod authMethod()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.DefaultSocks5PasswordAuthRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequest
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v5.AbstractSocks5Message (<- io.netty.handler.codec.socksx.v5.AbstractSocks5Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5PasswordAuthRequest(java.lang.String, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String password()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String username()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.DefaultSocks5PasswordAuthResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.socksx.v5.AbstractSocks5Message (<- io.netty.handler.codec.socksx.v5.AbstractSocks5Message)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSocks5PasswordAuthResponse(io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus status()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5AddressDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AddressDecoder DEFAULT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String decodeAddress(io.netty.handler.codec.socksx.v5.Socks5AddressType, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5AddressEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AddressEncoder DEFAULT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void encodeAddress(io.netty.handler.codec.socksx.v5.Socks5AddressType, java.lang.String, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5AddressType  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AddressType DOMAIN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AddressType IPv6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AddressType IPv4
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5AddressType(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5AddressType(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.socksx.v5.Socks5AddressType)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5AddressType valueOf(byte)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5AuthMethod  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AuthMethod UNACCEPTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AuthMethod GSSAPI
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AuthMethod PASSWORD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5AuthMethod NO_AUTH
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5AuthMethod(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5AuthMethod(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.socksx.v5.Socks5AuthMethod)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5AuthMethod valueOf(byte)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5ClientEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5ClientEncoder DEFAULT
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Socks5ClientEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5ClientEncoder(io.netty.handler.codec.socksx.v5.Socks5AddressEncoder)
+	===  UNCHANGED METHOD: PROTECTED FINAL io.netty.handler.codec.socksx.v5.Socks5AddressEncoder addressEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.socksx.v5.Socks5Message, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5CommandRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String dstAddr()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5AddressType dstAddrType()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int dstPort()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5CommandType type()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5CommandRequestDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandRequestDecoder(io.netty.handler.codec.socksx.v5.Socks5AddressDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandRequestDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandRequestDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandRequestDecoder$State INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandRequestDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandRequestDecoder$State FAILURE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5CommandRequestDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5CommandRequestDecoder$State[] values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5CommandResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String bndAddr()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5AddressType bndAddrType()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int bndPort()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5CommandStatus status()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandResponseDecoder(io.netty.handler.codec.socksx.v5.Socks5AddressDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandResponseDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder$State INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder$State FAILURE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5CommandResponseDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5CommandStatus  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus COMMAND_UNSUPPORTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus ADDRESS_UNSUPPORTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus CONNECTION_REFUSED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus TTL_EXPIRED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus NETWORK_UNREACHABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus HOST_UNREACHABLE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus FAILURE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandStatus FORBIDDEN
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandStatus(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandStatus(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.socksx.v5.Socks5CommandStatus)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isSuccess()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5CommandStatus valueOf(byte)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5CommandType  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandType BIND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandType UDP_ASSOCIATE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5CommandType CONNECT
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandType(int, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5CommandType(int)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.socksx.v5.Socks5CommandType)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5CommandType valueOf(byte)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5InitialRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List authMethods()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5InitialRequestDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5InitialRequestDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialRequestDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialRequestDecoder$State INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialRequestDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialRequestDecoder$State FAILURE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5InitialRequestDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5InitialRequestDecoder$State[] values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5InitialResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5AuthMethod authMethod()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5InitialResponseDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder$State INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder$State FAILURE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5InitialResponseDecoder$State[] values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5Message  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String password()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String username()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequestDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5PasswordAuthRequestDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequestDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequestDecoder$State INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequestDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequestDecoder$State FAILURE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequestDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthRequestDecoder$State[] values()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.v5.Socks5Message
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.socksx.SocksMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus status()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5PasswordAuthResponseDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder$State  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder$State INIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder$State SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder$State FAILURE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder$State valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthResponseDecoder$State[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus FAILURE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5PasswordAuthStatus(int, java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5PasswordAuthStatus(int)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isSuccess()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.socksx.v5.Socks5PasswordAuthStatus valueOf(byte)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.socksx.v5.Socks5ServerEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.socksx.v5.Socks5ServerEncoder DEFAULT
+	===  UNCHANGED CONSTRUCTOR: PROTECTED Socks5ServerEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socks5ServerEncoder(io.netty.handler.codec.socksx.v5.Socks5AddressEncoder)
+	===  UNCHANGED METHOD: PROTECTED FINAL io.netty.handler.codec.socksx.v5.Socks5AddressEncoder addressEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.socksx.v5.Socks5Message, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable

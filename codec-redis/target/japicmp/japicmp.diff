@@ -1,0 +1,283 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-redis/target/netty-codec-redis-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-redis/4.1.79.Final/netty-codec-redis-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.redis.AbstractStringRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.String content()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.redis.ArrayHeaderRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ArrayHeaderRedisMessage(long)
+	===  UNCHANGED METHOD: PUBLIC boolean isNull()
+	===  UNCHANGED METHOD: PUBLIC FINAL long length()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.redis.ArrayRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.util.AbstractReferenceCounted (<- io.netty.util.AbstractReferenceCounted)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.ArrayRedisMessage NULL_INSTANCE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.ArrayRedisMessage EMPTY_INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ArrayRedisMessage(java.util.List)
+	===  UNCHANGED METHOD: PUBLIC FINAL java.util.List children()
+	===  UNCHANGED METHOD: PROTECTED void deallocate()
+	===  UNCHANGED METHOD: PUBLIC boolean isNull()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.ArrayRedisMessage touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.redis.BulkStringHeaderRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BulkStringHeaderRedisMessage(int)
+	===  UNCHANGED METHOD: PUBLIC FINAL int bulkStringLength()
+	===  UNCHANGED METHOD: PUBLIC boolean isNull()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.BulkStringRedisContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.redis.DefaultBulkStringRedisContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.BulkStringRedisContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.buffer.DefaultByteBufHolder (<- io.netty.buffer.DefaultByteBufHolder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultBulkStringRedisContent(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.BulkStringRedisContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.DefaultLastBulkStringRedisContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.BulkStringRedisContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.LastBulkStringRedisContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.redis.DefaultBulkStringRedisContent (<- io.netty.handler.codec.redis.DefaultBulkStringRedisContent)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultLastBulkStringRedisContent(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.LastBulkStringRedisContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.ErrorRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.redis.AbstractStringRedisMessage (<- io.netty.handler.codec.redis.AbstractStringRedisMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ErrorRedisMessage(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessagePool
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool INSTANCE
+	===  UNCHANGED METHOD: PUBLIC byte[] getByteBufOfInteger(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.ErrorRedisMessage getError(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.ErrorRedisMessage getError(io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.ErrorRedisMessage getError(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.IntegerRedisMessage getInteger(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.IntegerRedisMessage getInteger(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.SimpleStringRedisMessage getSimpleString(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.SimpleStringRedisMessage getSimpleString(io.netty.handler.codec.redis.FixedRedisMessagePool$RedisReplyKey)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.SimpleStringRedisMessage getSimpleString(io.netty.buffer.ByteBuf)
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey LOADING
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey MASTERDOWN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey ERR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey ERR_SAMEOBJ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey BUSYKEY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey BUSY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey ERR_IDX
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey ERR_SYNTAX
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey NOSCRIPT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey OOM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey NOT_AUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey EXECABORT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey ERR_NOKEY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey MISCONF
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey NOREPLICAS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey READONLY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey WRONGTYPE
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.redis.FixedRedisMessagePool$RedisErrorKey[] values()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisReplyKey  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisReplyKey QUEUED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisReplyKey OK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FixedRedisMessagePool$RedisReplyKey PONG
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.redis.FixedRedisMessagePool$RedisReplyKey valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.redis.FixedRedisMessagePool$RedisReplyKey[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.BulkStringRedisContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.LastBulkStringRedisContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.buffer.DefaultByteBufHolder (<- io.netty.buffer.DefaultByteBufHolder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FullBulkStringRedisMessage NULL_INSTANCE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.FullBulkStringRedisMessage EMPTY_INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FullBulkStringRedisMessage(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage duplicate()
+	===  UNCHANGED METHOD: PUBLIC boolean isNull()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.redis.FullBulkStringRedisMessage touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.InlineCommandRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.redis.AbstractStringRedisMessage (<- io.netty.handler.codec.redis.AbstractStringRedisMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC InlineCommandRedisMessage(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.IntegerRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IntegerRedisMessage(long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC long value()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.BulkStringRedisContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.LastBulkStringRedisContent EMPTY_LAST_CONTENT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.LastBulkStringRedisContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.RedisArrayAggregator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisArrayAggregator()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.redis.RedisMessage, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.RedisBulkStringAggregator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageAggregator (<- io.netty.handler.codec.MessageAggregator)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisBulkStringAggregator()
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.redis.FullBulkStringRedisMessage beginAggregation(io.netty.handler.codec.redis.BulkStringHeaderRedisMessage, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean closeAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean ignoreContentAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isAggregated(io.netty.handler.codec.redis.RedisMessage)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isContentLengthInvalid(io.netty.handler.codec.redis.BulkStringHeaderRedisMessage, int)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isContentMessage(io.netty.handler.codec.redis.RedisMessage)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isLastContentMessage(io.netty.handler.codec.redis.BulkStringRedisContent)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isStartMessage(io.netty.handler.codec.redis.RedisMessage)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object newContinueResponse(io.netty.handler.codec.redis.BulkStringHeaderRedisMessage, int, io.netty.channel.ChannelPipeline)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.RedisCodecException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.CodecException (<- io.netty.handler.codec.CodecException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisCodecException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisCodecException(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.RedisDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisDecoder(int, io.netty.handler.codec.redis.RedisMessagePool, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisDecoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisDecoder(int, io.netty.handler.codec.redis.RedisMessagePool)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.redis.RedisEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RedisEncoder(io.netty.handler.codec.redis.RedisMessagePool)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.redis.RedisMessage, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.redis.RedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.redis.RedisMessagePool  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte[] getByteBufOfInteger(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.ErrorRedisMessage getError(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.ErrorRedisMessage getError(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.IntegerRedisMessage getInteger(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.IntegerRedisMessage getInteger(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.SimpleStringRedisMessage getSimpleString(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.redis.SimpleStringRedisMessage getSimpleString(io.netty.buffer.ByteBuf)
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.redis.RedisMessageType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.RedisMessageType ARRAY_HEADER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.RedisMessageType INLINE_COMMAND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.RedisMessageType SIMPLE_STRING
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.RedisMessageType BULK_STRING
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.RedisMessageType ERROR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.redis.RedisMessageType INTEGER
+	===  UNCHANGED METHOD: PUBLIC boolean isInline()
+	===  UNCHANGED METHOD: PUBLIC int length()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.redis.RedisMessageType readFrom(io.netty.buffer.ByteBuf, boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.redis.RedisMessageType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.redis.RedisMessageType[] values()
+	===  UNCHANGED METHOD: PUBLIC void writeTo(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.redis.SimpleStringRedisMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.redis.RedisMessage
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.redis.AbstractStringRedisMessage (<- io.netty.handler.codec.redis.AbstractStringRedisMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SimpleStringRedisMessage(java.lang.String)

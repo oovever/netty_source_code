@@ -1,0 +1,580 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-dns/target/netty-codec-dns-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-dns/4.1.79.Final/netty-codec-dns-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.dns.AbstractDnsMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsMessage
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.util.AbstractReferenceCounted (<- io.netty.util.AbstractReferenceCounted)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractDnsMessage(int)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractDnsMessage(int, io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage clear()
+	===  UNCHANGED METHOD: PUBLIC int count(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC int count()
+	===  UNCHANGED METHOD: PROTECTED void deallocate()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC int id()
+	===  UNCHANGED METHOD: PUBLIC boolean isRecursionDesired()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsOpCode opCode()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRecord recordAt(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRecord recordAt(io.netty.handler.codec.dns.DnsSection, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRecord removeRecord(io.netty.handler.codec.dns.DnsSection, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage setId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRecord setRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage setZ(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsMessage touch(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int z()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.dns.AbstractDnsOptPseudoRrRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsOptPseudoRecord
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.AbstractDnsRecord (<- io.netty.handler.codec.dns.AbstractDnsRecord)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractDnsOptPseudoRrRecord(int, int, int)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractDnsOptPseudoRrRecord(int)
+	===  UNCHANGED METHOD: PUBLIC int extendedRcode()
+	===  UNCHANGED METHOD: PUBLIC int flags()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC int version()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.dns.AbstractDnsRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractDnsRecord(java.lang.String, io.netty.handler.codec.dns.DnsRecordType, int, long)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractDnsRecord(java.lang.String, io.netty.handler.codec.dns.DnsRecordType, long)
+	===  UNCHANGED METHOD: PUBLIC int dnsClass()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC long timeToLive()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRecordType type()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsQuery
+	===  UNCHANGED INTERFACE: io.netty.channel.AddressedEnvelope
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.DefaultDnsQuery (<- io.netty.handler.codec.dns.DefaultDnsQuery)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsQuery(java.net.InetSocketAddress, java.net.InetSocketAddress, int, io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsQuery(java.net.InetSocketAddress, java.net.InetSocketAddress, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery clear()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery content()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress recipient()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery retain(int)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress sender()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery setId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery setZ(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsQuery touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DatagramDnsQueryDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsQueryDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsQueryDecoder(io.netty.handler.codec.dns.DnsRecordDecoder)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.channel.socket.DatagramPacket, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DatagramDnsQueryEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsQueryEncoder(io.netty.handler.codec.dns.DnsRecordEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsQueryEncoder()
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.channel.AddressedEnvelope)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.channel.AddressedEnvelope, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsMessage
+	===  UNCHANGED INTERFACE: io.netty.channel.AddressedEnvelope
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.DefaultDnsResponse (<- io.netty.handler.codec.dns.DefaultDnsResponse)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsResponse(java.net.InetSocketAddress, java.net.InetSocketAddress, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsResponse(java.net.InetSocketAddress, java.net.InetSocketAddress, int, io.netty.handler.codec.dns.DnsOpCode, io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsResponse(java.net.InetSocketAddress, java.net.InetSocketAddress, int, io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse clear()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse content()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress recipient()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse retain(int)
+	===  UNCHANGED METHOD: PUBLIC java.net.InetSocketAddress sender()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setAuthoritativeAnswer(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setCode(io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setRecursionAvailable(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setTruncated(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse setZ(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponse touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsResponseDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsResponseDecoder(io.netty.handler.codec.dns.DnsRecordDecoder)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.channel.socket.DatagramPacket, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.dns.DnsResponse decodeResponse(io.netty.channel.ChannelHandlerContext, io.netty.channel.socket.DatagramPacket)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DatagramDnsResponseEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsResponseEncoder(io.netty.handler.codec.dns.DnsRecordEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramDnsResponseEncoder()
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.channel.AddressedEnvelope)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.channel.AddressedEnvelope, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.dns.DefaultDnsOptEcsRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsOptEcsRecord
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsOptPseudoRecord
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.AbstractDnsOptPseudoRrRecord (<- io.netty.handler.codec.dns.AbstractDnsOptPseudoRrRecord)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsOptEcsRecord(int, io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsOptEcsRecord(int, int, int, int, byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsOptEcsRecord(int, int, byte[])
+	===  UNCHANGED METHOD: PUBLIC byte[] address()
+	===  UNCHANGED METHOD: PUBLIC int scopePrefixLength()
+	===  UNCHANGED METHOD: PUBLIC int sourcePrefixLength()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DefaultDnsPtrRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsPtrRecord
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.AbstractDnsRecord (<- io.netty.handler.codec.dns.AbstractDnsRecord)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsPtrRecord(java.lang.String, int, long, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String hostname()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DefaultDnsQuery  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsQuery
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.AbstractDnsMessage (<- io.netty.handler.codec.dns.AbstractDnsMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsQuery(int, io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsQuery(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery clear()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery setId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery setZ(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsQuery touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DefaultDnsQuestion  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsQuestion
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.AbstractDnsRecord (<- io.netty.handler.codec.dns.AbstractDnsRecord)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsQuestion(java.lang.String, io.netty.handler.codec.dns.DnsRecordType)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsQuestion(java.lang.String, io.netty.handler.codec.dns.DnsRecordType, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DefaultDnsRawRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRawRecord
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.AbstractDnsRecord (<- io.netty.handler.codec.dns.AbstractDnsRecord)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsRawRecord(java.lang.String, io.netty.handler.codec.dns.DnsRecordType, long, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsRawRecord(java.lang.String, io.netty.handler.codec.dns.DnsRecordType, int, long, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf content()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord duplicate()
+	===  UNCHANGED METHOD: PUBLIC int refCnt()
+	===  UNCHANGED METHOD: PUBLIC boolean release()
+	===  UNCHANGED METHOD: PUBLIC boolean release(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsRawRecord touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DefaultDnsRecordDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecordDecoder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED DefaultDnsRecordDecoder()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String decodeName(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PROTECTED java.lang.String decodeName0(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.handler.codec.dns.DnsQuestion decodeQuestion(io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.handler.codec.dns.DnsRecord decodeRecord(io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.dns.DnsRecord decodeRecord(java.lang.String, io.netty.handler.codec.dns.DnsRecordType, int, long, io.netty.buffer.ByteBuf, int, int)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DefaultDnsRecordEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecordEncoder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED DefaultDnsRecordEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encodeName(java.lang.String, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void encodeQuestion(io.netty.handler.codec.dns.DnsQuestion, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void encodeRecord(io.netty.handler.codec.dns.DnsRecord, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DefaultDnsResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsMessage
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.dns.AbstractDnsMessage (<- io.netty.handler.codec.dns.AbstractDnsMessage)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsResponse(int, io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsResponse(int, io.netty.handler.codec.dns.DnsOpCode, io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultDnsResponse(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse clear()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponseCode code()
+	===  UNCHANGED METHOD: PUBLIC boolean isAuthoritativeAnswer()
+	===  UNCHANGED METHOD: PUBLIC boolean isRecursionAvailable()
+	===  UNCHANGED METHOD: PUBLIC boolean isTruncated()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setAuthoritativeAnswer(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setCode(io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setId(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setRecursionAvailable(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setTruncated(boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse setZ(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.dns.DnsResponse touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage clear()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int count(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int count()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int id()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isRecursionDesired()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsOpCode opCode()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecord recordAt(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecord recordAt(io.netty.handler.codec.dns.DnsSection, int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecord removeRecord(io.netty.handler.codec.dns.DnsSection, int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage setId(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecord setRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage setZ(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsMessage touch(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int z()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DnsOpCode  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsOpCode IQUERY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsOpCode STATUS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsOpCode NOTIFY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsOpCode QUERY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsOpCode UPDATE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsOpCode(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC byte byteValue()
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.dns.DnsOpCode valueOf(int)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsOptEcsRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsOptPseudoRecord
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte[] address()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int scopePrefixLength()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int sourcePrefixLength()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsOptPseudoRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int extendedRcode()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int flags()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int version()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsPtrRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String hostname()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsMessage
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery clear()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery setId(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery setZ(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuery touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuestion  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long timeToLive()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsRecord
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRawRecord touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecord  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int CLASS_IN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int CLASS_ANY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int CLASS_NONE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int CLASS_CSNET
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int CLASS_CHAOS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int CLASS_HESIOD
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int dnsClass()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long timeToLive()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecordType type()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecordDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordDecoder DEFAULT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsQuestion decodeQuestion(io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecord decodeRecord(io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsRecordEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordEncoder DEFAULT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void encodeQuestion(io.netty.handler.codec.dns.DnsQuestion, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void encodeRecord(io.netty.handler.codec.dns.DnsRecord, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DnsRecordType  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType A
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType NSEC3
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType NS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType DHCID
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType NSEC
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType SPF
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType SSHFP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType TKEY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType ANY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType PTR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType DS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType DLV
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType TXT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType NAPTR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType OPT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType SRV
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType IXFR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType CNAME
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType RRSIG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType AXFR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType AAAA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType LOC
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType TLSA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType CAA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType IPSECKEY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType SOA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType MX
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType KX
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType DNAME
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType DNSKEY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType NSEC3PARAM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType TA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType HIP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType SIG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType AFSDB
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType TSIG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType CERT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType APL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType RP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsRecordType KEY
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsRecordType(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.dns.DnsRecordType)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC int intValue()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String name()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.dns.DnsRecordType valueOf(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.dns.DnsRecordType valueOf(java.lang.String)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.dns.DnsMessage
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse addRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse addRecord(io.netty.handler.codec.dns.DnsSection, int, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse clear(io.netty.handler.codec.dns.DnsSection)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse clear()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponseCode code()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isAuthoritativeAnswer()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isRecursionAvailable()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isTruncated()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setAuthoritativeAnswer(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setCode(io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setId(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setOpCode(io.netty.handler.codec.dns.DnsOpCode)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setRecord(io.netty.handler.codec.dns.DnsSection, io.netty.handler.codec.dns.DnsRecord)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setRecursionAvailable(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setRecursionDesired(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setTruncated(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse setZ(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.dns.DnsResponse touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.dns.DnsResponseCode  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode NOERROR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode BADMODE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode NOTZONE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode BADVERS_OR_BADSIG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode NXRRSET
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode NOTIMP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode BADALG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode NXDOMAIN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode NOTAUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode BADKEY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode FORMERR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode SERVFAIL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode REFUSED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode YXDOMAIN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode BADNAME
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode BADTIME
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsResponseCode YXRRSET
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DnsResponseCode(int, java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC int compareTo(io.netty.handler.codec.dns.DnsResponseCode)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC int intValue()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.dns.DnsResponseCode valueOf(int)
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.dns.DnsSection  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsSection ANSWER
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsSection ADDITIONAL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsSection QUESTION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.dns.DnsSection AUTHORITY
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.dns.DnsSection valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.dns.DnsSection[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.dns.TcpDnsQueryDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.LengthFieldBasedFrameDecoder (<- io.netty.handler.codec.LengthFieldBasedFrameDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsQueryDecoder(io.netty.handler.codec.dns.DnsRecordDecoder, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsQueryDecoder()
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.dns.TcpDnsQueryEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsQueryEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsQueryEncoder(io.netty.handler.codec.dns.DnsRecordEncoder)
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.dns.DnsQuery, boolean)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.dns.DnsQuery, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.dns.TcpDnsResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.LengthFieldBasedFrameDecoder (<- io.netty.handler.codec.LengthFieldBasedFrameDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsResponseDecoder(io.netty.handler.codec.dns.DnsRecordDecoder, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsResponseDecoder()
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf extractFrame(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, int, int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.dns.TcpDnsResponseEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsResponseEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TcpDnsResponseEncoder(io.netty.handler.codec.dns.DnsRecordEncoder)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.dns.DnsResponse, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable

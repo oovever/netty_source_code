@@ -1,0 +1,466 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common/target/netty-transport-native-unix-common-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.79.Final/netty-transport-native-unix-common-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.Buffer  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC int addressSize()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.nio.ByteBuffer allocateDirectWithNativeOrder(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void free(java.nio.ByteBuffer)
+	===  UNCHANGED METHOD: PUBLIC STATIC long memoryAddress(java.nio.ByteBuffer)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.DatagramSocketAddress  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.net.InetSocketAddress (<- java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DatagramSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC int receivedAmount()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig config()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isConnected()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketAddress remoteAddress()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getSendBufferSize()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setSendBufferSize(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainDatagramChannelConfig setWriteSpinCount(int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.DomainDatagramPacket  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.channel.AddressedEnvelope
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.channel.DefaultAddressedEnvelope (<- io.netty.channel.DefaultAddressedEnvelope)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainDatagramPacket(io.netty.buffer.ByteBuf, io.netty.channel.unix.DomainSocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainDatagramPacket(io.netty.buffer.ByteBuf, io.netty.channel.unix.DomainSocketAddress, io.netty.channel.unix.DomainSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramPacket touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.DomainDatagramSocketAddress  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.DomainSocketAddress (<- io.netty.channel.unix.DomainSocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainDatagramSocketAddress(byte[], int, io.netty.channel.unix.DomainDatagramSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.DomainDatagramSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC int receivedAmount()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.unix.DomainSocketAddress  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.net.SocketAddress (<- java.net.SocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainSocketAddress(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DomainSocketAddress(java.io.File)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String path()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.socket.DuplexChannel
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig config()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketAddress remoteAddress()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelConfig
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketReadMode getReadMode()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setAllocator(io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setAutoClose(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setAutoRead(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setConnectTimeoutMillis(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setMaxMessagesPerRead(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setMessageSizeEstimator(io.netty.channel.MessageSizeEstimator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setReadMode(io.netty.channel.unix.DomainSocketReadMode)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setRecvByteBufAllocator(io.netty.channel.RecvByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setWriteBufferHighWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setWriteBufferLowWaterMark(int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setWriteBufferWaterMark(io.netty.channel.WriteBufferWaterMark)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketChannelConfig setWriteSpinCount(int)
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.channel.unix.DomainSocketReadMode  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.unix.DomainSocketReadMode BYTES
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.unix.DomainSocketReadMode FILE_DESCRIPTORS
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.DomainSocketReadMode valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.DomainSocketReadMode[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.Errors  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERROR_ECONNREFUSED_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_ECONNRESET_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_EBADF_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERROR_EALREADY_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_ENOTCONN_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_EPIPE_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERROR_EISCONN_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_ENOENT_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_EAGAIN_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_EINPROGRESS_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERROR_ENETUNREACH_NEGATIVE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int ERRNO_EWOULDBLOCK_NEGATIVE
+	===  UNCHANGED METHOD: PUBLIC STATIC int ioResult(java.lang.String, int, io.netty.channel.unix.Errors$NativeIoException, java.nio.channels.ClosedChannelException)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC int ioResult(java.lang.String, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.Errors$NativeIoException newConnectionResetException(java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.Errors$NativeIoException newIOException(java.lang.String, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void throwConnectException(java.lang.String, int)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC STATIC FINAL io.netty.channel.unix.Errors$NativeIoException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.io.IOException (<- java.io.IOException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Errors$NativeIoException(java.lang.String, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Errors$NativeIoException(java.lang.String, int, boolean)
+	===  UNCHANGED METHOD: PUBLIC int expectedErr()
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable fillInStackTrace()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.unix.FileDescriptor  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FileDescriptor(int)
+	===  UNCHANGED METHOD: PUBLIC void close()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.FileDescriptor from(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.FileDescriptor from(java.io.File)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC FINAL int intValue()
+	===  UNCHANGED METHOD: PUBLIC boolean isOpen()
+	===  UNCHANGED METHOD: PROTECTED boolean markClosed()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.FileDescriptor[] pipe()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int read(java.nio.ByteBuffer, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int readAddress(long, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC FINAL int write(java.nio.ByteBuffer, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int writeAddress(long, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL long writev(java.nio.ByteBuffer[], int, int, long)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL long writevAddresses(long, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.unix.GenericUnixChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.UnixChannelOption (<- io.netty.channel.unix.UnixChannelOption)
+	===  UNCHANGED METHOD: PUBLIC int level()
+	===  UNCHANGED METHOD: PUBLIC int optname()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.IntegerUnixChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.GenericUnixChannelOption (<- io.netty.channel.unix.GenericUnixChannelOption)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IntegerUnixChannelOption(java.lang.String, int, int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.IovArray  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundBuffer$MessageProcessor
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int IOV_SIZE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IovArray(io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IovArray()
+	===  UNCHANGED METHOD: PUBLIC boolean add(io.netty.buffer.ByteBuf)
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC boolean add(io.netty.buffer.ByteBuf, int, int)
+	===  UNCHANGED METHOD: PUBLIC void clear()
+	===  UNCHANGED METHOD: PUBLIC int count()
+	===  UNCHANGED METHOD: PUBLIC void maxBytes(long)
+	===  UNCHANGED METHOD: PUBLIC long maxBytes()
+	===  UNCHANGED METHOD: PUBLIC long memoryAddress(int)
+	===  UNCHANGED METHOD: PUBLIC boolean processMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void release()
+	===  UNCHANGED METHOD: PUBLIC long size()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.Limits  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int IOV_MAX
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int SIZEOF_JLONG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int UIO_MAX_IOV
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL long SSIZE_MAX
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.NativeInetAddress  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NativeInetAddress(byte[], int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NativeInetAddress(byte[])
+	===  UNCHANGED METHOD: PUBLIC byte[] address()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.InetSocketAddress address(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC void copyIpv4MappedIpv6Address(byte[], byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC byte[] ipv4MappedIpv6Address(byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.NativeInetAddress newInstance(java.net.InetAddress)
+	===  UNCHANGED METHOD: PUBLIC int scopeId()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.PeerCredentials  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int[] gids()
+	===  UNCHANGED METHOD: PUBLIC int pid()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC int uid()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.PreferredDirectByteBufAllocator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufAllocator
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PreferredDirectByteBufAllocator()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf buffer()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf buffer(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf buffer(int, int)
+	===  UNCHANGED METHOD: PUBLIC int calculateNewCapacity(int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.CompositeByteBuf compositeBuffer()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.CompositeByteBuf compositeBuffer(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.CompositeByteBuf compositeDirectBuffer()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.CompositeByteBuf compositeDirectBuffer(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.CompositeByteBuf compositeHeapBuffer()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.CompositeByteBuf compositeHeapBuffer(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf directBuffer()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf directBuffer(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf directBuffer(int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf heapBuffer()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf heapBuffer(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf heapBuffer(int, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf ioBuffer()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf ioBuffer(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf ioBuffer(int, int)
+	===  UNCHANGED METHOD: PUBLIC boolean isDirectBufferPooled()
+	===  UNCHANGED METHOD: PUBLIC void updateAllocator(io.netty.buffer.ByteBufAllocator)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.RawUnixChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.GenericUnixChannelOption (<- io.netty.channel.unix.GenericUnixChannelOption)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RawUnixChannelOption(java.lang.String, int, int, int)
+	===  UNCHANGED METHOD: PUBLIC int length()
+	===  UNCHANGED METHOD: PUBLIC void validate(java.nio.ByteBuffer)
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.channel.AddressedEnvelope
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.channel.socket.DatagramPacket (<- io.netty.channel.socket.DatagramPacket)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SegmentedDatagramPacket(io.netty.buffer.ByteBuf, int, java.net.InetSocketAddress, java.net.InetSocketAddress)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SegmentedDatagramPacket(io.netty.buffer.ByteBuf, int, java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC int segmentSize()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.unix.SegmentedDatagramPacket touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.unix.ServerDomainSocketChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.channel.unix.UnixChannel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: io.netty.channel.ServerChannel
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.DomainSocketAddress remoteAddress()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.unix.Socket  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: io.netty.channel.unix.FileDescriptor (<- io.netty.channel.unix.FileDescriptor)
+	===  UNCHANGED FIELD: PROTECTED FINAL boolean ipv6
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int UDS_SUN_PATH_SIZE
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Socket(int)
+	===  UNCHANGED METHOD: PUBLIC FINAL int accept(byte[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void bind(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean connect(java.net.SocketAddress)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void disconnect()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean finishConnect()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC int getIntOpt(int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void getRawOpt(int, int, java.nio.ByteBuffer)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int getReceiveBufferSize()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int getSendBufferSize()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int getSoError()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int getSoLinger()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int getTrafficClass()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC void initialize()
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isBroadcast()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isInputShutdown()
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isIPv6Preferred()
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isKeepAlive()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isOutputShutdown()
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isReuseAddress()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isReusePort()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isShutdown()
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isTcpNoDelay()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void listen(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL java.net.InetSocketAddress localAddress()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.Socket newSocketDgram()
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketDgram0()
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketDgram0(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketDgram0(boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.Socket newSocketDomain()
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketDomain0()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.Socket newSocketDomainDgram()
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketDomainDgram0()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.Socket newSocketStream()
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketStream0()
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketStream0(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PROTECTED STATIC int newSocketStream0(boolean)
+	===  UNCHANGED METHOD: PUBLIC FINAL int recvFd()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.unix.DatagramSocketAddress recvFrom(java.nio.ByteBuffer, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.unix.DatagramSocketAddress recvFromAddress(long, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.unix.DomainDatagramSocketAddress recvFromAddressDomainSocket(long, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.channel.unix.DomainDatagramSocketAddress recvFromDomainSocket(java.nio.ByteBuffer, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL java.net.InetSocketAddress remoteAddress()
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendFd(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendTo(java.nio.ByteBuffer, int, int, java.net.InetAddress, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendTo(java.nio.ByteBuffer, int, int, java.net.InetAddress, int, boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendToAddress(long, int, int, java.net.InetAddress, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendToAddress(long, int, int, java.net.InetAddress, int, boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendToAddressDomainSocket(long, int, int, byte[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendToAddresses(long, int, java.net.InetAddress, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendToAddresses(long, int, java.net.InetAddress, int, boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendToAddressesDomainSocket(long, int, byte[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int sendToDomainSocket(java.nio.ByteBuffer, int, int, byte[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setBroadcast(boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void setIntOpt(int, int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setKeepAlive(boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void setRawOpt(int, int, java.nio.ByteBuffer)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setReceiveBufferSize(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setReuseAddress(boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setReusePort(boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setSendBufferSize(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setSoLinger(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setTcpNoDelay(boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void setTrafficClass(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean shouldUseIpv6(io.netty.channel.socket.InternetProtocolFamily)
+	===  UNCHANGED METHOD: PUBLIC FINAL void shutdown()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void shutdown(boolean, boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PROTECTED STATIC boolean useIpv6(io.netty.channel.unix.Socket, java.net.InetAddress)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.unix.SocketWritableByteChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.nio.channels.WritableByteChannel
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED INTERFACE: java.nio.channels.Channel
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SocketWritableByteChannel(io.netty.channel.unix.FileDescriptor)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.buffer.ByteBufAllocator alloc()
+	===  UNCHANGED METHOD: PUBLIC FINAL void close()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isOpen()
+	===  UNCHANGED METHOD: PUBLIC FINAL int write(java.nio.ByteBuffer)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.Unix  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC void ensureAvailability()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isAvailable()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PUBLIC STATIC void registerInternal(java.lang.Runnable)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable unavailabilityCause()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.channel.unix.UnixChannel  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.Channel
+	===  UNCHANGED INTERFACE: io.netty.util.AttributeMap
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundInvoker
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.unix.FileDescriptor fd()
+===  UNCHANGED CLASS: PUBLIC io.netty.channel.unix.UnixChannelOption  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.Constant
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelOption (<- io.netty.channel.ChannelOption)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption DOMAIN_SOCKET_READ_MODE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.channel.ChannelOption SO_REUSEPORT
+	===  UNCHANGED CONSTRUCTOR: PROTECTED UnixChannelOption()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.UnixChannelUtil  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.InetSocketAddress computeRemoteAddr(java.net.InetSocketAddress, java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isBufferCopyNeededForWrite(io.netty.buffer.ByteBuf)

@@ -1,0 +1,4 @@
+package io.netty.microbench.http2.jmh_generated;
+public class NoPriorityByteDistributionBenchmark_AdditionalCounters_jmhType extends NoPriorityByteDistributionBenchmark_AdditionalCounters_jmhType_B3 {
+}
+

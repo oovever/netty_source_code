@@ -1,0 +1,4 @@
+#Sun Jul 31 20:41:53 CST 2022
+configuration*?=8554AB79359AE2204D32C7085AA1B6ECADB26D3A
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/resolver-dns-native-macos/src/test/java/io/netty/resolver/dns/macos/MacOSDnsServerAddressStreamProviderTest.java=1659268555798

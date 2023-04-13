@@ -1,0 +1,4 @@
+package io.netty.microbench.buffer.jmh_generated;
+public class SimpleByteBufPooledAllocatorBenchmark_jmhType extends SimpleByteBufPooledAllocatorBenchmark_jmhType_B3 {
+}
+

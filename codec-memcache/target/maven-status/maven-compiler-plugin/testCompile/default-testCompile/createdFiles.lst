@@ -1,0 +1,9 @@
+io/netty/handler/codec/memcache/binary/BinaryMemcacheEncoderTest$1.class
+io/netty/handler/codec/memcache/binary/BinaryMemcacheEncoderTest.class
+io/netty/handler/codec/memcache/binary/BinaryMemcacheObjectAggregatorTest.class
+io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheRequestTest.class
+io/netty/handler/codec/memcache/binary/FullMemcacheMessageRequestTest.class
+io/netty/handler/codec/memcache/binary/BinaryMemcacheMessageTest.class
+io/netty/handler/codec/memcache/binary/FullMemcacheMessageResponseTest.class
+io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheResponseTest.class
+io/netty/handler/codec/memcache/binary/BinaryMemcacheDecoderTest.class

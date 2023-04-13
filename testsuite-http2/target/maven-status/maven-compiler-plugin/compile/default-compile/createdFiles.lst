@@ -1,0 +1,8 @@
+io/netty/testsuite/http2/Http2ServerInitializer.class
+io/netty/testsuite/http2/Http2Server.class
+io/netty/testsuite/http2/Http2ServerInitializer$1.class
+io/netty/testsuite/http2/Http2ServerInitializer$UserEventLogger.class
+io/netty/testsuite/http2/HelloWorldHttp2HandlerBuilder.class
+io/netty/testsuite/http2/HelloWorldHttp1Handler.class
+io/netty/testsuite/http2/Http2ServerInitializer$2.class
+io/netty/testsuite/http2/HelloWorldHttp2Handler.class

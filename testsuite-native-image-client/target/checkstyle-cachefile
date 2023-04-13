@@ -1,0 +1,5 @@
+#Sun Jul 31 20:42:51 CST 2022
+configuration*?=E5B62A2F883AAA3960EA588504F40381CD10B875
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/testsuite-native-image-client/src/main/java/io/netty/testsuite/svm/client/DnsNativeClient.java=1659268555815
+/Users/oovever/Documents/projcet/Github/netty/testsuite-native-image-client/src/main/java/io/netty/testsuite/svm/client/package-info.java=1659268555815

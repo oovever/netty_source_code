@@ -1,0 +1,10 @@
+io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest$1.class
+io/netty/channel/unix/tests/UnixTestUtils.class
+io/netty/channel/unix/tests/SocketTest.class
+io/netty/channel/unix/tests/IovArrayTest.class
+io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest$TestHandler.class
+io/netty/channel/unix/tests/IovArrayTest$NoMemoryAddressByteBuf.class
+io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest$2$1.class
+io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest$2.class
+io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest.class
+io/netty/channel/unix/tests/DetectPeerCloseWithoutReadTest$3.class

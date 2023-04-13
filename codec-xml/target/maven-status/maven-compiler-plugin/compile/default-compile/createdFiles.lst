@@ -1,0 +1,16 @@
+io/netty/handler/codec/xml/XmlSpace.class
+io/netty/handler/codec/xml/XmlContent.class
+io/netty/handler/codec/xml/XmlNamespace.class
+io/netty/handler/codec/xml/XmlComment.class
+io/netty/handler/codec/xml/XmlCdata.class
+io/netty/handler/codec/xml/XmlDTD.class
+io/netty/handler/codec/xml/XmlDecoder.class
+io/netty/handler/codec/xml/XmlCharacters.class
+io/netty/handler/codec/xml/XmlElementStart.class
+io/netty/handler/codec/xml/XmlEntityReference.class
+io/netty/handler/codec/xml/XmlDocumentEnd.class
+io/netty/handler/codec/xml/XmlElementEnd.class
+io/netty/handler/codec/xml/XmlElement.class
+io/netty/handler/codec/xml/XmlProcessingInstruction.class
+io/netty/handler/codec/xml/XmlAttribute.class
+io/netty/handler/codec/xml/XmlDocumentStart.class

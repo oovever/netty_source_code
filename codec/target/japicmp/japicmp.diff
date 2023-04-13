@@ -1,0 +1,1706 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec/target/netty-codec-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec/4.1.79.Final/netty-codec-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.AsciiHeadersEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiHeadersEncoder(io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AsciiHeadersEncoder(io.netty.buffer.ByteBuf, io.netty.handler.codec.AsciiHeadersEncoder$SeparatorType, io.netty.handler.codec.AsciiHeadersEncoder$NewlineType)
+	===  UNCHANGED METHOD: PUBLIC void encode(java.util.Map$Entry)
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.AsciiHeadersEncoder$NewlineType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.AsciiHeadersEncoder$NewlineType CRLF
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.AsciiHeadersEncoder$NewlineType LF
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.AsciiHeadersEncoder$NewlineType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.AsciiHeadersEncoder$NewlineType[] values()
+===  UNCHANGED ENUM: PUBLIC STATIC FINAL io.netty.handler.codec.AsciiHeadersEncoder$SeparatorType  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.AsciiHeadersEncoder$SeparatorType COLON
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.AsciiHeadersEncoder$SeparatorType COLON_SPACE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.AsciiHeadersEncoder$SeparatorType valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.AsciiHeadersEncoder$SeparatorType[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.base64.Base64  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf decode(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf decode(io.netty.buffer.ByteBuf, io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf decode(io.netty.buffer.ByteBuf, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf decode(io.netty.buffer.ByteBuf, int, int, io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf decode(io.netty.buffer.ByteBuf, int, int, io.netty.handler.codec.base64.Base64Dialect, io.netty.buffer.ByteBufAllocator)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, boolean, io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, int, int, io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, int, int, boolean)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, int, int, boolean, io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf encode(io.netty.buffer.ByteBuf, int, int, boolean, io.netty.handler.codec.base64.Base64Dialect, io.netty.buffer.ByteBufAllocator)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.base64.Base64Decoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Base64Decoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Base64Decoder(io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.base64.Base64Dialect  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.base64.Base64Dialect ORDERED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.base64.Base64Dialect URL_SAFE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.base64.Base64Dialect STANDARD
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.base64.Base64Dialect valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.base64.Base64Dialect[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.base64.Base64Encoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Base64Encoder(boolean, io.netty.handler.codec.base64.Base64Dialect)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Base64Encoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Base64Encoder(boolean)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.bytes.ByteArrayDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ByteArrayDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.bytes.ByteArrayEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ByteArrayEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, byte[], java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.ByteToMessageCodec  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelDuplexHandler (<- io.netty.channel.ChannelDuplexHandler)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ByteToMessageCodec(java.lang.Class)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ByteToMessageCodec(boolean)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ByteToMessageCodec(java.lang.Class, boolean)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ByteToMessageCodec()
+	===  UNCHANGED METHOD: PUBLIC boolean acceptOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelInactive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelReadComplete(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decodeLast(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.ByteToMessageDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelInboundHandlerAdapter (<- io.netty.channel.ChannelInboundHandlerAdapter)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.ByteToMessageDecoder$Cumulator COMPOSITE_CUMULATOR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.ByteToMessageDecoder$Cumulator MERGE_CUMULATOR
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ByteToMessageDecoder()
+	===  UNCHANGED METHOD: PROTECTED int actualReadableBytes()
+	===  UNCHANGED METHOD: PROTECTED void callDecode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+	===  UNCHANGED METHOD: PUBLIC void channelInactive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelReadComplete(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decodeLast(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL void discardSomeReadBytes()
+	===  UNCHANGED METHOD: PUBLIC FINAL void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void handlerRemoved0(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf internalBuffer()
+	===  UNCHANGED METHOD: PUBLIC boolean isSingleDecode()
+	===  UNCHANGED METHOD: PUBLIC void setCumulator(io.netty.handler.codec.ByteToMessageDecoder$Cumulator)
+	===  UNCHANGED METHOD: PUBLIC void setDiscardAfterReads(int)
+	===  UNCHANGED METHOD: PUBLIC void setSingleDecode(boolean)
+	===  UNCHANGED METHOD: PUBLIC void userEventTriggered(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.handler.codec.ByteToMessageDecoder$Cumulator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.buffer.ByteBuf cumulate(io.netty.buffer.ByteBufAllocator, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.CharSequenceValueConverter  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.ValueConverter
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.CharSequenceValueConverter INSTANCE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CharSequenceValueConverter()
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertBoolean(boolean)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertByte(byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertChar(char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertDouble(double)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertFloat(float)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertInt(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertLong(long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertObject(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertShort(short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.CharSequence convertTimeMillis(long)
+	===  UNCHANGED METHOD: PUBLIC boolean convertToBoolean(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC byte convertToByte(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC char convertToChar(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC double convertToDouble(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC float convertToFloat(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC int convertToInt(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC long convertToLong(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC short convertToShort(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC long convertToTimeMillis(java.lang.CharSequence)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.CodecException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.RuntimeException (<- java.lang.RuntimeException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CodecException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CodecException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CodecException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CodecException(java.lang.String, java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.Brotli  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable cause()
+	===  UNCHANGED METHOD: PUBLIC STATIC void ensureAvailability()
+		===  UNCHANGED EXCEPTION: java.lang.Throwable
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isAvailable()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.BrotliDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BrotliDecoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BrotliDecoder()
+	===  UNCHANGED METHOD: PUBLIC void channelInactive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void handlerRemoved0(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.BrotliEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BrotliEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BrotliEncoder(io.netty.handler.codec.compression.BrotliOptions)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BrotliEncoder(com.aayushatharva.brotli4j.encoder.Encoder$Parameters)
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, boolean)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.BrotliOptions  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.compression.CompressionOptions
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC com.aayushatharva.brotli4j.encoder.Encoder$Parameters parameters()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.Bzip2Decoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Bzip2Decoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.Bzip2Encoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Bzip2Encoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Bzip2Encoder()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC void close(io.netty.channel.ChannelHandlerContext, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.CompressionException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.EncoderException (<- io.netty.handler.codec.EncoderException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompressionException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompressionException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompressionException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompressionException(java.lang.String)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.compression.CompressionOptions  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.DecompressionException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DecoderException (<- io.netty.handler.codec.DecoderException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecompressionException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecompressionException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecompressionException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecompressionException(java.lang.String, java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.DeflateOptions  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.compression.CompressionOptions
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int compressionLevel()
+	===  UNCHANGED METHOD: PUBLIC int memLevel()
+	===  UNCHANGED METHOD: PUBLIC int windowBits()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.FastLzFrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastLzFrameDecoder(java.util.zip.Checksum)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastLzFrameDecoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastLzFrameDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.FastLzFrameEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastLzFrameEncoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastLzFrameEncoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastLzFrameEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FastLzFrameEncoder(int, java.util.zip.Checksum)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.GzipOptions  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.compression.CompressionOptions
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.DeflateOptions (<- io.netty.handler.codec.compression.DeflateOptions)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.JdkZlibDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.ZlibDecoder (<- io.netty.handler.codec.compression.ZlibDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(io.netty.handler.codec.compression.ZlibWrapper, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(io.netty.handler.codec.compression.ZlibWrapper)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(io.netty.handler.codec.compression.ZlibWrapper, boolean, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(io.netty.handler.codec.compression.ZlibWrapper, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(boolean, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibDecoder(byte[], int)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decompressionBufferExhausted(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PROTECTED void handlerRemoved0(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.JdkZlibEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.ZlibEncoder (<- io.netty.handler.codec.compression.ZlibEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibEncoder(int, byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibEncoder(byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibEncoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JdkZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper, int)
+	===  UNCHANGED METHOD: PROTECTED FINAL io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, boolean)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC void close(io.netty.channel.ChannelHandlerContext, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.JZlibDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.ZlibDecoder (<- io.netty.handler.codec.compression.ZlibDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibDecoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibDecoder(byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibDecoder(io.netty.handler.codec.compression.ZlibWrapper, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibDecoder(byte[], int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibDecoder(io.netty.handler.codec.compression.ZlibWrapper)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decompressionBufferExhausted(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.JZlibEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.ZlibEncoder (<- io.netty.handler.codec.compression.ZlibEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder(byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder(int, int, int, byte[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper, int, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JZlibEncoder(int, byte[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC void close(io.netty.channel.ChannelHandlerContext, io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.Lz4FrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameDecoder(net.jpountz.lz4.LZ4Factory, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameDecoder(net.jpountz.lz4.LZ4Factory, java.util.zip.Checksum)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameDecoder(boolean)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.Lz4FrameEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameEncoder(net.jpountz.lz4.LZ4Factory, boolean, int, java.util.zip.Checksum, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameEncoder(net.jpountz.lz4.LZ4Factory, boolean, int, java.util.zip.Checksum)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4FrameEncoder(boolean)
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close()
+	===  UNCHANGED METHOD: PUBLIC io.netty.channel.ChannelFuture close(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC void close(io.netty.channel.ChannelHandlerContext, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void flush(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+	===  UNCHANGED METHOD: PUBLIC void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isClosed()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.Lz4XXHash32  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.zip.Checksum
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.ByteBufChecksum (<- io.netty.handler.codec.compression.ByteBufChecksum)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Lz4XXHash32(int)
+	===  UNCHANGED METHOD: PUBLIC long getValue()
+	===  UNCHANGED METHOD: PUBLIC void reset()
+	===  UNCHANGED METHOD: PUBLIC void update(int)
+	===  UNCHANGED METHOD: PUBLIC void update(byte[], int, int)
+	===  UNCHANGED METHOD: PUBLIC void update(io.netty.buffer.ByteBuf, int, int)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.LzfDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzfDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzfDecoder(boolean)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.LzfEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzfEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzfEncoder(boolean, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzfEncoder(boolean, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzfEncoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzfEncoder(boolean)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.LzmaFrameEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzmaFrameEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzmaFrameEncoder(int, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzmaFrameEncoder(int, int, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzmaFrameEncoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LzmaFrameEncoder(int, int, int, int, boolean, int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, boolean)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.Snappy  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC Snappy()
+	===  UNCHANGED METHOD: PUBLIC void decode(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC void encode(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf, int)
+	===  UNCHANGED METHOD: PUBLIC void reset()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.SnappyFramedDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.SnappyFrameDecoder (<- io.netty.handler.codec.compression.SnappyFrameDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SnappyFramedDecoder()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.SnappyFrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SnappyFrameDecoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SnappyFrameDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.SnappyFramedEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.compression.SnappyFrameEncoder (<- io.netty.handler.codec.compression.SnappyFrameEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SnappyFramedEncoder()
+	===  UNCHANGED ANNOTATION: java.lang.Deprecated
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.SnappyFrameEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SnappyFrameEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.StandardCompressionOptions  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.BrotliOptions brotli()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.BrotliOptions brotli(com.aayushatharva.brotli4j.encoder.Encoder$Parameters)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.DeflateOptions deflate()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.DeflateOptions deflate(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.GzipOptions gzip()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.GzipOptions gzip(int, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZstdOptions zstd()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZstdOptions zstd(int, int, int)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.ZlibCodecFactory  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isSupportingWindowSizeAndMemLevel()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibDecoder newZlibDecoder()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibDecoder newZlibDecoder(io.netty.handler.codec.compression.ZlibWrapper)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibDecoder newZlibDecoder(byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibEncoder newZlibEncoder(int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibEncoder newZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibEncoder newZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibEncoder newZlibEncoder(io.netty.handler.codec.compression.ZlibWrapper, int, int, int)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibEncoder newZlibEncoder(byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibEncoder newZlibEncoder(int, byte[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibEncoder newZlibEncoder(int, int, int, byte[])
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.compression.ZlibDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED FIELD: PROTECTED FINAL int maxAllocation
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ZlibDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ZlibDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED void decompressionBufferExhausted(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isClosed()
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf prepareDecompressBuffer(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, int)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.compression.ZlibEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ZlibEncoder()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.ChannelFuture close()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.channel.ChannelFuture close(io.netty.channel.ChannelPromise)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isClosed()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.compression.ZlibWrapper  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.compression.ZlibWrapper ZLIB
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.compression.ZlibWrapper ZLIB_OR_NONE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.compression.ZlibWrapper GZIP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.compression.ZlibWrapper NONE
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibWrapper valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.compression.ZlibWrapper[] values()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.Zstd  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.Throwable cause()
+	===  UNCHANGED METHOD: PUBLIC STATIC void ensureAvailability()
+		===  UNCHANGED EXCEPTION: java.lang.Throwable
+	===  UNCHANGED METHOD: PUBLIC STATIC boolean isAvailable()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.compression.ZstdEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ZstdEncoder(int, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ZstdEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ZstdEncoder(int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ZstdEncoder(int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, boolean)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC void flush(io.netty.channel.ChannelHandlerContext)
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+	===  UNCHANGED METHOD: PUBLIC void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.compression.ZstdOptions  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.compression.CompressionOptions
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int blockSize()
+	===  UNCHANGED METHOD: PUBLIC int compressionLevel()
+	===  UNCHANGED METHOD: PUBLIC int maxEncodeSize()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.CorruptedFrameException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DecoderException (<- io.netty.handler.codec.DecoderException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CorruptedFrameException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CorruptedFrameException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CorruptedFrameException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CorruptedFrameException(java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.DatagramPacketDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramPacketDecoder(io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED METHOD: PUBLIC boolean acceptInboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelActive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelInactive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelReadComplete(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelRegistered(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelUnregistered(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelWritabilityChanged(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.channel.socket.DatagramPacket, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void exceptionCaught(io.netty.channel.ChannelHandlerContext, java.lang.Throwable)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isSharable()
+	===  UNCHANGED METHOD: PUBLIC void userEventTriggered(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.DatagramPacketEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DatagramPacketEncoder(io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED METHOD: PUBLIC boolean acceptOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void bind(io.netty.channel.ChannelHandlerContext, java.net.SocketAddress, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void close(io.netty.channel.ChannelHandlerContext, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void connect(io.netty.channel.ChannelHandlerContext, java.net.SocketAddress, java.net.SocketAddress, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void deregister(io.netty.channel.ChannelHandlerContext, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void disconnect(io.netty.channel.ChannelHandlerContext, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.channel.AddressedEnvelope, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void exceptionCaught(io.netty.channel.ChannelHandlerContext, java.lang.Throwable)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void flush(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean isSharable()
+	===  UNCHANGED METHOD: PUBLIC void read(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.DateFormatter  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.StringBuilder append(java.util.Date, java.lang.StringBuilder)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String format(java.util.Date)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Date parseHttpDate(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Date parseHttpDate(java.lang.CharSequence, int, int)
+	===  UNCHANGED METHOD: PUBLIC void reset()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.DecoderException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.CodecException (<- io.netty.handler.codec.CodecException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecoderException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecoderException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecoderException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DecoderException(java.lang.String, java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.DecoderResult  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.DecoderResult UNFINISHED
+	===  UNCHANGED FIELD: PROTECTED STATIC FINAL io.netty.util.Signal SIGNAL_SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.DecoderResult SUCCESS
+	===  UNCHANGED FIELD: PROTECTED STATIC FINAL io.netty.util.Signal SIGNAL_UNFINISHED
+	===  UNCHANGED CONSTRUCTOR: PROTECTED DecoderResult(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Throwable cause()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.DecoderResult failure(java.lang.Throwable)
+	===  UNCHANGED METHOD: PUBLIC boolean isFailure()
+	===  UNCHANGED METHOD: PUBLIC boolean isFinished()
+	===  UNCHANGED METHOD: PUBLIC boolean isSuccess()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.DecoderResultProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.DecoderResult decoderResult()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void setDecoderResult(io.netty.handler.codec.DecoderResult)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.DefaultHeaders  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.Headers
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PROTECTED FINAL io.netty.handler.codec.DefaultHeaders$HeaderEntry head
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultHeaders(io.netty.handler.codec.ValueConverter, io.netty.handler.codec.DefaultHeaders$NameValidator)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultHeaders(io.netty.util.HashingStrategy, io.netty.handler.codec.ValueConverter, io.netty.handler.codec.DefaultHeaders$NameValidator, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultHeaders(io.netty.util.HashingStrategy, io.netty.handler.codec.ValueConverter, io.netty.handler.codec.DefaultHeaders$NameValidator)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultHeaders(io.netty.handler.codec.ValueConverter)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultHeaders(io.netty.util.HashingStrategy, io.netty.handler.codec.ValueConverter)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PROTECTED void addImpl(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers clear()
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean contains(java.lang.Object, java.lang.Object, io.netty.util.HashingStrategy)
+	===  UNCHANGED METHOD: PUBLIC boolean containsBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC boolean containsByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC boolean containsChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC boolean containsDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC boolean containsFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC boolean containsInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC boolean containsLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC boolean containsObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC boolean containsTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.DefaultHeaders copy()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean equals(io.netty.handler.codec.Headers, io.netty.util.HashingStrategy)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.util.List getAll(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.util.List getAllAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getAndRemove(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Boolean getBoolean(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean getBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Boolean getBooleanAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean getBooleanAndRemove(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Byte getByte(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC byte getByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Byte getByteAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC byte getByteAndRemove(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Character getChar(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC char getChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Character getCharAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC char getCharAndRemove(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Double getDouble(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC double getDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Double getDoubleAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC double getDoubleAndRemove(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Float getFloat(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC float getFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Float getFloatAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC float getFloatAndRemove(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Integer getInt(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int getInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Integer getIntAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int getIntAndRemove(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getLong(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getLongAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getLongAndRemove(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Short getShort(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC short getShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Short getShortAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC short getShortAndRemove(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getTimeMillis(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getTimeMillisAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getTimeMillisAndRemove(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC FINAL int hashCode(io.netty.util.HashingStrategy)
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set names()
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.DefaultHeaders$HeaderEntry newHeaderEntry(int, java.lang.Object, java.lang.Object, io.netty.handler.codec.DefaultHeaders$HeaderEntry)
+	===  UNCHANGED METHOD: PUBLIC boolean remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setAll(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.ValueConverter valueConverter()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator valueIterator(java.lang.Object)
+===  UNCHANGED CLASS: PROTECTED STATIC io.netty.handler.codec.DefaultHeaders$HeaderEntry  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.util.Map$Entry
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PROTECTED io.netty.handler.codec.DefaultHeaders$HeaderEntry next
+	===  UNCHANGED FIELD: PROTECTED io.netty.handler.codec.DefaultHeaders$HeaderEntry before
+	===  UNCHANGED FIELD: PROTECTED io.netty.handler.codec.DefaultHeaders$HeaderEntry after
+	===  UNCHANGED FIELD: PROTECTED java.lang.Object value
+	===  UNCHANGED FIELD: PROTECTED FINAL int hash
+	===  UNCHANGED FIELD: PROTECTED FINAL java.lang.Object key
+	===  UNCHANGED CONSTRUCTOR: PROTECTED DefaultHeaders$HeaderEntry(int, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.handler.codec.DefaultHeaders$HeaderEntry after()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.handler.codec.DefaultHeaders$HeaderEntry before()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.Object getKey()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.Object getValue()
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PROTECTED FINAL void pointNeighborsToThis()
+	===  UNCHANGED METHOD: PROTECTED void remove()
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.Object setValue(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.String toString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.handler.codec.DefaultHeaders$NameValidator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.DefaultHeaders$NameValidator NOT_NULL
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void validateName(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.DefaultHeadersImpl  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.Headers
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DefaultHeaders (<- io.netty.handler.codec.DefaultHeaders)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultHeadersImpl(io.netty.util.HashingStrategy, io.netty.handler.codec.ValueConverter, io.netty.handler.codec.DefaultHeaders$NameValidator)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.DelimiterBasedFrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DelimiterBasedFrameDecoder(int, boolean, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DelimiterBasedFrameDecoder(int, boolean, boolean, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DelimiterBasedFrameDecoder(int, boolean, io.netty.buffer.ByteBuf[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DelimiterBasedFrameDecoder(int, boolean, boolean, io.netty.buffer.ByteBuf[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DelimiterBasedFrameDecoder(int, io.netty.buffer.ByteBuf[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DelimiterBasedFrameDecoder(int, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PROTECTED FINAL void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.Delimiters  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf[] lineDelimiter()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.buffer.ByteBuf[] nulDelimiter()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.EmptyHeaders  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.Headers
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EmptyHeaders()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers add(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers addTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers clear()
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean contains(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC boolean containsByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC boolean containsChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC boolean containsDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC boolean containsFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC boolean containsInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC boolean containsLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC boolean containsObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean containsShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC boolean containsTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object get(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.util.List getAll(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.util.List getAllAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object getAndRemove(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Boolean getBoolean(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean getBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Boolean getBooleanAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC boolean getBooleanAndRemove(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Byte getByte(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC byte getByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Byte getByteAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC byte getByteAndRemove(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Character getChar(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC char getChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Character getCharAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC char getCharAndRemove(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Double getDouble(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC double getDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Double getDoubleAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC double getDoubleAndRemove(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Float getFloat(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC float getFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Float getFloatAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC float getFloatAndRemove(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Integer getInt(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int getInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Integer getIntAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int getIntAndRemove(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getLong(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getLongAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getLongAndRemove(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Short getShort(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC short getShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Short getShortAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC short getShortAndRemove(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getTimeMillis(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Long getTimeMillisAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long getTimeMillisAndRemove(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC java.util.Set names()
+	===  UNCHANGED METHOD: PUBLIC boolean remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers set(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setAll(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.Headers setTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC int size()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.util.Iterator valueIterator(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.EncoderException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.CodecException (<- io.netty.handler.codec.CodecException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EncoderException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EncoderException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EncoderException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC EncoderException(java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.FixedLengthFrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC FixedLengthFrameDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED FINAL void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.Headers  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.Iterable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers add(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers add(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addObject(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers addTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers clear()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean contains(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean contains(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean containsTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object get(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List getAll(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List getAllAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object getAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object getAndRemove(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Boolean getBoolean(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean getBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Boolean getBooleanAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean getBooleanAndRemove(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Byte getByte(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte getByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Byte getByteAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte getByteAndRemove(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Character getChar(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT char getChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Character getCharAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT char getCharAndRemove(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Double getDouble(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT double getDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Double getDoubleAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT double getDoubleAndRemove(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Float getFloat(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT float getFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Float getFloatAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT float getFloatAndRemove(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Integer getInt(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Integer getIntAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int getIntAndRemove(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Long getLong(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long getLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Long getLongAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long getLongAndRemove(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Short getShort(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT short getShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Short getShortAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT short getShortAndRemove(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Long getTimeMillis(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long getTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Long getTimeMillisAndRemove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long getTimeMillisAndRemove(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isEmpty()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.Iterator iterator()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.Set names()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean remove(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers set(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers set(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setAll(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setBoolean(java.lang.Object, boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setByte(java.lang.Object, byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setChar(java.lang.Object, char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setDouble(java.lang.Object, double)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setFloat(java.lang.Object, float)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setInt(java.lang.Object, int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setLong(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setObject(java.lang.Object, java.lang.Object[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setShort(java.lang.Object, short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.Headers setTimeMillis(java.lang.Object, long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int size()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.HeadersUtils  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.List getAllAsString(io.netty.handler.codec.Headers, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String getAsString(io.netty.handler.codec.Headers, java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Iterator iteratorAsString(java.lang.Iterable)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.util.Set namesAsString(io.netty.handler.codec.Headers)
+	===  UNCHANGED METHOD: PUBLIC STATIC java.lang.String toString(java.lang.Class, java.util.Iterator, int)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.json.JsonObjectDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JsonObjectDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JsonObjectDecoder(int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JsonObjectDecoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC JsonObjectDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf extractObject(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, int, int)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.LengthFieldBasedFrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldBasedFrameDecoder(int, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldBasedFrameDecoder(java.nio.ByteOrder, int, int, int, int, int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldBasedFrameDecoder(int, int, int, int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldBasedFrameDecoder(int, int, int, int, int, boolean)
+	===  UNCHANGED METHOD: PROTECTED FINAL void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf extractFrame(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, int, int)
+	===  UNCHANGED METHOD: PROTECTED long getUnadjustedFrameLength(io.netty.buffer.ByteBuf, int, int, java.nio.ByteOrder)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.LengthFieldPrepender  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldPrepender(java.nio.ByteOrder, int, int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldPrepender(int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldPrepender(int, int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldPrepender(int, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LengthFieldPrepender(int)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.LineBasedFrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LineBasedFrameDecoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LineBasedFrameDecoder(int, boolean, boolean)
+	===  UNCHANGED METHOD: PROTECTED FINAL void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.CompatibleMarshallingDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ReplayingDecoder (<- io.netty.handler.codec.ReplayingDecoder)
+	===  UNCHANGED FIELD: PROTECTED FINAL int maxObjectSize
+	===  UNCHANGED FIELD: PROTECTED FINAL io.netty.handler.codec.marshalling.UnmarshallerProvider provider
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompatibleMarshallingDecoder(io.netty.handler.codec.marshalling.UnmarshallerProvider, int)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decodeLast(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void exceptionCaught(io.netty.channel.ChannelHandlerContext, java.lang.Throwable)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.CompatibleMarshallingEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompatibleMarshallingEncoder(io.netty.handler.codec.marshalling.MarshallerProvider)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.ContextBoundUnmarshallerProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.marshalling.UnmarshallerProvider
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.marshalling.DefaultUnmarshallerProvider (<- io.netty.handler.codec.marshalling.DefaultUnmarshallerProvider)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ContextBoundUnmarshallerProvider(org.jboss.marshalling.MarshallerFactory, org.jboss.marshalling.MarshallingConfiguration)
+	===  UNCHANGED METHOD: PUBLIC org.jboss.marshalling.Unmarshaller getUnmarshaller(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.DefaultMarshallerProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.marshalling.MarshallerProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultMarshallerProvider(org.jboss.marshalling.MarshallerFactory, org.jboss.marshalling.MarshallingConfiguration)
+	===  UNCHANGED METHOD: PUBLIC org.jboss.marshalling.Marshaller getMarshaller(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.DefaultUnmarshallerProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.marshalling.UnmarshallerProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultUnmarshallerProvider(org.jboss.marshalling.MarshallerFactory, org.jboss.marshalling.MarshallingConfiguration)
+	===  UNCHANGED METHOD: PUBLIC org.jboss.marshalling.Unmarshaller getUnmarshaller(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.marshalling.MarshallerProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT org.jboss.marshalling.Marshaller getMarshaller(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.MarshallingDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.LengthFieldBasedFrameDecoder (<- io.netty.handler.codec.LengthFieldBasedFrameDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MarshallingDecoder(io.netty.handler.codec.marshalling.UnmarshallerProvider, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MarshallingDecoder(io.netty.handler.codec.marshalling.UnmarshallerProvider)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf extractFrame(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, int, int)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.MarshallingEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MarshallingEncoder(io.netty.handler.codec.marshalling.MarshallerProvider)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.ThreadLocalMarshallerProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.marshalling.MarshallerProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ThreadLocalMarshallerProvider(org.jboss.marshalling.MarshallerFactory, org.jboss.marshalling.MarshallingConfiguration)
+	===  UNCHANGED METHOD: PUBLIC org.jboss.marshalling.Marshaller getMarshaller(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.marshalling.ThreadLocalUnmarshallerProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.marshalling.UnmarshallerProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ThreadLocalUnmarshallerProvider(org.jboss.marshalling.MarshallerFactory, org.jboss.marshalling.MarshallingConfiguration)
+	===  UNCHANGED METHOD: PUBLIC org.jboss.marshalling.Unmarshaller getUnmarshaller(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.marshalling.UnmarshallerProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT org.jboss.marshalling.Unmarshaller getUnmarshaller(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.MessageAggregationException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.IllegalStateException (<- java.lang.IllegalStateException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MessageAggregationException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MessageAggregationException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MessageAggregationException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC MessageAggregationException(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.MessageAggregator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageAggregator(int)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageAggregator(int, java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC boolean acceptInboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void aggregate(io.netty.buffer.ByteBufHolder, io.netty.buffer.ByteBufHolder)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.buffer.ByteBufHolder beginAggregation(java.lang.Object, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelInactive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelReadComplete(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean closeAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED FINAL io.netty.channel.ChannelHandlerContext ctx()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void finishAggregation(io.netty.buffer.ByteBufHolder)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void handleOversizedMessage(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerAdded(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void handlerRemoved(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean ignoreContentAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean isAggregated(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean isContentLengthInvalid(java.lang.Object, int)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean isContentMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isHandlingOversizedMessage()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean isLastContentMessage(io.netty.buffer.ByteBufHolder)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean isStartMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL int maxContentLength()
+	===  UNCHANGED METHOD: PUBLIC FINAL int maxCumulationBufferComponents()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT java.lang.Object newContinueResponse(java.lang.Object, int, io.netty.channel.ChannelPipeline)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC FINAL void setMaxCumulationBufferComponents(int)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.MessageToByteEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelOutboundHandlerAdapter (<- io.netty.channel.ChannelOutboundHandlerAdapter)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToByteEncoder(java.lang.Class, boolean)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToByteEncoder(boolean)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToByteEncoder(java.lang.Class)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToByteEncoder()
+	===  UNCHANGED METHOD: PUBLIC boolean acceptOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf allocateBuffer(io.netty.channel.ChannelHandlerContext, java.lang.Object, boolean)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isPreferDirect()
+	===  UNCHANGED METHOD: PUBLIC void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.MessageToMessageCodec  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelDuplexHandler (<- io.netty.channel.ChannelDuplexHandler)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToMessageCodec()
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToMessageCodec(java.lang.Class, java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC boolean acceptInboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC boolean acceptOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void decode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.MessageToMessageDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelInboundHandlerAdapter (<- io.netty.channel.ChannelInboundHandlerAdapter)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToMessageDecoder()
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToMessageDecoder(java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC boolean acceptInboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void decode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.MessageToMessageEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.ChannelOutboundHandlerAdapter (<- io.netty.channel.ChannelOutboundHandlerAdapter)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToMessageEncoder(java.lang.Class)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED MessageToMessageEncoder()
+	===  UNCHANGED METHOD: PUBLIC boolean acceptOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.PrematureChannelClosureException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.CodecException (<- io.netty.handler.codec.CodecException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PrematureChannelClosureException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PrematureChannelClosureException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PrematureChannelClosureException(java.lang.String)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC PrematureChannelClosureException(java.lang.Throwable)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.protobuf.ProtobufDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufDecoder(com.google.protobuf.MessageLite)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufDecoder(com.google.protobuf.MessageLite, com.google.protobuf.ExtensionRegistryLite)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufDecoder(com.google.protobuf.MessageLite, com.google.protobuf.ExtensionRegistry)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.protobuf.ProtobufDecoderNano  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufDecoderNano(java.lang.Class)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.protobuf.ProtobufEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, com.google.protobuf.MessageLiteOrBuilder, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.protobuf.ProtobufEncoderNano  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufEncoderNano()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, com.google.protobuf.nano.MessageNano, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.protobuf.ProtobufVarint32FrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufVarint32FrameDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ProtobufVarint32LengthFieldPrepender()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.ProtocolDetectionResult  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.ProtocolDetectionResult detected(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object detectedProtocol()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.ProtocolDetectionResult invalid()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.ProtocolDetectionResult needsMoreData()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.ProtocolDetectionState state()
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.handler.codec.ProtocolDetectionState  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.ProtocolDetectionState NEEDS_MORE_DATA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.ProtocolDetectionState DETECTED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.ProtocolDetectionState INVALID
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.ProtocolDetectionState valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.ProtocolDetectionState[] values()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.ReplayingDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ReplayingDecoder()
+	===  UNCHANGED CONSTRUCTOR: PROTECTED ReplayingDecoder(java.lang.Object)
+	===  UNCHANGED METHOD: PROTECTED void callDecode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+	===  UNCHANGED METHOD: PROTECTED void checkpoint()
+	===  UNCHANGED METHOD: PROTECTED void checkpoint(java.lang.Object)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object state()
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object state(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.serialization.ClassResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Class resolve(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.lang.ClassNotFoundException
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.serialization.ClassResolvers  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.serialization.ClassResolver cacheDisabled(java.lang.ClassLoader)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.serialization.ClassResolver softCachingConcurrentResolver(java.lang.ClassLoader)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.serialization.ClassResolver softCachingResolver(java.lang.ClassLoader)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.serialization.ClassResolver weakCachingConcurrentResolver(java.lang.ClassLoader)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.serialization.ClassResolver weakCachingResolver(java.lang.ClassLoader)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.serialization.CompatibleObjectEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompatibleObjectEncoder(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompatibleObjectEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.io.Serializable, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.io.ObjectOutputStream newObjectOutputStream(java.io.OutputStream)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.serialization.ObjectDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.LengthFieldBasedFrameDecoder (<- io.netty.handler.codec.LengthFieldBasedFrameDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectDecoder(int, io.netty.handler.codec.serialization.ClassResolver)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectDecoder(io.netty.handler.codec.serialization.ClassResolver)
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.serialization.ObjectDecoderInputStream  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.io.DataInput
+	===  UNCHANGED INTERFACE: java.io.ObjectInput
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: java.io.InputStream (<- java.io.InputStream)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectDecoderInputStream(java.io.InputStream, int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectDecoderInputStream(java.io.InputStream)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectDecoderInputStream(java.io.InputStream, java.lang.ClassLoader)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectDecoderInputStream(java.io.InputStream, java.lang.ClassLoader, int)
+	===  UNCHANGED METHOD: PUBLIC int available()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void close()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void mark(int)
+	===  UNCHANGED METHOD: PUBLIC boolean markSupported()
+	===  UNCHANGED METHOD: PUBLIC int read()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int read(byte[], int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int read(byte[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean readBoolean()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL byte readByte()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL char readChar()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL double readDouble()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL float readFloat()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void readFully(byte[], int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void readFully(byte[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int readInt()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.String readLine()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL long readLong()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object readObject()
+		===  UNCHANGED EXCEPTION: java.lang.ClassNotFoundException
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL short readShort()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int readUnsignedByte()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int readUnsignedShort()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL java.lang.String readUTF()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void reset()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC long skip(long)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int skipBytes(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.serialization.ObjectEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToByteEncoder (<- io.netty.handler.codec.MessageToByteEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.io.Serializable, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.serialization.ObjectEncoderOutputStream  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.DataOutput
+	===  UNCHANGED INTERFACE: java.io.ObjectOutput
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED INTERFACE: java.io.Flushable
+	===  UNCHANGED SUPERCLASS: java.io.OutputStream (<- java.io.OutputStream)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectEncoderOutputStream(java.io.OutputStream)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC ObjectEncoderOutputStream(java.io.OutputStream, int)
+	===  UNCHANGED METHOD: PUBLIC void close()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void flush()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL int size()
+	===  UNCHANGED METHOD: PUBLIC void write(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void write(byte[], int, int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void write(byte[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeBoolean(boolean)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeByte(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeBytes(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeChar(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeChars(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeDouble(double)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeFloat(float)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeInt(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeLong(long)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void writeObject(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeShort(int)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC FINAL void writeUTF(java.lang.String)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.string.LineEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LineEncoder(io.netty.handler.codec.string.LineSeparator)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LineEncoder(io.netty.handler.codec.string.LineSeparator, java.nio.charset.Charset)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LineEncoder(java.nio.charset.Charset)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LineEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.lang.CharSequence, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.string.LineSeparator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.string.LineSeparator WINDOWS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.string.LineSeparator DEFAULT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.string.LineSeparator UNIX
+	===  UNCHANGED CONSTRUCTOR: PUBLIC LineSeparator(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String value()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.string.StringDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageDecoder (<- io.netty.handler.codec.MessageToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StringDecoder(java.nio.charset.Charset)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StringDecoder()
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.string.StringEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StringEncoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC StringEncoder(java.nio.charset.Charset)
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.lang.CharSequence, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED ANNOTATION: io.netty.channel.ChannelHandler$Sharable
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.TooLongFrameException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.DecoderException (<- io.netty.handler.codec.DecoderException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TooLongFrameException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TooLongFrameException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TooLongFrameException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC TooLongFrameException(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.UnsupportedMessageTypeException  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.CodecException (<- io.netty.handler.codec.CodecException)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnsupportedMessageTypeException(java.lang.String, java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnsupportedMessageTypeException(java.lang.Object, java.lang.Class[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnsupportedMessageTypeException(java.lang.Throwable)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnsupportedMessageTypeException()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC UnsupportedMessageTypeException(java.lang.String)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.UnsupportedValueConverter  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.ValueConverter
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertBoolean(boolean)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertByte(byte)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertChar(char)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertDouble(double)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertFloat(float)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertInt(int)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertLong(long)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertObject(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertShort(short)
+	===  UNCHANGED METHOD: PUBLIC java.lang.Object convertTimeMillis(long)
+	===  UNCHANGED METHOD: PUBLIC boolean convertToBoolean(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC byte convertToByte(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC char convertToChar(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC double convertToDouble(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC float convertToFloat(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int convertToInt(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long convertToLong(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC short convertToShort(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC long convertToTimeMillis(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.UnsupportedValueConverter instance()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.ValueConverter  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertBoolean(boolean)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertByte(byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertChar(char)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertDouble(double)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertFloat(float)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertInt(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertLong(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertObject(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertShort(short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.lang.Object convertTimeMillis(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean convertToBoolean(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte convertToByte(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT char convertToChar(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT double convertToDouble(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT float convertToFloat(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int convertToInt(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long convertToLong(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT short convertToShort(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long convertToTimeMillis(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.xml.XmlFrameDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC XmlFrameDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception

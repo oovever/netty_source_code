@@ -1,0 +1,218 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/resolver/target/netty-resolver-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-resolver/4.1.79.Final/netty-resolver-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.resolver.AbstractAddressResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.AddressResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractAddressResolver(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractAddressResolver(io.netty.util.concurrent.EventExecutor, java.lang.Class)
+	===  UNCHANGED METHOD: PUBLIC void close()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT boolean doIsResolved(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void doResolve(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void doResolveAll(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.util.concurrent.EventExecutor executor()
+	===  UNCHANGED METHOD: PUBLIC FINAL boolean isResolved(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC boolean isSupported(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolve(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolve(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.AddressResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void close()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isResolved(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT boolean isSupported(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolve(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolve(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolveAll(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolveAll(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.resolver.AddressResolverGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AddressResolverGroup()
+	===  UNCHANGED METHOD: PUBLIC void close()
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.AddressResolver getResolver(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.resolver.AddressResolver newResolver(io.netty.util.concurrent.EventExecutor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.CompositeNameResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.NameResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.SimpleNameResolver (<- io.netty.resolver.SimpleNameResolver)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC CompositeNameResolver(io.netty.util.concurrent.EventExecutor, io.netty.resolver.NameResolver[])
+	===  UNCHANGED METHOD: PROTECTED void doResolve(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolveAll(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.DefaultAddressResolverGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.AddressResolverGroup (<- io.netty.resolver.AddressResolverGroup)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.DefaultAddressResolverGroup INSTANCE
+	===  UNCHANGED METHOD: PROTECTED io.netty.resolver.AddressResolver newResolver(io.netty.util.concurrent.EventExecutor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.DefaultHostsFileEntriesResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.HostsFileEntriesResolver
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultHostsFileEntriesResolver()
+	===  UNCHANGED METHOD: PUBLIC java.net.InetAddress address(java.lang.String, io.netty.resolver.ResolvedAddressTypes)
+	===  UNCHANGED METHOD: PUBLIC java.util.List addresses(java.lang.String, io.netty.resolver.ResolvedAddressTypes)
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.DefaultNameResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.NameResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.InetNameResolver (<- io.netty.resolver.InetNameResolver)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultNameResolver(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PROTECTED void doResolve(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolveAll(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.HostsFileEntries  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC HostsFileEntries(java.util.Map, java.util.Map)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map inet4Entries()
+	===  UNCHANGED METHOD: PUBLIC java.util.Map inet6Entries()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.HostsFileEntriesProvider  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC java.util.Map ipv4Entries()
+	===  UNCHANGED METHOD: PUBLIC java.util.Map ipv6Entries()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.HostsFileEntriesProvider$Parser parser()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT STATIC io.netty.resolver.HostsFileEntriesProvider$Parser  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesProvider parse()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesProvider parse(java.nio.charset.Charset[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesProvider parse(java.io.File, java.nio.charset.Charset[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesProvider parse(java.io.Reader)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesProvider parseSilently()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesProvider parseSilently(java.nio.charset.Charset[])
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesProvider parseSilently(java.io.File, java.nio.charset.Charset[])
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.HostsFileEntriesResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.HostsFileEntriesResolver DEFAULT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.net.InetAddress address(java.lang.String, io.netty.resolver.ResolvedAddressTypes)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.HostsFileParser  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.HostsFileEntries parse()
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.HostsFileEntries parse(java.io.File)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.HostsFileEntries parse(java.io.File, java.nio.charset.Charset[])
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.HostsFileEntries parse(java.io.Reader)
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.HostsFileEntries parseSilently()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.HostsFileEntries parseSilently(java.nio.charset.Charset[])
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.resolver.InetNameResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.NameResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.SimpleNameResolver (<- io.netty.resolver.SimpleNameResolver)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED InetNameResolver(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PUBLIC io.netty.resolver.AddressResolver asAddressResolver()
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.InetSocketAddressResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.AddressResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.AbstractAddressResolver (<- io.netty.resolver.AbstractAddressResolver)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC InetSocketAddressResolver(io.netty.util.concurrent.EventExecutor, io.netty.resolver.NameResolver)
+	===  UNCHANGED METHOD: PUBLIC void close()
+	===  UNCHANGED METHOD: PROTECTED boolean doIsResolved(java.net.InetSocketAddress)
+	===  UNCHANGED METHOD: PROTECTED void doResolve(java.net.InetSocketAddress, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolveAll(java.net.InetSocketAddress, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.resolver.NameResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT void close()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolve(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolve(java.lang.String, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolveAll(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.util.concurrent.Future resolveAll(java.lang.String, io.netty.util.concurrent.Promise)
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.NoopAddressResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.AddressResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.AbstractAddressResolver (<- io.netty.resolver.AbstractAddressResolver)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC NoopAddressResolver(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PROTECTED boolean doIsResolved(java.net.SocketAddress)
+	===  UNCHANGED METHOD: PROTECTED void doResolve(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolveAll(java.net.SocketAddress, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.resolver.NoopAddressResolverGroup  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.AddressResolverGroup (<- io.netty.resolver.AddressResolverGroup)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.NoopAddressResolverGroup INSTANCE
+	===  UNCHANGED METHOD: PROTECTED io.netty.resolver.AddressResolver newResolver(io.netty.util.concurrent.EventExecutor)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED ENUM: PUBLIC FINAL io.netty.resolver.ResolvedAddressTypes  (compatible)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: java.lang.constant.Constable
+	===  UNCHANGED INTERFACE: java.lang.Comparable
+	===  UNCHANGED INTERFACE: java.io.Serializable
+	===  UNCHANGED SUPERCLASS: java.lang.Enum (<- java.lang.Enum)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.ResolvedAddressTypes IPV4_ONLY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.ResolvedAddressTypes IPV6_PREFERRED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.ResolvedAddressTypes IPV6_ONLY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.resolver.ResolvedAddressTypes IPV4_PREFERRED
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.ResolvedAddressTypes valueOf(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.resolver.ResolvedAddressTypes[] values()
+===  UNCHANGED CLASS: PUBLIC io.netty.resolver.RoundRobinInetAddressResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.NameResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: io.netty.resolver.InetNameResolver (<- io.netty.resolver.InetNameResolver)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC RoundRobinInetAddressResolver(io.netty.util.concurrent.EventExecutor, io.netty.resolver.NameResolver)
+	===  UNCHANGED METHOD: PUBLIC void close()
+	===  UNCHANGED METHOD: PROTECTED void doResolve(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void doResolveAll(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.resolver.SimpleNameResolver  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.resolver.NameResolver
+	===  UNCHANGED INTERFACE: java.io.Closeable
+	===  UNCHANGED INTERFACE: java.lang.AutoCloseable
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED SimpleNameResolver(io.netty.util.concurrent.EventExecutor)
+	===  UNCHANGED METHOD: PUBLIC void close()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void doResolve(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void doResolveAll(java.lang.String, io.netty.util.concurrent.Promise)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED io.netty.util.concurrent.EventExecutor executor()
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolve(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future resolve(java.lang.String, io.netty.util.concurrent.Promise)
+	===  UNCHANGED METHOD: PUBLIC FINAL io.netty.util.concurrent.Future resolveAll(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.concurrent.Future resolveAll(java.lang.String, io.netty.util.concurrent.Promise)

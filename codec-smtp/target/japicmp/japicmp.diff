@@ -1,0 +1,149 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-smtp/target/netty-codec-smtp-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-smtp/4.1.79.Final/netty-codec-smtp-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.smtp.DefaultLastSmtpContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.smtp.LastSmtpContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.smtp.SmtpContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.smtp.DefaultSmtpContent (<- io.netty.handler.codec.smtp.DefaultSmtpContent)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultLastSmtpContent(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.LastSmtpContent copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.LastSmtpContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.LastSmtpContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.DefaultLastSmtpContent retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.DefaultLastSmtpContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.LastSmtpContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.DefaultLastSmtpContent touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.DefaultLastSmtpContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.smtp.DefaultSmtpContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.smtp.SmtpContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.buffer.DefaultByteBufHolder (<- io.netty.buffer.DefaultByteBufHolder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSmtpContent(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.smtp.DefaultSmtpRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.smtp.SmtpRequest
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSmtpRequest(io.netty.handler.codec.smtp.SmtpCommand, java.lang.CharSequence[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSmtpRequest(java.lang.CharSequence, java.lang.CharSequence[])
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSmtpRequest(io.netty.handler.codec.smtp.SmtpCommand)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.smtp.SmtpCommand command()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.util.List parameters()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.smtp.DefaultSmtpResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.smtp.SmtpResponse
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSmtpResponse(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultSmtpResponse(int, java.lang.CharSequence[])
+	===  UNCHANGED METHOD: PUBLIC int code()
+	===  UNCHANGED METHOD: PUBLIC java.util.List details()
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.smtp.SmtpContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.LastSmtpContent EMPTY_LAST_CONTENT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.LastSmtpContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.smtp.SmtpCommand  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand HELP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand HELO
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand EHLO
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand NOOP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand VRFY
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand QUIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand EXPN
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand RCPT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand MAIL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand DATA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand AUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand RSET
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.smtp.SmtpCommand EMPTY
+	===  UNCHANGED METHOD: PUBLIC boolean equals(java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC int hashCode()
+	===  UNCHANGED METHOD: PUBLIC io.netty.util.AsciiString name()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpCommand valueOf(java.lang.CharSequence)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpContent touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpCommand command()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List parameters()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.smtp.SmtpRequestEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SmtpRequestEncoder()
+	===  UNCHANGED METHOD: PUBLIC boolean acceptOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.smtp.SmtpRequests  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest auth(java.lang.CharSequence[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest data()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest ehlo(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest empty(java.lang.CharSequence[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest expn(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest helo(java.lang.CharSequence)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest help(java.lang.String)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest mail(java.lang.CharSequence, java.lang.CharSequence[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest noop()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest quit()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest rcpt(java.lang.CharSequence, java.lang.CharSequence[])
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest rset()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.handler.codec.smtp.SmtpRequest vrfy(java.lang.CharSequence)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.smtp.SmtpResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int code()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT java.util.List details()
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.smtp.SmtpResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.LineBasedFrameDecoder (<- io.netty.handler.codec.LineBasedFrameDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SmtpResponseDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.smtp.SmtpResponse decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception

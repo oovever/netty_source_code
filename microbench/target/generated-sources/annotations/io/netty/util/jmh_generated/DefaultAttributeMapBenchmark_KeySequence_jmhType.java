@@ -1,0 +1,4 @@
+package io.netty.util.jmh_generated;
+public class DefaultAttributeMapBenchmark_KeySequence_jmhType extends DefaultAttributeMapBenchmark_KeySequence_jmhType_B3 {
+}
+

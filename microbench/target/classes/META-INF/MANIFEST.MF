@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1659271389399
+Build-Jdk: 13.0.12
+Built-By: oovever
+Bundle-Description: Netty is an asynchronous event-driven network applic
+ ation framework for    rapid development of maintainable high performan
+ ce protocol servers and    clients.
+Bundle-DocURL: https://netty.io/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Netty/Microbench
+Bundle-SymbolicName: io.netty.microbench
+Bundle-Vendor: The Netty Project
+Bundle-Version: 4.1.80.Final-SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: io.netty.bootstrap;version="[4.1,5)",io.netty.buffer.sea
+ rch;version="[4.1,5)",io.netty.channel;version="[4.1,5)",io.netty.chann
+ el.embedded;version="[4.1,5)",io.netty.channel.epoll;version="[4.1,5)",
+ io.netty.channel.kqueue;version="[4.1,5)",io.netty.channel.nio;version=
+ "[4.1,5)",io.netty.handler.codec.http.cookie;version="[4.1,5)",io.netty
+ .handler.codec.redis;version="[4.1,5)",io.netty.handler.codec.stomp;ver
+ sion="[4.1,5)",io.netty.handler.ssl;version="[4.1,5)",io.netty.handler.
+ ssl.util;version="[4.1,5)",io.netty.util.collection;version="[4.1,5)",i
+ o.netty.util.internal;version="[4.1,5)",io.netty.util.internal.logging;
+ version="[4.1,5)",javax.net.ssl,org.agrona.collections,org.junit.jupite
+ r.api;version="[5.7,6)",org.openjdk.jmh.annotations,org.openjdk.jmh.inf
+ ra,org.openjdk.jmh.profile,org.openjdk.jmh.results,org.openjdk.jmh.resu
+ lts.format,org.openjdk.jmh.runner,org.openjdk.jmh.runner.options,org.op
+ enjdk.jmh.util,sun.nio.ch;resolution:=optional,org.eclipse.jetty.npn;ve
+ rsion="[1,2)";resolution:=optional,org.eclipse.jetty.alpn;version="[1,2
+ )";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-2.4.1.201501161923

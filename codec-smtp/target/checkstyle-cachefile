@@ -1,0 +1,20 @@
+#Sun Jul 31 20:41:17 CST 2022
+configuration*?=DC6F550A41A7DB0354C83F00B2231EB85ACE01FA
+module-resource*?\:/io/netty/suppressions.xml=2FABD81D219BF019C659A4A6ACE87022CE88CE54
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpResponse.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultSmtpRequest.java=1659268555623
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/test/java/io/netty/handler/codec/smtp/SmtpCommandTest.java=1659268555625
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/package-info.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpResponseDecoder.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/LastSmtpContent.java=1659268555623
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultLastSmtpContent.java=1659268555623
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpRequest.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpUtils.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/test/java/io/netty/handler/codec/smtp/SmtpRequestEncoderTest.java=1659268555625
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpContent.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpRequests.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultSmtpContent.java=1659268555623
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpRequestEncoder.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/DefaultSmtpResponse.java=1659268555623
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/main/java/io/netty/handler/codec/smtp/SmtpCommand.java=1659268555624
+/Users/oovever/Documents/projcet/Github/netty/codec-smtp/src/test/java/io/netty/handler/codec/smtp/SmtpResponseDecoderTest.java=1659268555625

@@ -1,0 +1,11 @@
+io/netty/channel/rxtx/RxtxChannel$RxtxUnsafe.class
+io/netty/channel/rxtx/RxtxChannel.class
+io/netty/channel/rxtx/RxtxChannel$RxtxUnsafe$1.class
+io/netty/channel/rxtx/RxtxChannelConfig$Paritybit.class
+io/netty/channel/rxtx/RxtxDeviceAddress.class
+io/netty/channel/rxtx/RxtxChannelOption.class
+io/netty/channel/rxtx/DefaultRxtxChannelConfig.class
+io/netty/channel/rxtx/RxtxChannelConfig$Stopbits.class
+io/netty/channel/rxtx/RxtxChannelConfig$Databits.class
+io/netty/channel/rxtx/RxtxChannel$1.class
+io/netty/channel/rxtx/RxtxChannelConfig.class

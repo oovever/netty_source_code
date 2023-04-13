@@ -1,0 +1,4 @@
+package io.netty.buffer.jmh_generated;
+public class ByteBufNoCleanerAllocReleaseBenchmark_jmhType extends ByteBufNoCleanerAllocReleaseBenchmark_jmhType_B3 {
+}
+

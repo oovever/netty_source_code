@@ -1,0 +1,8 @@
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheResponseTest.java
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheDecoderTest.java
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheEncoderTest.java
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/FullMemcacheMessageRequestTest.java
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheObjectAggregatorTest.java
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/FullMemcacheMessageResponseTest.java
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheRequestTest.java
+/Users/oovever/Documents/projcet/Github/netty/codec-memcache/src/test/java/io/netty/handler/codec/memcache/binary/BinaryMemcacheMessageTest.java

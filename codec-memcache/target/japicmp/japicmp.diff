@@ -1,0 +1,504 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/codec-memcache/target/netty-codec-memcache-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-codec-memcache/4.1.79.Final/netty-codec-memcache-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.memcache.AbstractMemcacheObject  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.util.AbstractReferenceCounted (<- io.netty.util.AbstractReferenceCounted)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractMemcacheObject()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.DecoderResult decoderResult()
+	===  UNCHANGED METHOD: PUBLIC void setDecoderResult(io.netty.handler.codec.DecoderResult)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.memcache.AbstractMemcacheObjectAggregator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageAggregator (<- io.netty.handler.codec.MessageAggregator)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractMemcacheObjectAggregator(int)
+	===  UNCHANGED METHOD: PROTECTED boolean closeAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean ignoreContentAfterContinueResponse(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isAggregated(io.netty.handler.codec.memcache.MemcacheObject)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isContentLengthInvalid(io.netty.handler.codec.memcache.MemcacheMessage, int)
+	===  UNCHANGED METHOD: PROTECTED boolean isContentMessage(io.netty.handler.codec.memcache.MemcacheObject)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isLastContentMessage(io.netty.handler.codec.memcache.MemcacheContent)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED java.lang.Object newContinueResponse(io.netty.handler.codec.memcache.MemcacheMessage, int, io.netty.channel.ChannelPipeline)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.memcache.AbstractMemcacheObjectDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.ByteToMessageDecoder (<- io.netty.handler.codec.ByteToMessageDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractMemcacheObjectDecoder()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.memcache.AbstractMemcacheObjectEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.MessageToMessageEncoder (<- io.netty.handler.codec.MessageToMessageEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractMemcacheObjectEncoder()
+	===  UNCHANGED METHOD: PUBLIC boolean acceptOutboundMessage(java.lang.Object)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void encode(io.netty.channel.ChannelHandlerContext, java.lang.Object, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.buffer.ByteBuf encodeMessage(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.memcache.MemcacheMessage)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.AbstractMemcacheObjectDecoder (<- io.netty.handler.codec.memcache.AbstractMemcacheObjectDecoder)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL int DEFAULT_MAX_CHUNK_SIZE
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractBinaryMemcacheDecoder()
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractBinaryMemcacheDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage buildInvalidMessage()
+	===  UNCHANGED METHOD: PUBLIC void channelInactive(io.netty.channel.ChannelHandlerContext)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED void decode(io.netty.channel.ChannelHandlerContext, io.netty.buffer.ByteBuf, java.util.List)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage decodeHeader(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PROTECTED void resetDecoder()
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.AbstractMemcacheObjectEncoder (<- io.netty.handler.codec.memcache.AbstractMemcacheObjectEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC AbstractBinaryMemcacheEncoder()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT void encodeHeader(io.netty.buffer.ByteBuf, io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage)
+	===  UNCHANGED METHOD: PROTECTED io.netty.buffer.ByteBuf encodeMessage(io.netty.channel.ChannelHandlerContext, io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage)
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.AbstractMemcacheObject (<- io.netty.handler.codec.memcache.AbstractMemcacheObject)
+	===  UNCHANGED CONSTRUCTOR: PROTECTED AbstractBinaryMemcacheMessage(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC long cas()
+	===  UNCHANGED METHOD: PUBLIC byte dataType()
+	===  UNCHANGED METHOD: PROTECTED void deallocate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf extras()
+	===  UNCHANGED METHOD: PUBLIC byte extrasLength()
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf key()
+	===  UNCHANGED METHOD: PUBLIC short keyLength()
+	===  UNCHANGED METHOD: PUBLIC byte magic()
+	===  UNCHANGED METHOD: PUBLIC int opaque()
+	===  UNCHANGED METHOD: PUBLIC byte opcode()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setCas(long)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setDataType(byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setExtras(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setKey(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setMagic(byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setOpaque(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setOpcode(byte)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setTotalBodyLength(int)
+	===  UNCHANGED METHOD: PUBLIC int totalBodyLength()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.memcache.binary.BinaryMemcacheClientCodec  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.CombinedChannelDuplexHandler (<- io.netty.channel.CombinedChannelDuplexHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheClientCodec(int, boolean)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheClientCodec()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheClientCodec(int)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT long cas()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte dataType()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.buffer.ByteBuf extras()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte extrasLength()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.buffer.ByteBuf key()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT short keyLength()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte magic()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int opaque()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT byte opcode()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setCas(long)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setDataType(byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setExtras(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setKey(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setMagic(byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setOpaque(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setOpcode(byte)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage setTotalBodyLength(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT int totalBodyLength()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheObjectAggregator  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.AbstractMemcacheObjectAggregator (<- io.netty.handler.codec.memcache.AbstractMemcacheObjectAggregator)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheObjectAggregator(int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.memcache.FullMemcacheMessage beginAggregation(io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage, io.netty.buffer.ByteBuf)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PROTECTED boolean isStartMessage(io.netty.handler.codec.memcache.MemcacheObject)
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.memcache.binary.BinaryMemcacheOpcodes  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte PREPENDQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte ADD
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte REPLACEQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte SET
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte DECREMENTQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte NOOP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte SASL_AUTH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte DECREMENT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte SASL_LIST_MECHS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte DELETE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GETKQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte FLUSH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte TOUCH
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte REPLACE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte FLUSHQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GATKQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte QUIT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte SETQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte APPEND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte ADDQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GATK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte INCREMENT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte STAT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte DELETEQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GETK
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte INCREMENTQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GATQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GET
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte APPENDQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte SASL_STEP
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte VERSION
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GETQ
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte GAT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte PREPEND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte QUITQ
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT short reserved()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest setReserved(short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheRequestDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder (<- io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheRequestDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheRequestDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest buildInvalidMessage()
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest decodeHeader(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheRequestEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheEncoder (<- io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheRequestEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encodeHeader(io.netty.buffer.ByteBuf, io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse setStatus(short)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT short status()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheResponseDecoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder (<- io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheResponseDecoder()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheResponseDecoder(int)
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse buildInvalidMessage()
+	===  UNCHANGED METHOD: PROTECTED io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse decodeHeader(io.netty.buffer.ByteBuf)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheResponseEncoder  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheEncoder (<- io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheEncoder)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheResponseEncoder()
+	===  UNCHANGED METHOD: PROTECTED void encodeHeader(io.netty.buffer.ByteBuf, io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse)
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.handler.codec.memcache.binary.BinaryMemcacheResponseStatus  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short AUTH_ERROR
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short AUTH_CONTINUE
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short ENOMEM
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short UNKNOWN_COMMAND
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short SUCCESS
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short DELTA_BADVAL
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short E2BIG
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short NOT_STORED
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short KEY_ENOENT
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short EINVA
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL short KEY_EEXISTS
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheServerCodec  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelOutboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelInboundHandler
+	===  UNCHANGED INTERFACE: io.netty.channel.ChannelHandler
+	===  UNCHANGED SUPERCLASS: io.netty.channel.CombinedChannelDuplexHandler (<- io.netty.channel.CombinedChannelDuplexHandler)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheServerCodec(int)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC BinaryMemcacheServerCodec()
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheMessage (<- io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheMessage)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte REQUEST_MAGIC_BYTE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultBinaryMemcacheRequest(io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultBinaryMemcacheRequest(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultBinaryMemcacheRequest()
+	===  UNCHANGED METHOD: PUBLIC short reserved()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest setReserved(short)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheMessage (<- io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheMessage)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL byte RESPONSE_MAGIC_BYTE
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultBinaryMemcacheResponse()
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultBinaryMemcacheResponse(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultBinaryMemcacheResponse(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse setStatus(short)
+	===  UNCHANGED METHOD: PUBLIC short status()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.DefaultFullBinaryMemcacheRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.FullMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.LastMemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheRequest (<- io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheRequest)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultFullBinaryMemcacheRequest(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultFullBinaryMemcacheRequest(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf content()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest copy()
+	===  UNCHANGED METHOD: PROTECTED void deallocate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.binary.DefaultFullBinaryMemcacheResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.FullMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.LastMemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheResponse (<- io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheResponse)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultFullBinaryMemcacheResponse(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultFullBinaryMemcacheResponse(io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf, io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf content()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse copy()
+	===  UNCHANGED METHOD: PROTECTED void deallocate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.FullMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.LastMemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.FullMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.LastMemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.DefaultLastMemcacheContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.LastMemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.DefaultMemcacheContent (<- io.netty.handler.codec.memcache.DefaultMemcacheContent)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultLastMemcacheContent(io.netty.buffer.ByteBuf)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultLastMemcacheContent()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent copy()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.LastMemcacheContent touch(java.lang.Object)
+===  UNCHANGED CLASS: PUBLIC io.netty.handler.codec.memcache.DefaultMemcacheContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: io.netty.handler.codec.memcache.AbstractMemcacheObject (<- io.netty.handler.codec.memcache.AbstractMemcacheObject)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DefaultMemcacheContent(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.buffer.ByteBuf content()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent copy()
+	===  UNCHANGED METHOD: PROTECTED void deallocate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent retain()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC java.lang.String toString()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent touch()
+	===  UNCHANGED METHOD: PUBLIC io.netty.handler.codec.memcache.MemcacheContent touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheMessage
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.LastMemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.FullMemcacheMessage touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheContent
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PUBLIC STATIC FINAL io.netty.handler.codec.memcache.LastMemcacheContent EMPTY_LAST_CONTENT
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.LastMemcacheContent touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED INTERFACE: io.netty.buffer.ByteBufHolder
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent copy()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent duplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent replace(io.netty.buffer.ByteBuf)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent retainedDuplicate()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheContent touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheMessage  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.memcache.MemcacheObject
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED INTERFACE: io.netty.util.ReferenceCounted
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheMessage retain()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheMessage retain(int)
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheMessage touch()
+	===  UNCHANGED METHOD: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheMessage touch(java.lang.Object)
+===  UNCHANGED INTERFACE: PUBLIC ABSTRACT io.netty.handler.codec.memcache.MemcacheObject  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED INTERFACE: io.netty.handler.codec.DecoderResultProvider
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)

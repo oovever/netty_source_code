@@ -1,0 +1,86 @@
+Comparing source compatibility of /Users/oovever/Documents/projcet/Github/netty/transport-native-unix-common-tests/target/netty-transport-native-unix-common-tests-4.1.80.Final-SNAPSHOT.jar against /Users/oovever/.m2/repository/io/netty/netty-transport-native-unix-common-tests/4.1.79.Final/netty-transport-native-unix-common-tests-4.1.79.Final.jar
+WARNING: You have ignored certain classes, i.e. superclasses and interfaces that could not be found on the classpath are ignored. Hence changes caused by these superclasses and interfaces are not reflected in the output.
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.unix.tests.DetectPeerCloseWithoutReadTest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC DetectPeerCloseWithoutReadTest()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT java.lang.Class clientChannel()
+	===  UNCHANGED METHOD: PUBLIC void clientCloseWithoutServerReadIsDetectedExtraReadRequested()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Timeout
+			===  UNCHANGED ELEMENT: unit=java.util.concurrent.TimeUnit.MILLISECONDS
+			===  UNCHANGED ELEMENT: value=10000
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC void clientCloseWithoutServerReadIsDetectedNoExtraReadRequested()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Timeout
+			===  UNCHANGED ELEMENT: unit=java.util.concurrent.TimeUnit.MILLISECONDS
+			===  UNCHANGED ELEMENT: value=10000
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.channel.EventLoopGroup newGroup()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT java.lang.Class serverChannel()
+	===  UNCHANGED METHOD: PUBLIC void serverCloseWithoutClientReadIsDetectedExtraReadRequested()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Timeout
+			===  UNCHANGED ELEMENT: unit=java.util.concurrent.TimeUnit.MILLISECONDS
+			===  UNCHANGED ELEMENT: value=10000
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+	===  UNCHANGED METHOD: PUBLIC void serverCloseWithoutClientReadIsDetectedNoExtraReadRequested()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Timeout
+			===  UNCHANGED ELEMENT: unit=java.util.concurrent.TimeUnit.MILLISECONDS
+			===  UNCHANGED ELEMENT: value=10000
+		===  UNCHANGED EXCEPTION: java.lang.InterruptedException
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.unix.tests.IovArrayTest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED CONSTRUCTOR: PUBLIC IovArrayTest()
+	===  UNCHANGED METHOD: PUBLIC void testNotFailsWihtoutMemoryAddress()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+===  UNCHANGED CLASS: PUBLIC ABSTRACT io.netty.channel.unix.tests.SocketTest  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED FIELD: PROTECTED io.netty.channel.unix.Socket socket
+	===  UNCHANGED CONSTRUCTOR: PUBLIC SocketTest()
+	===  UNCHANGED METHOD: PROTECTED int level()
+	===  UNCHANGED METHOD: PROTECTED ABSTRACT io.netty.channel.unix.Socket newSocket()
+	===  UNCHANGED METHOD: PROTECTED int optname()
+	===  UNCHANGED METHOD: PUBLIC void setup()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.BeforeEach
+	===  UNCHANGED METHOD: PUBLIC void tearDown()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.AfterEach
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void testDoubleCloseDoesNotThrow()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void testIntOpt()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void testKeepAlive()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void testRawOpt()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.io.IOException
+	===  UNCHANGED METHOD: PUBLIC void testReceivedBufferSize()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void testSendBufferSize()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void testSoLinger()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void testTcpNoDelay()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.lang.Exception
+	===  UNCHANGED METHOD: PUBLIC void testTrafficClass()
+		===  UNCHANGED ANNOTATION: org.junit.jupiter.api.Test
+		===  UNCHANGED EXCEPTION: java.io.IOException
+===  UNCHANGED CLASS: PUBLIC FINAL io.netty.channel.unix.tests.UnixTestUtils  (not serializable)
+	***! CLASS FILE FORMAT VERSION: 51.0 <- 50.0
+	===  UNCHANGED SUPERCLASS: java.lang.Object (<- java.lang.Object)
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.DomainSocketAddress newDomainSocketAddress()
+	===  UNCHANGED METHOD: PUBLIC STATIC java.net.SocketAddress newInetLoopbackSocketAddress()
+	===  UNCHANGED METHOD: PUBLIC STATIC io.netty.channel.unix.DomainSocketAddress newSocketAddress()
+		===  UNCHANGED ANNOTATION: java.lang.Deprecated
