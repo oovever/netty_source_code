@@ -131,7 +131,7 @@ public class ServerBootstrap extends AbstractBootstrap<ServerBootstrap, ServerCh
     void init(Channel channel) {
 //      设置绑定的options
         setChannelOptions(channel, newOptionsArray(), logger);
-        //      设置绑定的attrs 保存属性值，IM系统报错userId->channel关系
+        //      设置绑定的attrs 保存属性值，IM系统保存userId->channel关系
         setAttributes(channel, newAttributesArray());
 //    获取pipeline
         ChannelPipeline p = channel.pipeline();

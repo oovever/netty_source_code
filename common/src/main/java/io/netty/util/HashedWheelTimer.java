@@ -107,15 +107,15 @@ public class HashedWheelTimer implements Timer {
     @SuppressWarnings({"unused", "FieldMayBeFinal"})
     private volatile int workerState; // 0 - init, 1 - started, 2 - shut down
 
-    private final long tickDuration;
-    private final HashedWheelBucket[] wheel;
-    private final int mask;
+    private final long tickDuration; // 时钟拨动周期
+    private final HashedWheelBucket[] wheel; // 时钟轮数组，类型是HashedWheelBucket 存储要执行的任务
+    private final int mask; // 计算任务位置
     private final CountDownLatch startTimeInitialized = new CountDownLatch(1);
-    private final Queue<HashedWheelTimeout> timeouts = PlatformDependent.newMpscQueue();
-    private final Queue<HashedWheelTimeout> cancelledTimeouts = PlatformDependent.newMpscQueue();
-    private final AtomicLong pendingTimeouts = new AtomicLong(0);
-    private final long maxPendingTimeouts;
-    private final Executor taskExecutor;
+    private final Queue<HashedWheelTimeout> timeouts = PlatformDependent.newMpscQueue(); // 一个Mpsc队列，预先存储所有添加的任务
+    private final Queue<HashedWheelTimeout> cancelledTimeouts = PlatformDependent.newMpscQueue(); // 存放取消任务的队列
+    private final AtomicLong pendingTimeouts = new AtomicLong(0); // 正在等待的任务队列
+    private final long maxPendingTimeouts; // 记录最大的等待任务数
+    private final Executor taskExecutor; // 用于执行任务的executor
 
     private volatile long startTime;
 
@@ -503,7 +503,7 @@ public class HashedWheelTimer implements Timer {
                 final long deadline = waitForNextTick();
                 if (deadline > 0) { // 启动到现在位置的相对时间大于0
                     int idx = (int) (tick & mask); // 计算当前处理的bucket的位置
-                    processCancelledTasks(); // 处理已经过期的任务
+                    processCancelledTasks(); // 处理已经取消的任务
                     HashedWheelBucket bucket =
                             wheel[idx]; // 获取对应位置的Bucket
                     transferTimeoutsToBuckets(); // 将队列中的任务转移到对应的bucket中
@@ -561,7 +561,7 @@ public class HashedWheelTimer implements Timer {
                     break;
                 }
                 try {
-                    timeout.remove(); // 过期任务直接remove
+                    timeout.remove(); // 取消的任务直接remove
                 } catch (Throwable t) {
                     if (logger.isWarnEnabled()) {
                         logger.warn("An exception was thrown while process a cancellation task", t);
@@ -678,9 +678,9 @@ public class HashedWheelTimer implements Timer {
             return true;
         }
 
-        void remove() {
+        void remove() { // 这里有bug
             HashedWheelBucket bucket = this.bucket;
-            if (bucket != null) {
+            if (bucket != null) { // 这里为空，应该再加回去
                 bucket.remove(this);
             } else {
                 timer.pendingTimeouts.decrementAndGet();

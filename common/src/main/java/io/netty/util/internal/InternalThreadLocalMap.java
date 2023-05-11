@@ -140,7 +140,7 @@ public final class InternalThreadLocalMap extends UnpaddedInternalThreadLocalMap
     public static void destroy() {
         slowThreadLocalMap.remove();
     }
-//    获取FastThreadLocal的索引
+//    获取FastThreadLocal的索引 第0位存储所有现在有效的FastThreadLocal
     public static int nextVariableIndex() {
         int index = nextIndex.getAndIncrement();
         if (index >= ARRAY_LIST_CAPACITY_MAX_SIZE || index < 0) {

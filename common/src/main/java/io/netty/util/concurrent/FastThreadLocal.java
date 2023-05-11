@@ -42,7 +42,7 @@ import java.util.Set;
  * @see ThreadLocal
  */
 public class FastThreadLocal<V> {
-//    存储ftl对象位置 默认值是0
+//    存储ftl对象位置 默认值是0；静态变量，所有FastThreadLocal共享
     private static final int variablesToRemoveIndex = InternalThreadLocalMap.nextVariableIndex();
 
     /**
