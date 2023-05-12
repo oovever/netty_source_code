@@ -678,9 +678,9 @@ public class HashedWheelTimer implements Timer {
             return true;
         }
 
-        void remove() { // 这里有bug
+        void remove() {
             HashedWheelBucket bucket = this.bucket;
-            if (bucket != null) { // 这里为空，应该再加回去
+            if (bucket != null) {
                 bucket.remove(this);
             } else {
                 timer.pendingTimeouts.decrementAndGet();
